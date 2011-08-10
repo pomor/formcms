@@ -1,0 +1,9 @@
+AddHandler php53-cgi .php
+AddDefaultCharset utf-8
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /index.php/%{REQUEST_URI} [L,NS]
+
+

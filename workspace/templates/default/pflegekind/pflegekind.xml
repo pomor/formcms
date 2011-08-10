@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<formular>
+
+<h1>
+	<title>Persönliche Daten des Pflegekindes</title>
+	<h2>
+		<title>Pflegekind</title>
+		<h3>
+			<table>
+				<tr>
+					<td>Name</td>
+					<td><form type="text" id="vorname" must="1"/></td>
+				</tr>
+				<tr>
+					<td>Nachname</td>
+					<td><form type="text" id="nachname" must="1"/></td>
+				</tr>
+				<tr>
+					<td>Geburtsdatum</td>
+					<td><form type="text" id="geburtsdatum" check="MSK_DATE"/></td>
+					<td>Geburtsort</td>
+					<td><form type="text" id="geburtsort" check="MSK_DATE"/></td>
+				</tr>
+				<tr>
+					<td>Konfesion,getauft</td>
+					<td><form type="radio" id="konfession" ><wrt id="1"/><wrt id="2"/></form></td>
+				</tr>
+				<tr>
+					<td>Staatsangehörigkeit</td>
+					<td><form type="text" id="staatsangehorigkeit" /></td>
+				</tr>
+				<tr>
+					<td>Herkunftsfamilie</td>
+					<td><form type="text" id="herkunftsfamilie" /></td>
+				</tr>
+				<tr>
+					<td>Geschwister</td>
+					<td><form type="person" id="geschwister" /></td>
+				</tr>
+				<tr>
+					<td>Vormund</td>
+					<td><form type="person" id="vormund" /></td>
+				</tr>
+			</table>
+			
+		</h3>
+		<h3>
+			<table>
+				<tr>
+					<td>Zuständiges JA</td>
+					<td><form type="behoerde" id="jugentamt" /></td>
+				</tr>
+				<tr>
+					<td>Sozialarbeiter/in</td>
+					<td><form type="person" id="sozialarbeiter" /></td>
+				</tr>
+				<tr>
+					<td>Ende Zuständigkeit</td>
+					<td><form type="text" id="zustende" check="MSK_DATE" /></td>
+				</tr>
+			</table>
+		</h3>	
+	</h2>
+	
+	<h2>
+		<title>Sorgerecht</title>
+		<h3>
+			<table>
+				<tr>
+					<td>Personensorgerecht</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Aufenthalsbestimmungsrecht</td>
+					<td><form type="text" id="aufhalsbr" check="MSK_DATE" /></td>
+				</tr>
+				<tr>
+					<td>Gesundheitsfürsorge</td>
+					<td><form type="text" id="Gsndgtsfg" /></td>
+				</tr>
+			</table>
+		</h3>
+	
+	</h2>
+	<h2>
+		<title>Versicherungen</title>
+		<h3>
+			
+		</h3>
+	</h2>
+</h1>
+
+<werte>
+<itm><name>Ja</name><id>1</id></itm>
+<itm><name>Nein</name><id>2</id></itm>
+
+
+<itm ><name>männlich</name><id>30</id></itm>
+<itm ><name>weiblich</name><id>31</id></itm>
+
+
+</werte>
+</formular>

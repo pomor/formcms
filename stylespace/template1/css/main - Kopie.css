@@ -1,0 +1,842 @@
+html,body { height: 100%; }
+
+body {
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../images/bg_grau.gif);
+}
+
+body, td, p, div, span, a {
+  font-size: 14px;
+  font-family:  Droid Sans,Verdana,Arial,Geneva,Helvetica,sans-serif;
+  line-height: 1.4em;
+  color: #666666;
+}
+
+.clear {
+    clear: both;
+}
+
+.button {
+  display: block;
+}
+
+
+/*---Wraps--------------------------------------------------------------------*/
+.mainwrap {
+  width: 970px;
+  margin: auto;
+  position: relative;
+}
+
+.wrap1x {
+  width: 237px;
+  position: relative;
+  float: left;
+}
+
+.wrap3x {
+  width: 711px;
+  position: relative;
+  float: left;
+}
+
+
+/*----Header------------------------------------------------------------------*/
+.header {
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+.logo {
+  width: 273px;
+  height: 93px;
+  position: relative;
+  display: inline-block;
+  float: left;
+  padding-top: 40px;
+
+}
+
+
+.wrapmenues {
+  position: absolute;
+  right: 0px;
+  z-index: 100;
+  width: 381px;
+  height: 54px;
+}
+
+.sprachen {
+  width: 191px;
+/*  height: 300px;*/
+  position: relative;
+  background-image: url(../images/faenchen_bg_schwarz.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  float: left;
+  padding-bottom: 20px;
+}
+
+.usermenue {
+  width: 190px;
+  position: relative;
+  background-image: url(../images/faenchen_bg_gruen.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  float: right;
+  padding-bottom: 20px;
+  right: 0px;
+}
+
+.sprachen ul,
+.usermenue ul {
+  margin: 0px;
+  padding: 0px;
+  margin-left: 30px;
+  margin-right: 20px;
+  margin-top: 20px;
+  list-style-type: none;
+}
+
+.sprachen ul li,
+.usermenue ul li {
+  height: 30px;
+  padding-top: 10px;
+  border-bottom: 1px dashed #666666;
+}
+
+.sprachen ul li a,
+.usermenue ul li a {
+  color: #666666;
+  text-decoration: none;
+}
+
+.spracheaktiv a,
+.useraktiv a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+.spracheaktiv,
+.useraktiv {
+  padding-left: 30px;
+  margin-top: 20px;
+  background-image: url(../images/pfeil_rund.png);
+  background-repeat: no-repeat;
+  background-position: 90% 50%;
+}
+
+
+.sprachicon {
+  position: relative;
+  display: block;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  float: left;
+}
+
+/*---Suche--------------------------------------------------------------------*/
+
+.suche {
+  position: relative;
+  float: right;
+  margin-top: 80px;
+}
+
+.suchetext{
+  position: relative;
+  float: left;
+  width: auto;
+  padding-top: 10px;
+  height: 37px;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+
+.inputbg {
+  background-image: url(../images/suche_bg.png);
+  width: 228px;
+  height: 37px;
+  position: relative;
+  float: left;
+  margin-left: 20px;
+}
+
+.suchfeld {
+  width: 200px;
+  height: 25px;
+  color: #666666;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-left: 10px;
+  border: none;
+  background-color: transparent;
+}
+
+
+.suchebutton{
+  width: 37px;
+  height: 37px;
+  position: relative;
+  float: left;
+}
+
+
+/*---Menue oben----------------------------------------------------------------*/
+
+.menue {
+  position: relative;
+  margin-top: 10px;
+}
+
+
+.menuelinks,
+.menuerechts,
+.menuemitte {
+  position: relative;
+  float: left;
+}
+
+.menuemitte {
+  width: 928px;
+  height: 38px;
+  background-image: url(../images/menue_bg_mitte.png);
+  padding-top: 20px;
+}
+
+.menuemitte ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+.menuemitte ul li {
+  float: left;
+  padding-left: 28px;
+  padding-right: 28px;
+}
+
+.menuemitte ul li a {
+  color: #ffffff;
+  font-family: Droid Serif, Times New Roman;
+  text-shadow: #4b6209 1px 1px 2px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+/*---Bilderblock--------------------------------------------------------------*/
+.illuwrap {
+  position: relative;
+  background-image: url(../images/mitte_bg.png);
+  height: 300px;
+  background-repeat: repeat-y;
+}
+
+.illu {
+  width: 630px;
+  height: 300px;
+  margin-left: 10px;
+  position: relative;
+  float: left;
+}
+
+.illutext {
+  position: absolute;
+  overflow: hidden;
+  width: 250px;
+  height: 250px;
+  right: 50px;
+  top: 30px;
+}
+
+
+.triggerwrap {
+  position: absolute;
+  width: 354px;
+  height: 300px;
+  float: right;
+  z-index: 10;
+  right: 0px;
+  margin-right: 10px;
+}
+
+.trigger {
+  background-image: url(../images/balken_schwarz.png);
+  background-position: 100% 50% ;
+  background-repeat: no-repeat;
+  width: 294px;
+  height: 80px;
+  position: relative;
+  padding-left: 60px;
+  padding-top: 20px;
+}
+
+.triggeraktiv {
+  background-image: url(../images/balken_gruen.png);
+  background-repeat: no-repeat;
+  width: 294px;
+  height: 80px;
+  padding-left: 60px;
+  padding-top: 20px;
+}
+
+.trigger a,
+.triggeraktiv a {
+  color: #e3fd8a;
+  text-decoration: none;
+}
+
+
+/*---additional---------------------------------------------------------------*/
+.additional {
+  position: relative;
+  background-image: url(../images/mitte_bg.png);
+  background-repeat: repeat-y;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+}
+
+.grauborder1 {
+  border: 1px solid #c4c4c4;
+  position: relative;
+  display: block;
+  padding: 5px;
+}
+
+.graubg {
+  background-color: #e2e0e0;
+  padding: 10px;
+}
+
+.downloadwrap {
+  width: 216px;
+  position: relative;
+  float: left;
+  text-align: center;
+}
+
+.addtextwrap {
+  position: relative;
+  float: left;
+  margin-left: 20px;
+  width: 663px;
+}
+
+
+
+/*---Main---------------------------------------------------------------------*/
+
+.main {
+  position: relative;
+  background-image: url(../images/mitte_bg1.png);
+  background-repeat: repeat-y;
+  padding: 10px;
+}
+
+.category {
+  position: relative;
+}
+
+.category ul {
+  margin: 10px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+
+.category ul li {
+  height: 30px;
+  padding-top: 10px;
+  border-bottom: 1px dashed #c4c4c4;
+  background-image: url(../images/pfeil_blau.png);
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+  padding-left: 10px;
+}
+
+
+/*---Programmliste klein - vorschau ------------------------------------------*/
+.progklein {
+  width: 220px;
+  position: relative;
+  float: left;
+  height: 150px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.progklein .prtitel {
+  background-image: url(../images/titel220.png);
+  background-repeat: no-repeat;
+  position: relative;
+  display: block;
+  width: 200px;
+  height: 21px;
+  padding-left: 20px;
+  padding-top: 2px;
+  margin-bottom: 10px;
+}
+
+.progklein .prtitel a {
+  font-family: Droid Serif, Times New Roman;
+  font-weight: bold;
+  text-shadow: #ffffff 1px 1px 3px;
+  color: #666666;
+}
+
+.plusv {
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  float: right;
+  z-index: 10;
+  right: 1px;
+  top: 1px;
+}
+
+.progklein .prbild {
+  width: 48px;
+  height: 48px;
+  float: left;
+  position: relative;
+  margin: 10px;
+}
+
+.progklein .prcategory {
+  border-bottom: 1px dashed #c4c4c4;
+  height: 22px;
+  position: relative;
+  width: 152px;
+  float: left;
+  margin-bottom: 5px;
+}
+
+.progklein .prcategory a {
+  color: #49acf3;
+  font-size: 12px;
+}
+
+.progklein .prbutton {
+  position: relative;
+  margin-top: 10px;
+}
+
+ .prbutton .iwill {
+  position: relative;
+  background-image: url(../images/iwill_button_blau.png);
+  width: 126px;
+  height: 20px;
+
+  float: left;
+}
+
+ .prbutton .iwill a {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-shadow: #0d72b3 1px 1px 2px;
+  font-family: Droid Sans, Times New Roman;
+  font-weight: bold;
+  padding-top: 2px;
+  text-align: center;
+}
+
+ .prbutton .plus {
+  margin-left: 1px;
+  position: relative;
+  float: left;
+}
+
+
+/*---Bottom-------------------------------------------------------------------*/
+.bottom  {
+  position: relative;
+  background-image: url(../images/mitte_bg.png);
+  background-repeat: repeat-y;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.bottombg {
+  background-image: url(../images/bottom_bg.png);
+  background: #000000;
+  min-height: 240px;
+  background-repeat: repeat-x;
+}
+
+
+/*---------------------------------------------------------------------------*/
+
+.lines .prtitel {
+  font-family: Droid Serif, Times New Roman;
+  font-weight: normal;
+  color: #49acf3;
+  position: relative;
+  float: left;
+  width: 320px;
+  overflow: hidden;
+  font-size: 18px;
+  height: 32px;
+  line-height: 32px;
+}
+
+.lines .prdate {
+  font-weight: normal;
+  width: 150px;
+  overflow: hidden;
+  position: relative;
+  float: left;
+  font-size: 12px;
+  height: 32px;
+  line-height: 32px;
+}
+
+.lines .prbutton {
+  position: relative;
+  float: left;
+  width: 150px;
+  margin-top: 5px;
+}
+
+
+/*---------------------------------------------------------------------------*/
+.prabout {
+  width: 453px;
+  position: relative;
+  float: left;
+}
+
+
+
+/*---------------------------------------------------------------------------*/
+
+.details {
+  display:block;
+  border-radius:5px 5px 5px 5px;
+  -moz-border-radius:5px 5px 5px 5px;
+  -webkit-border-radius:5px 5px 5px 5px;
+  background:#e2e0e0;
+  border:0;
+  border:1px solid #cfcfcf;
+  cursor:pointer;
+  display:inline-block;
+  position:relative;
+  width:165px;
+  outline:none;
+  padding:10px;
+  font-size: 12px;
+}
+
+.details ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.details ul li {
+  margin-bottom: 10px;
+}
+
+.details a {
+  font-size: 12px;
+}
+
+
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+/*---jQuery Tools Panes & Tabs ----------------------------------------------*/
+/* root element for tabs  */
+ul.tabs {
+	list-style:none;
+	margin:0 !important;
+	padding:0;
+	border-bottom:1px solid #c1c1c1;
+	height:35px;
+}
+
+/* single tab */
+ul.tabs li {
+	float:left;
+	text-indent:0;
+	padding:0;
+	margin:0 !important;
+	list-style-image:none !important;
+}
+
+/* link inside the tab. uses a background image */
+ul.tabs a {
+	background: url(../images/panes_bg.png) no-repeat -400px 0;
+	font-size:11px;
+	display:block;
+	height: 35px;
+	line-height:35px;
+	width: 185px;
+	padding:0px;
+	margin:0px;
+	position:relative;
+	top:1px;
+    padding-left: 15px;
+    font-family: Droid Serif, Times New Roman;
+    font-size: 18px;
+    color: #666666;
+}
+
+ul.tabs a:active {
+	outline:none;
+}
+
+/* when mouse enters the tab move the background image */
+ul.tabs a:hover {
+	background-position: -200px 0px;
+	color:#ffffff;
+}
+
+/* active tab uses a class name "current". its highlight is also done by moving the background image. */
+ul.tabs a.current, ul.tabs a.current:hover, ul.tabs li.current a {
+	background-position: 0px 0px;
+	cursor:default !important;
+	color:#89b501 !important;
+}
+
+/* Different widths for tabs: use a class name: w1, w2, w3 or w2 */
+
+
+/* width 1 */
+ul.tabs a.s 			{ background-position: -553px 0; width:81px; }
+ul.tabs a.s:hover 	{ background-position: -553px -31px; }
+ul.tabs a.s.current  { background-position: -553px -62px; }
+
+/* width 2 */
+ul.tabs a.l 			{ background-position: -248px -0px; width:174px; }
+ul.tabs a.l:hover 	{ background-position: -248px -31px; }
+ul.tabs a.l.current  { background-position: -248px -62px; }
+
+
+/* width 3 */
+ul.tabs a.xl 			{ background-position: 0 -0px; width:248px; }
+ul.tabs a.xl:hover 	{ background-position: 0 -31px; }
+ul.tabs a.xl.current { background-position: 0 -62px; }
+
+
+/* initially all panes are hidden */
+.panes .pane {
+	display:none;
+}
+
+/* tab pane styling */
+.panes div.pan {
+	display:none;
+	border-top:0;
+    margin-top: 10px;
+}
+
+
+/*---Pagination -------------------------------------------------------------*/
+div.search_pagination {
+  clear:both;
+  float:right;
+  margin:14px 0px 0 0
+}
+
+div.search_pagination span.legend {
+  margin:0 14px 0 0;
+}
+
+div.search_pagination a {
+  display:block;
+  border-radius:5px 5px 5px 5px;
+  -moz-border-radius:5px 5px 5px 5px;
+  -webkit-border-radius:5px 5px 5px 5px;
+  -moz-box-shadow:0 0 0 white;
+  -webkit-box-shadow:0 0 0 white;
+  box-shadow:0 0 0 white;
+  -webkit-box-shadow:rgba(0, 0, 0, 0.246) 0px 1px 3px;
+  background:#E2E0E0;
+  border:0;
+  border-bottom:1px solid rgba(0, 0, 0, 0.246);
+  color:#666666 !important;
+  cursor:pointer;
+  display:inline-block;
+  font-size:14px;
+  font-weight:bold;
+  line-height:1;
+  overflow:visible;
+  padding:8px 19px;
+  position:relative;
+  text-decoration:none;
+  width:auto;
+  outline:none;
+  padding:5px 8px;
+  margin:2px;
+  text-shadow:0 1px 1px #ffffff;
+  font-family: Droid Serif, Times New Roman;
+}
+
+div.search_pagination a.current,
+div.search_pagination a:hover {
+  background-color:#b4dd2f;
+}
+
+div.search_pagination a.next {
+  margin-left:8px
+}
+div.search_pagination a.prev {
+  margin-right:8px
+}
+
+/*--- jQuery Tools Accordio Panes -------------------------------------------*/
+
+/* root element for accordion. decorated with rounded borders and gradient background image */
+#accordion {
+	width:100%;
+}
+
+/* accordion header */
+#accordion div.lines {
+	background: url(../images/versionen-line.png);
+	margin:0;
+	padding:0px 35px;
+	cursor:pointer;
+    height: 32px;
+}
+
+/*#accordion:last-child div.lines {
+	background: url(../images/versionen-line_last.png);
+} */
+
+/* currently active header */
+#accordion div.current {
+	cursor:default;
+	background-color:#fff;
+}
+
+/* accordion pane */
+#accordion .pane {
+	display:none;
+}
+
+/* a title inside pane */
+#accordion .pane h3 {
+
+}
+
+/*---Paddings & Margins -----------------------------------------------------*/
+
+.padding10px{
+  padding: 10px;
+}
+
+.padright52 {
+  padding-left: 52px;
+}
+
+
+/*---Algemeine Textstyles ---------------------------------------------------*/
+
+.titel1 {
+  color: #ffffff;
+  font-family: Droid Serif, Times New Roman;
+  text-shadow: #436305 1px 1px 2px;
+  text-decoration: none;
+  font-size: 30px;
+
+}
+
+a {
+  color: #49acf3;
+  text-decoration: none;
+}
+
+/*a:hover {
+  color: #49acf3;
+  text-decoration: underline;
+} */
+
+.text18 {
+  font-size: 18px;
+}
+
+.titelblau1 {
+  font-size: 28px;
+  color: #49acf3;
+  font-family: Droid Serif, Times New Roman;
+  text-shadow: #ffffff 1px 1px 2px;
+}
+
+.titelgruen1 {
+  font-size: 20px;
+  color: #89b501;
+  font-family: Droid Serif, Times New Roman;
+}
+
+.titelbraun1 {
+  font-family: Droid Serif, Times New Roman;
+  font-size: 18px;
+  font-style: italic;
+  color: #917236;
+}
+
+.paddingtitelmain {
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+.borderblau2px {
+  border-bottom: 2px solid #49acf3;
+}
+
+
+.borderdashedgrau {
+  border-bottom: 1px dashed #C4C4C4;
+}
+
+.textweiss1 {
+  color: #ffffff;
+}
+
+.textgrau1 {
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.caps {
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

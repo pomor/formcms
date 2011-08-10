@@ -1,0 +1,2889 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<formular>
+
+<h1>
+	<title>Angebote</title>
+	
+	<h2>
+		<title>Besondere Förderangebote</title>
+		
+		<h3>
+			<title>Besondere Förderangebote</title>
+			
+			<table>
+				<head>
+					<td> </td>
+					<td>Anzahl K+J</td>
+					<td>%-Anzeil intern erbracht</td>
+					<td>%-Anzeil extern erbracht</td>					
+				</head>
+				<tr>				
+					<td>schulische Förderung (schulische Begleitung, Einzelschulung, LRS-/Dyskalkulie-Förderung, ...)</td>
+					<td><form type="text" id="2008_1_1_1_0_0" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_1_1_1_0_1" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_1_1_1_0_2" check="MSK_INT"/></td>
+				</tr>
+				<tr>				
+					<td>berufliche Förderung (handwerkliche Projekte, Arbeitstraining/-vorbereitung, besondere Betreuung, ...)</td>
+					<td><form type="text" id="2008_1_1_1_1_0" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_1_1_1_1_1" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_1_1_1_1_2" check="MSK_INT"/></td>
+				</tr>
+				<tr>				
+					<td>individuelle Förderung (musikalische Förderung, Computertraining, Tierpflege, sportliche Förderung, ...)</td>
+					<td><form type="text" id="2008_1_1_1_2_0" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_1_1_1_2_1" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_1_1_1_2_2" check="MSK_INT"/></td>
+				</tr>
+				<tr>				
+					<td>individuelle Förderung/Anzahl Kinder und Jugendliche</td>
+					<td><form type="text" id="2008_1_1_1_3_0" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_1_1_1_3_1" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_1_1_1_3_2" check="MSK_INT"/></td>
+				</tr>			
+			</table>			
+		</h3>		
+	</h2>
+	
+	
+	<h2>
+		<title>Besondere therapeutische Angebote</title>
+	
+		<h3>
+			<title>Zeit für die Therapie, die intern für alle K+J erbracht wird (mit eigenen Kräften)</title>
+			<text>durchschnittlicher Zeitaufwand der Therapeuten für alle Gruppen- und/oder Einzelsitzungen zusammen, gemessen in Stunden pro Monat</text>
+			<form type="text" id="2008_1_2_1_0_0" check="MSK_FLOAT"/>
+		</h3>
+		
+		<h3>
+			<title>Zeit für die Therapie, die extern für alle K+J erbracht wird (mit fremden Kräften)</title>
+			<text>durchschnittlicher Zeitaufwand der Therapeuten für alle Gruppen- und/oder Einzelsitzungen zusammen, gemessen in Stunden pro Monat</text>
+			<form type="text" id="2008_1_2_2_0_0" check="MSK_FLOAT"/>
+		</h3>
+		
+		<h3>
+			<title>Besondere therapeutische Angebote</title>
+			<text>hier Anzahl Kinder und Jugendlicher angeben, die im Berichtsjahr die jeweiligen therapeutischen Angebote genutzt haben; Mehrfachangaben sind möglich</text>
+			<table>
+				<head><td> </td><td>Anzahl K+J</td></head>
+				<tr>
+					<td>heilpädagogische Angebote</td>
+					<td><form type="text" id="2008_1_2_3_0_0" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>musiktherapeutische</td>
+					<td><form type="text" id="2008_1_2_3_1_0" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>Schulung von Aufmerksamkeit, Sprache</td>
+					<td><form type="text" id="2008_1_2_3_2_0" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>psychotherapeutische Angebote</td>
+					<td><form type="text" id="2008_1_2_3_3_0" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>gesprächstherapeutische Angebote</td>
+					<td><form type="text" id="2008_1_2_3_4_0" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>verhaltenstherapeutische Angebote</td>
+					<td><form type="text" id="2008_1_2_3_5_0" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>sonstige therapeutische Angebote</td>
+					<td><form type="text" id="2008_1_2_3_6_0" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>Biografiearbeit u. a.</td>
+					<td><form type="text" id="2008_1_2_3_7_0" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>Gewalttherapie, Anti-Aggressions-Therapie u.a.</td>
+					<td><form type="text" id="2008_1_2_3_8_0" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>Spiel-, Kunst-, Gestalt-, Märchentherapie u.a.</td>
+					<td><form type="text" id="2008_1_2_3_9_0" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>tiertherapeutische Angebote</td>
+					<td><form type="text" id="2008_1_2_3_10_0" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>Suchttherapien (Essstörungen, Drogen,...)</td>
+					<td><form type="text" id="2008_1_2_3_11_0" check="MSK_INT"/></td></tr>				
+			</table>
+		</h3>
+		
+	</h2>
+	
+	<h2>
+		<title>Eigene Freizeitangebote</title>
+		<h3>
+			<title>Welche Freiteitangebote stellt Ihre Einrichtung bereit?</title>
+			<text>Geben Sie bitte an, welche besonderen Freizeitangebote Ihre Einrichtung bereitstellt (z. B. Bibliothek, Computer, Musikinstrumente, Spiel-/Toberaum, Sport-/Spielgeräte im Außenbereich, Tiere, Sportplatz, Boote für Wassersport, Ferienhaus, ...)</text>
+			<form type="textarea" id="2008_1_3_1_0_0"/>
+		</h3>
+	</h2>
+	
+	
+	<h2>
+		<title>Finanzierung der besonderen Förder- und therapeutischen Angebote</title>
+		<h3>
+			<title>Finanzierung der besonderen Förder- und therapeutischen Angebote</title>
+			<text>Geben Sie bitte an, wie hoch die Anteile von Einrichtung, von Jugendamt und von Dritten (Sozialamt, Agentur für Arbeit, Krankenkasse, Fördervereine, ...) an der Finanzierung aller besonderen Angebote sind (bitte ungefähre Anteile angeben, Sie können die Anteile ggf. schätzen):</text>
+			<table>
+				<head><td></td><td>%-Anteil</td></head>
+				<tr>
+					<td>Anteil der Finanzierung, die von der Einrichtung für besondere Förderangebote erbracht wird</td>
+					<td><form type="text" id="2008_1_4_1_0_0" check="MSK_FLOAT"/></td></tr>
+				<tr>
+					<td>Anteil der Finanzierung, die vom Jugendamt für besondere Förderangebote erbracht wird</td>
+					<td><form type="text" id="2008_1_4_1_1_0" check="MSK_FLOAT"/></td></tr>
+				<tr>
+					<td>Anteil der Finanzierung, die von Dritten für besondere Förderangebote erbracht wird</td>
+					<td><form type="text" id="2008_1_4_1_2_0" check="MSK_FLOAT"/></td></tr>
+				<tr>
+					<td>Anteil der Finanzierung, die von der Einrichtung für besondere therapeutische Angebote erbracht wird</td>
+					<td><form type="text" id="2008_1_4_1_3_0" check="MSK_FLOAT"/></td></tr>
+				<tr>
+					<td>Anteil der Finanzierung, die vom Jugendamt für besondere therapeutische Angebote erbracht wird</td>
+					<td><form type="text" id="2008_1_4_1_4_0" check="MSK_FLOAT"/></td></tr>
+				<tr>
+					<td>Anteil der Finanzierung, die von Dritten für besondere therapeutische Angebote erbracht wird</td>
+					<td><form type="text" id="2008_1_4_1_5_0" check="MSK_FLOAT"/></td></tr>							
+			</table>
+		</h3>
+	
+	</h2>
+	
+	
+	<h2>
+		<title>Nutzung öffentlicher Freizeitangebote</title>
+		<h3>
+			<title>Nutzung öffentlicher Freizeitangebote</title>
+			<text>Geben Sie bitte an, wie hoch die Anteile von Einrichtung, von Jugendamt und von Dritten (Sozialamt, Agentur für Arbeit, Krankenkasse, Fördervereine, ...) an der Finanzierung aller besonderen Angebote sind (bitte ungefähre Anteile angeben, Sie können die Anteile ggf. schätzen):</text>
+			<table>
+				<head><td> </td><td>Anzahl K+J</td></head>
+				<tr>
+					<td>sportliche Förderung (Sportvereine, Schwimmen, Reiten, Wassersport, Tanzsport, ...)</td>
+					<td><form type="text" id="2008_1_5_1_0_0" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>musisch-künstlerische Förderung (Musikschule, -gruppen, Instrumentenunterricht, Chorsingen, Kunst-Projekte, ...)</td>
+					<td><form type="text" id="2008_1_5_1_1_0" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>soziales Engagement, helfende Aktivitäten (THW, DRK, DLRG, Jugendfeuerwehr, ...)</td>
+					<td><form type="text" id="2008_1_5_1_2_0" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>Jugendgruppen und -treffs (kommunale Einrichtungen, Pfadfinder, "Lebenshilfe", ...)</td>
+					<td><form type="text" id="2008_1_5_1_3_0" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>kirchliche Angebote (Konfirmandenunterricht, Freizeiten, CVJM, ...)</td>
+					<td><form type="text" id="2008_1_5_1_4_0" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>sonstige Vereinsaktivitäten (Schachverein, Schützenverein, Angelverein, Übernahme von Ehrenämtern, ...)</td>
+					<td><form type="text" id="2008_1_5_1_5_0" check="MSK_INT"/></td></tr>	
+				<tr>
+					<td>Bildung/Ausbildung (VHS, Schul-AGs, Computer-AGs, ...)</td>
+					<td><form type="text" id="2008_1_5_1_5_0" check="MSK_INT"/></td></tr>	
+				<tr>
+					<td>Feste und ähnliche Veranstaltungen (Dorffeste, "Vogelschießen", Stadtteilfeste, ...)</td>
+					<td><form type="text" id="2008_1_5_1_5_0" check="MSK_INT"/></td></tr>	
+				<tr>
+					<td>Sonstige Angebote</td>
+					<td><form type="text" id="2008_1_5_1_5_0" check="MSK_INT"/></td></tr>							
+			</table>
+		</h3>
+	</h2>
+	
+	<h2>
+		<title>Sonstige Angebote</title>
+		<h3>
+			<title>Welche sonstigen Angebote - wie beispielsweise diagnostische Verfahren, Clearing etc. - machen Sie?</title>
+			<form type="textarea" id="2008_1_6_1_0_0"/>
+		</h3>
+	</h2>	
+	
+</h1>
+
+<h1>
+	<title>Elternarbeit</title>
+	<h2>
+		<title>Elternteile</title>
+		<h3>
+			<title>Mit welchen Elternteilen arbeiten Sie?</title>
+			<table>
+				<head>
+					<td> </td><td>Anzahl K+J</td><td>ggf. Erläuterung</td></head>
+				<tr>
+					<td>Arbeit vorwiegend mit beiden Elternteilen</td>
+					<td><form type="text" id="2008_2_1_1_0_0" check="MSK_INT"/></td><td><form type="textarea" id="2008_211_0_1"/></td></tr>
+				<tr>
+					<td>Arbeit vorwiegend mit keinem Elternteil</td>
+					<td><form type="text" id="2008_2_1_1_1_0" check="MSK_INT"/></td><td><form type="textarea" id="2008_211_1_1"/></td></tr>
+				<tr>
+					<td>Arbeit vorwiegend mit Mutter</td>
+					<td><form type="text" id="2008_2_1_1_2_0" check="MSK_INT"/></td><td><form type="textarea" id="2008_211_2_1"/></td></tr>
+				<tr>
+					<td>Arbeit vorwiegend mit Vater</td>
+					<td><form type="text" id="2008_2_1_1_3_0" check="MSK_INT"/></td><td><form type="textarea" id="2008_211_3_1"/></td></tr>
+			</table>
+		</h3>
+	</h2>
+
+
+	<h2>
+		<title>Formen der Elternarbeit</title>
+		<h3>
+			<title>Formen der Elternarbeit</title>
+			<table>
+				<head><td> </td><td>Anzahl K+J</td></head>
+				<tr>
+					<td>Unterstützende Elternarbeit</td>
+					<td><form type="text" id="2008_2_2_1_0_0" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>Informierende und beratende Elternarbeit</td>
+					<td><form type="text" id="2008_2_2_1_0_0" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>Einbindende Elternarbeit</td>
+					<td><form type="text" id="2008_2_2_1_0_0" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>Aufsuchende Elternarbeit</td>
+					<td><form type="text" id="2008_2_2_1_0_0" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>Regelmäßige Fragebögen</td>
+					<td><form type="text" id="2008_2_2_1_0_0" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>Anderes</td>
+					<td><form type="text" id="2008_2_2_1_0_0" check="MSK_INT"/></td></tr>			
+			</table>
+		</h3>
+	</h2>
+	
+	
+	<h2>
+		<title>Formen der Elternbeteiligung</title>
+		<h3>
+			<title>Formen der Elternbeteiligung</title>
+		<text>Art der Beteiligung/Einbindung</text>
+		<table>
+			<head><td></td><td>Häufigkeit</td></head>
+			<tr>
+				<td>an Aktivitäten der Einrichtung beteiligen</td>
+				<td><form type="radio" id="2008_2_3_1_0_0"><wrt id="10"/><wrt id="11"/></form></td></tr>
+			<tr>
+				<td>Anamnese, Erfassung biografischer Daten</td>
+				<td><form type="radio" id="2008_2_3_1_1_0"><wrt id="10"/><wrt id="11"/></form></td></tr>
+			<tr>
+				<td>Einbeziehung in die Vorbereitung von Hilfeplan-/JA-Gesprächen</td>
+				<td><form type="radio" id="2008_2_3_1_2_0"><wrt id="10"/><wrt id="11"/></form></td></tr>
+			<tr>
+				<td>Elternfragebogen (nicht-standardisiert)</td>
+				<td><form type="radio" id="2008_2_3_1_3_0"><wrt id="10"/><wrt id="11"/></form></td></tr>
+			<tr>
+				<td>Elternfragebogen (standardisiert)</td>
+				<td><form type="radio" id="2008_2_3_1_4_0"><wrt id="10"/><wrt id="11"/></form></td></tr>
+			<tr>
+				<td>Erfassung von Zufriedenheit (durch Dritte, z. B. XIT-Data)</td>
+				<td><form type="radio" id="2008_2_3_1_5_0"><wrt id="10"/><wrt id="11"/></form></td></tr>
+			<tr>
+				<td>Erfassung von Zufriedenheit (mittels eigenem Fragebogen)</td>
+				<td><form type="radio" id="2008_2_3_1_6_0"><wrt id="10"/><wrt id="11"/></form></td></tr>
+			<tr>
+				<td>gemeinsame Reflexion (z. B. nach Besuchen des Kindes)</td>
+				<td><form type="radio" id="2008_2_3_1_7_0"><wrt id="10"/><wrt id="11"/></form></td></tr>
+			<tr>
+				<td>in Kontakt mit Kindern kommen und sein</td>
+				<td><form type="radio" id="2008_2_3_1_8_0"><wrt id="10"/>><wrt id="11"/></form></td></tr>
+			<tr>
+				<td>inhaltlich-pädagogische Einbeziehung</td>
+				<td><form type="radio" id="2008_2_3_1_9_0"><wrt id="10"/><wrt id="11"/></form></td></tr>
+			<tr>
+				<td>mündliche Befragung / mündlicher Austausch</td>
+				<td><form type="radio" id="2008_2_3_1_10_0"><wrt id="10"/><wrt id="11"/></form></td></tr>
+			<tr>
+				<td>Teilnahme an Schul-, Arzt- oder Therapiebesuchen</td>
+				<td><form type="radio" id="2008_2_3_1_11_0"><wrt id="10"/><wrt id="11"/></form></td></tr>		
+		</table>
+		</h3>
+	</h2>
+	
+	<h2>
+		<title>Sonstige Formen der Elternbeteiligung</title>
+		<h3>
+			<title>Sonstige Formen, wie Eltern in Ihrer Einrichtung beteiligt werden</title>
+			<form type="textarea" id="2008_2_4_1_0_0"/>
+		</h3>
+	</h2>	
+	
+</h1>
+
+
+<h1>
+	<title>Finanzen</title>
+
+	<h2>
+		<title>Auslastungsquoten</title>		
+		
+		<h3>
+			<title>Auslastungsquote im Berichtsjahr</title>
+			<text>betreffend alle stationären Angebote</text>
+			<form type="text" id="2008_3_1_1_0_0"/>
+		</h3>
+		
+		<h3>
+			<title>Im Vergleich zum Vorjahr</title>
+			<form type="radio" id="2008_3_1_2_11_0"><wrt id="21"/><wrt id="22"/><wrt id="23"/></form>			
+		</h3>
+		
+	</h2>
+	
+	<h2>
+		<title>Entgelte im Berichtsjahr: Einzelne Positionen</title>
+		<text>Bemerkung: Zum Vergleich der IKH-Einrichtungen untereinander sind nicht alle Einzelpositionen gleichmaßen geeignet und aussagekräftig. Wir beschränken uns daher auf folgende Positionen:</text>
+		
+		<h3>
+			<title>Weiterbildung, Supervision; Betrag in EUR</title>
+			<text>laut Vereinbarung / Gesamtsumme für ein Jahr laut Kalkulation, z. B. 3.460 EUR</text>
+			<form type="text" id="2008_3_2_1_0_0" check="MSK_FLOAT" />
+		</h3>
+		
+		<h3>
+			<title>Weiterbildung, Supervision; Tagessatz in EUR</title>
+			<text>laut Vereinbarung / Gesamtsumme für ein Jahr laut Kalkulation, z. B. 3.460 EUR</text>
+			<form type="text" id="2008_3_2_2_0_0" check="MSK_FLOAT" />
+		</h3>
+		
+		<h3>
+			<title>davon: Weiterbildung; Betrag in EUR</title>
+			<text>laut Vereinbarung / absoluter Anteil am Tagessatz, z. B. 1,27 EUR</text>
+			<form type="text" id="2008_3_2_3_0_0" check="MSK_FLOAT" />
+		</h3>
+		
+		<h3>
+			<title>davon: Weiterbildung; Tagessatz in EUR</title>
+			<text>laut Vereinbarung / absoluter Anteil am Tagessatz, z. B. 1,27 EUR</text>
+			<form type="text" id="2008_3_2_4_0_0" check="MSK_FLOAT" />
+		</h3>
+		
+		<h3>
+			<title>Qualitätsentwicklung; Betrag in EUR</title>
+			<text>laut Vereinbarung / Gesamtsumme für ein Jahr laut Kalkulation, z. B. 3.460 EUR</text>
+			<form type="text" id="2008_3_2_5_0_0" check="MSK_FLOAT" />
+		</h3>
+		
+		<h3>
+			<title>Qualitätsentwicklung; Tagessatz in EUR</title>
+			<text>Ziffer laut Kalkulationsblatt VV, Anlage 3, 1.7 / absoluter Anteil am Tagessatz, z. B. 1,27 EUR</text>
+			<form type="text" id="2008_3_2_6_0_0" check="MSK_FLOAT" />
+		</h3>
+		
+		<h3>
+			<title>speziell: Fachliteratur; Betrag in EUR</title>
+			<text>laut Vereinbarung / Gesamtsumme für ein Jahr laut Kalkulation, z. B. 3.460 EUR</text>
+			<form type="text" id="2008_3_2_7_0_0" check="MSK_FLOAT" />
+		</h3>
+		
+		<h3>
+			<title>speziell: Fachliteratur; Tagessatz in EUR</title>
+			<text>laut Vereinbarung / absoluter Anteil am Tagessatz, z. B. 1,27 EUR</text>
+			<form type="text" id="2008_3_2_8_0_0" check="MSK_FLOAT" />
+		</h3>
+		
+		<h3>
+			<title>Betreuung; Betrag in EUR</title>
+			<text>laut Vereinbarung / Gesamtsumme für ein Jahr laut Kalkulation, z. B. 3.460 EUR</text>
+			<form type="text" id="2008_3_2_9_0_0" check="MSK_FLOAT" />
+		</h3>
+		
+		<h3>
+			<title>Betreuung; Tagessatz in EUR</title>
+			<text>laut Vereinbarung / absoluter Anteil am Tagessatz, z. B. 1,27 EUR</text>
+			<form type="text" id="2008_3_2_10_0_0" check="MSK_FLOAT" />
+		</h3>
+	
+	</h2>
+	
+	<h2>
+		<title>Entgelte im Berichtsjahr: Fachleistungsstunde</title>
+		<h3>
+			<title>Sachkosten</title>
+			<text>Anteile an der Fachleistungsstunde im Berichtsjahr angeben</text>
+			<form type="text" id="2008_3_3_1_0_0" check="MSK_FLOAT" />
+		</h3>
+		
+		<h3>
+			<title>Investitionskosten</title>
+			<text>Anteile an der Fachleistungsstunde im Berichtsjahr angeben</text>
+			<form type="text" id="2008_3_3_2_0_0" check="MSK_FLOAT" />
+		</h3>
+		
+		<h3>
+			<title>Fachleistungsstunde</title>
+			<text>bitte den am Jahresende gültigen Satz für die Fachleistungsstunde angeben</text>
+			<form type="text" id="2008_3_3_3_0_0" check="MSK_FLOAT" />
+		</h3>
+		
+		<h3>
+			<title>Personalkosten</title>
+			<text>Anteile an der Fachleistungsstunde im Berichtsjahr angeben</text>
+			<form type="text" id="2008_3_3_4_0_0" check="MSK_FLOAT" />
+		</h3>
+	</h2>
+	
+	<h2>
+		<title>Entgelte im Berichtsjahr: Tagessatz stationäre Regelleistung nach § 34 KJHG</title>
+				
+		<h3>
+			<title>Tagessatz für Regelleistungen</title>
+			<text>bitte den am Jahresende gültigen Tagessatz für Regelleistungen der stationären Unterbringung ("über Tag und Nacht" nach § 34 KJHG) angeben (laut Vereinbarung; inklusiv Bekleidungsgeld, ohne Taschengelder, ohne individuelle Zusatzzahlungen)</text>
+			<form type="text" id="2008_3_4_1_0_0" check="MSK_FLOAT" />
+		</h3>
+		
+		<h3>
+			<title>Personalkosten</title>
+			<text>Anteile am Tagessatz angeben</text>
+			<form type="text" id="2008_3_4_2_0_0" check="MSK_FLOAT" />
+		</h3>
+		
+		<h3>
+			<title>Sachkosten</title>
+			<text>Anteile am Tagessatz angeben</text>
+			<form type="text" id="2008_3_4_3_0_0" check="MSK_FLOAT" />
+		</h3>
+		
+		<h3>
+			<title>Investitionskosten</title>
+			<text>Anteile am Tagessatz angeben</text>
+			<form type="text" id="2008_3_4_4_0_0" check="MSK_FLOAT" />
+		</h3>
+	</h2>
+	
+	<h2>
+		<title>Entgelte im Berichtsjahr: Weitere Tagessätze für stationäre Leistungen</title>
+		<text>Einige Einrichtungen haben für unterschiedliche stationäre Leistungen unterschiedliche Entgelte vereinbart. Bitte geben Sie diese Sätze an, falls Sie ebenfalls neben dem erfassten Regelentgelt weitere Entgelte vereinbart haben.</text>		
+		
+		<h3>
+			<title>Tagessatz für...</title>
+			<form type="textarea" id="2008_3_5_1_0_0" />
+		</h3>
+		
+		<h3>
+			<title>ggf. §§ KJHG</title>			
+			<form type="text" id="2008_3_5_2_0_0" check="MSK_FLOAT" />
+		</h3>
+		
+		<h3>
+			<title>Tagessatz</title>
+			<form type="text" id="2008_3_5_3_0_0" check="MSK_FLOAT" />
+		</h3>
+		
+		<h3>
+			<title>Fachleistungsstunde</title>
+			<form type="text" id="2008_3_5_4_0_0" check="MSK_FLOAT" />
+		</h3>
+		
+		<h3 >
+			<title>Personalkosten</title>
+			<text>Anteile an der Fachleistungsstunde im Berichtsjahr angeben</text>
+			<form type="text" id="2008_3_5_5_0_0" check="MSK_FLOAT" />
+		</h3>
+		
+		<h3>
+			<title>Sachkosten</title>
+			<text>Anteile an der Fachleistungsstunde im Berichtsjahr angeben</text>
+			<form type="text" id="2008_3_5_6_0_0" check="MSK_FLOAT" />
+		</h3>
+		
+		<h3>
+			<title>Investitionskosten</title>
+			<text>Anteile an der Fachleistungsstunde im Berichtsjahr angeben</text>
+			<form type="text" id="2008_3_5_7_0_0" check="MSK_FLOAT" />
+		</h3>
+	</h2>
+	
+</h1>
+
+
+<h1>
+<title>Gewinn- und Verlustrechnung</title>
+	<h2>
+	<title>Aufwendungen</title>
+		<h3>
+		<title>Aufwendungen</title>
+			<table>			
+			<head><td> </td><td>EURO</td></head>
+			<tr>
+				<td>außerordentlicher Aufwand</td>
+				<td><form type="text" id="2008_4_1_1_0_0" check="MSK_FLOAT" /></td></tr>
+			<tr>
+				<td>Buchwert Anlagenabgang</td>
+				<td><form type="text" id="2008_4_1_1_1_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Zinsen für kurzfristige Verbindlichkeiten</td>
+				<td><form type="text" id="2008_4_1_1_2_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Zinsen für langfristige Verbindlichkeiten</td>
+				<td><form type="text" id="2008_4_1_1_3_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Grundstücksaufwand</td>
+				<td><form type="text" id="2008_4_1_1_4_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Löhne/Gehälter</td>
+				<td><form type="text" id="2008_4_1_1_5_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Lohnsteuer</td>
+				<td><form type="text" id="2008_4_1_1_6_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>gesetzliche Sozialaufwendungen</td>
+				<td><form type="text" id="2008_4_1_1_7_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Altersvorsorge/VL</td>
+				<td><form type="text" id="2008_4_1_1_8_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Berufsgenossenschaft</td>
+				<td><form type="text" id="2008_4_1_1_9_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Sonstige</td>
+				<td><form type="text" id="2008_4_1_1_10_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Lebensmittel</td>
+				<td><form type="text" id="2008_4_1_1_11_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Miete/Pachten</td>
+				<td><form type="text" id="2008_4_1_1_12_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Mieten für Einrichtung</td>
+				<td><form type="text" id="2008_4_1_1_13_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Leasing für Einrichtung</td>
+				<td><form type="text" id="2008_4_1_1_14_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Heizöl</td>
+				<td><form type="text" id="2008_4_1_1_15_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Gas/Strom/Wasser/Abwasser</td>
+				<td><form type="text" id="2008_4_1_1_16_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Reinigung</td>
+				<td><form type="text" id="2008_4_1_1_17_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Instandhaltung betrieblicher Räume</td>
+				<td><form type="text" id="2008_4_1_1_18_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Versicherungen</td>
+				<td><form type="text" id="2008_4_1_1_19_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Beiträge</td>
+				<td><form type="text" id="2008_4_1_1_20_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Abgaben</td>
+				<td><form type="text" id="2008_4_1_1_21_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>KFZ: Steuer</td>
+				<td><form type="text" id="2008_4_1_1_22_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>KFZ: Versicherungen</td>
+				<td><form type="text" id="2008_4_1_1_23_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>KFZ: laufende Betriebskosten</td>
+				<td><form type="text" id="2008_4_1_1_24_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>KFZ: Reparaturen</td>
+				<td><form type="text" id="2008_4_1_1_25_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>KFZ: Leasing</td>
+				<td><form type="text" id="2008_4_1_1_26_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>KFZ: Sonstige</td>
+				<td><form type="text" id="2008_4_1_1_27_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Werbekosten</td>
+				<td><form type="text" id="2008_4_1_1_28_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Reisekosten Unternehmer</td>
+				<td><form type="text" id="2008_4_1_1_29_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Reisekosten Arbeitnehmer</td>
+				<td><form type="text" id="2008_4_1_1_30_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Instandhaltung M.B.G.</td>
+				<td><form type="text" id="2008_4_1_1_31_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>sonstige betriebliche Aufwendungen</td>
+				<td><form type="text" id="2008_4_1_1_32_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Porto</td>
+				<td><form type="text" id="2008_4_1_1_33_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Telefon</td>
+				<td><form type="text" id="2008_4_1_1_34_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Bürobedarf</td>
+				<td><form type="text" id="2008_4_1_1_35_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Rechts- und Beratungskosten</td>
+				<td><form type="text" id="2008_4_1_1_36_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Nebenkosten des Geldverkehrs</td>
+				<td><form type="text" id="2008_4_1_1_37_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Werkzeuge/Kleingeräte</td>
+				<td><form type="text" id="2008_4_1_1_38_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Abschreibung Anlagevermögen</td>
+				<td><form type="text" id="2008_4_1_1_39_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Abschreibung geringwertige Anlagevermögen</td>
+				<td><form type="text" id="2008_4_1_1_40_0" check="MSK_FLOAT" /></td></tr>
+				
+			</table>
+		</h3>
+
+	</h2>
+	
+	
+	<h2 >
+	<title>Aufwendungen für Kinder</title>
+		<h3>
+		<title>Aufwendungen für Kinder</title>
+			<table>			
+			<head><td> </td><td>EURO</td></head>
+			<tr>
+				<td>Medizin/Pflege-Bedarf</td>
+				<td><form type="text" id="2008_4_2_1_0_0" check="MSK_FLOAT" /></td></tr>
+			<tr>
+				<td>Sport- und Spielgeräte</td>
+				<td><form type="text" id="2008_4_2_1_1_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Bekleidung</td>
+				<td><form type="text" id="2008_4_2_1_2_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Sportunterricht</td>
+				<td><form type="text" id="2008_4_2_1_3_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Musikunterricht</td>
+				<td><form type="text" id="2008_4_2_1_4_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Leistungsbelohnung/Taschengeld</td>
+				<td><form type="text" id="2008_4_2_1_5_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Körperpflege</td>
+				<td><form type="text" id="2008_4_2_1_6_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Ausflüge/Fahrten</td>
+				<td><form type="text" id="2008_4_2_1_7_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Ferien/Klassenfahrten</td>
+				<td><form type="text" id="2008_4_2_1_8_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Zeitung/Rundfunk/Fernsehen</td>
+				<td><form type="text" id="2008_4_2_1_9_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Heimbücherei</td>
+				<td><form type="text" id="2008_4_2_1_10_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Beschäftigungs-Therapie</td>
+				<td><form type="text" id="2008_4_2_1_11_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Geschenke</td>
+				<td><form type="text" id="2008_4_2_1_12_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Aufwand Haustiere</td>
+				<td><form type="text" id="2008_4_2_1_13_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Psych. Behandlung</td>
+				<td><form type="text" id="2008_4_2_1_14_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Supervision</td>
+				<td><form type="text" id="2008_4_2_1_15_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Nachhilfeunterricht</td>
+				<td><form type="text" id="2008_4_2_1_16_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Schulbedarf und -gelder</td>
+				<td><form type="text" id="2008_4_2_1_17_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Sonstiges</td>
+				<td><form type="text" id="2008_4_2_1_18_0" check="MSK_FLOAT" /></td></tr>
+			
+			
+				
+			</table>
+		</h3>
+
+	</h2>
+	
+	
+	<h2 >
+	<title>Erträge</title>
+		<h3>
+		<title>Erträge</title>
+			<table>			
+			<head><td> </td><td>EURO</td></head>
+			<tr>
+				<td>Erlöse aus Leistungen: vollstationärer Unterbringung gem. §§ 27, 34, 35a SGB VIII</td>
+				<td><form type="text" id="2008_4_3_1_0_0" check="MSK_FLOAT" /></td></tr>
+			<tr>
+				<td>Erlöse aus Leistungen: anderer Unterbringung</td>
+				<td><form type="text" id="2008_4_3_1_1_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Erlöse aus Sachleistungen: Wohnnung/Personal</td>
+				<td><form type="text" id="2008_4_3_1_2_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Erlöse aus Sachleistungen: Kost/Personal</td>
+				<td><form type="text" id="2008_4_3_1_3_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Unentgeltliche Wertabgaben: Warenentnahmen</td>
+				<td><form type="text" id="2008_4_3_1_4_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Unentgeltliche Wertabgaben: KFZ-Anteil</td>
+				<td><form type="text" id="2008_4_3_1_5_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Unentgeltliche Wertabgaben: Energie-Anteil</td>
+				<td><form type="text" id="2008_4_3_1_6_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Unentgeltliche Wertabgaben: Sonstige</td>
+				<td><form type="text" id="2008_4_3_1_7_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Sonstige Erlöse: Erlöse aus Verkäufen von Sachanlagen</td>
+				<td><form type="text" id="2008_4_3_1_8_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Sonstige Erlöse: außerordentliche Erträge</td>
+				<td><form type="text" id="2008_4_3_1_9_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Sonstige Erlöse: Grundstückserträge</td>
+				<td><form type="text" id="2008_4_3_1_10_0" check="MSK_FLOAT" /></td></tr>
+			
+			<tr>
+				<td>Sonstige Erlöse: Zinserträge</td>
+				<td><form type="text" id="2008_4_3_1_11_0" check="MSK_FLOAT" /></td></tr>			
+				
+			</table>
+		</h3>
+
+	</h2>
+	
+	<h2>
+	<title>Gewinn / Verlust</title>
+		<h3>
+		<title>Gewinn / Verlust</title>
+			<table>
+			<head><td> </td><td>EURO</td></head>
+			
+			<tr>
+				<td>Gewinn</td>
+				<td><form type="text" id="2008_4_4_1_0_0" check="MSK_FLOAT" /></td></tr>	
+				
+			<tr>
+				<td>Verlust</td>
+				<td><form type="text" id="2008_4_4_1_1_0" check="MSK_FLOAT" /></td></tr>	
+			</table>
+		</h3>
+	</h2>
+	
+</h1>
+
+
+<h1>
+<title>Klientel</title>
+	<h2>
+	<title>Altersverteilung der Belegungen</title>
+	
+		<h3>
+			<title><![CDATA[1. Anzahl im Alter von < 4 Jahren]]></title>
+			<text>tatsächliche Belegungszahl am Jahresende</text>
+			<form type="text" id="2008_5_1_1_0_0" check="MSK_INT" />
+		</h3>
+		
+		<h3>
+			<title>Anzahl im Alter von 5 Jahren</title>
+			<text>tatsächliche Belegungszahl am Jahresende</text>
+			<form type="text" id="2008_5_1_2_0_0" check="MSK_INT" />
+		</h3>
+		
+		<h3>
+			<title>Anzahl im Alter von 6 Jahren</title>
+			<text>tatsächliche Belegungszahl am Jahresende</text>
+			<form type="text" id="2008_5_1_3_0_0" check="MSK_INT" />
+		</h3>
+		
+		<h3>
+			<title>Anzahl im Alter von 7 Jahren</title>
+			<text>tatsächliche Belegungszahl am Jahresende</text>
+			<form type="text" id="2008_5_1_4_0_0" check="MSK_INT" />
+		</h3>
+		
+		<h3>
+			<title>Anzahl im Alter von 8 Jahren</title>
+			<text>tatsächliche Belegungszahl am Jahresende</text>
+			<form type="text" id="2008_5_1_5_0_0" check="MSK_INT" />
+		</h3>
+		
+		<h3>
+			<title>Anzahl im Alter von 9 Jahren</title>
+			<text>tatsächliche Belegungszahl am Jahresende</text>
+			<form type="text" id="2008_5_1_6_0_0" check="MSK_INT" />
+		</h3>
+		
+		<h3>
+			<title>Anzahl im Alter von 10 Jahren</title>
+			<text>tatsächliche Belegungszahl am Jahresende</text>
+			<form type="text" id="2008_5_1_7_0_0" check="MSK_INT" />
+		</h3>
+		
+		<h3>
+			<title>Anzahl im Alter von 11 Jahren</title>
+			<text>tatsächliche Belegungszahl am Jahresende</text>
+			<form type="text" id="2008_5_1_8_0_0" check="MSK_INT" />
+		</h3>
+		
+		<h3>
+			<title>Anzahl im Alter von 12 Jahren</title>
+			<text>tatsächliche Belegungszahl am Jahresende</text>
+			<form type="text" id="2008_5_1_9_0_0" check="MSK_INT" />
+		</h3>
+		
+		<h3>
+			<title>Anzahl im Alter von 13 Jahren</title>
+			<text>tatsächliche Belegungszahl am Jahresende</text>
+			<form type="text" id="2008_5_1_10_0_0" check="MSK_INT" />
+		</h3>
+		
+		<h3>
+			<title>Anzahl im Alter von 14 Jahren</title>
+			<text>tatsächliche Belegungszahl am Jahresende</text>
+			<form type="text" id="2008_5_1_11_0_0" check="MSK_INT" />
+		</h3>
+		
+		<h3>
+			<title>1Anzahl im Alter von 15 Jahren</title>
+			<text>tatsächliche Belegungszahl am Jahresende</text>
+			<form type="text" id="2008_5_1_12_0_0" check="MSK_INT" />
+		</h3>
+		
+		<h3>
+			<title>Anzahl im Alter von 16 Jahren</title>
+			<text>tatsächliche Belegungszahl am Jahresende</text>
+			<form type="text" id="2008_5_1_13_0_0" check="MSK_INT" />
+		</h3>
+		
+		<h3>
+			<title>Anzahl im Alter von 17 Jahren</title>
+			<text>tatsächliche Belegungszahl am Jahresende</text>
+			<form type="text" id="2008_5_1_14_0_0" check="MSK_INT" />
+		</h3>
+		
+		<h3>
+			<title>Anzahl im Alter von 18 Jahren</title>
+			<text>tatsächliche Belegungszahl am Jahresende</text>
+			<form type="text" id="2008_5_1_15_0_0" check="MSK_INT" />
+		</h3>
+		
+		<h3>
+			<title>Anzahl im Alter von 19 Jahren und älter</title>
+			<text>tatsächliche Belegungszahl am Jahresende</text>
+			<form type="text" id="2008_5_1_16_0_0" check="MSK_INT" />
+		</h3>		
+		
+	</h2>
+	
+	<h2>
+		<title>Belegungszahlen im stationären Bereich</title>
+		<h3>
+			<title>Mitarbeiteranzahl der BetreuerInnen</title>
+			<text>Summe über alle Stellen, die die genannte Anzahl von Mädchen und Jungen am Jahresende pädagogisch betreuen</text>
+			<form type="text" id="2008_5_2_1_0_0" check="MSK_INT" />
+		</h3>
+		
+		<h3>
+			<title>Gesamtzahl Plätze (stationäre Betreuung)</title>			
+			<form type="text" id="2008_5_2_2_0_0" check="MSK_INT" />
+		</h3>
+		
+		<h3>
+			<title>Anzahl interner (Klein-)Gruppen</title>
+			<text>falls Sie intern differenzieren, z. B. nach Alter, Geschlecht, Art der Hilfe, Gebäudeteile etc.</text>
+			<form type="text" id="2008_5_2_3_0_0" check="MSK_INT" />
+		</h3>
+		
+		<h3>
+			<title>Neuaufnahmen im Berichtsjahr</title>			
+			<form type="text" id="2008_5_2_4_0_0" check="MSK_INT" />
+		</h3>
+		
+		<h3>
+			<title>Entlassungen im Berichtsjahr</title>
+			<form type="text" id="2008_5_2_5_0_0" check="MSK_INT" />
+		</h3>
+		
+		<h3>
+			<title>belegt weiblich</title>
+			<text>tatsächliche Belegungszahlen am Jahresende, Unterbringung von "Mutter und Kind" als einen Platz rechnen</text>
+			<form type="text" id="2008_5_2_6_0_0" check="MSK_INT" />
+		</h3>
+		
+		<h3>
+			<title>belegt männlich</title>			
+			<form type="text" id="2008_5_2_7_0_0" check="MSK_INT" />
+		</h3>
+		
+		<h3>
+			<title>Stellenanzahl der BetreuerInnen</title>
+			<text>Summe über alle Personen, die die genannte Anzahl von Mädchen und Jungen am Jahresende pädagogisch betreuen (Teilzeitkräfte entsprechend ihrer Teilstelle anteilig mit in die Summe einfließen lassen)</text>
+			<form type="text" id="2008_5_2_8_0_0" check="MSK_INT" />
+		</h3>		
+		
+	</h2>
+	
+	<h2>
+		<title>Entlassungen im Berichtsjahr</title>
+		<h3>
+			<title>Verweildauer der entlassenen K+J</title>
+			<text>tatsächliche Belegungszahl am Jahresende</text>
+			<table>
+			<head><td> </td><td>Gesamtzahl der im Berichtsjahr 2008 entlassenen K+J</td></head>
+			<tr>
+				<td><![CDATA[Anzahl der Kinder und Jugendlichen < 0,5 Jahre]]></td>
+				<td><form type="text" id="2008_5_3_1_0_0" check="MSK_INT"/></td></tr>				
+			<tr>
+				<td>Anzahl der Kinder und Jugendlichen bis 1 Jahr</td>
+				<td><form type="text" id="2008_5_3_1_1_0" check="MSK_INT"/></td></tr>				
+			<tr>
+				<td>Anzahl der Kinder und Jugendlichen bis 2 Jahre</td>
+				<td><form type="text" id="2008_5_3_1_2_0" check="MSK_INT"/></td></tr>
+			<tr>
+				<td>Anzahl der Kinder und Jugendlichen bis 3 Jahre</td>
+				<td><form type="text" id="2008_5_3_1_3_0" check="MSK_INT"/></td></tr>
+			<tr>
+				<td>Anzahl der Kinder und Jugendlichen bis 4 Jahre</td>
+				<td><form type="text" id="2008_5_3_1_4_0" check="MSK_INT"/></td></tr>
+			<tr>
+				<td>Anzahl der Kinder und Jugendlichen bis 5 Jahre</td>
+				<td><form type="text" id="2008_5_3_1_5_0" check="MSK_INT"/></td></tr>
+			<tr>
+				<td>Anzahl der Kinder und Jugendlichen bis 6 Jahre</td>
+				<td><form type="text" id="2008_5_3_1_6_0" check="MSK_INT"/></td></tr>
+			<tr>
+				<td>Anzahl der Kinder und Jugendlichen über 6 Jahre</td>
+				<td><form type="text" id="2008_5_3_1_7_0" check="MSK_INT"/></td></tr>				
+			</table>
+		
+		</h3>
+		
+		<h3>
+			<title>Wohin wurden die K+J entlassen?</title>
+			<text>tatsächliche Belegungszahl am Jahresende</text>
+			<table>
+				<head><td> </td><td>Anzahl</td></head>
+				<tr>
+					<td>In den Haushalt von Mutter/Vater/Eltern</td>
+					<td><form type="text" id="2008_5_3_2_0_0" check="MSK_INT"/></td></tr>				
+				<tr>
+					<td>In die Selbständigkeit</td>
+					<td><form type="text" id="2008_5_3_2_1_0" check="MSK_INT"/></td></tr>				
+				<tr>
+					<td>In eine andere Einrichtung</td>
+					<td><form type="text" id="2008_5_3_2_2_0" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>In eine Sondereinrichtung ( z.B. Psychiatrie)</td>
+					<td><form type="text" id="2008_5_3_2_3_0" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>In eine Einzelbetreuung</td>
+					<td><form type="text" id="2008_5_3_2_4_0" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>In eine Auslandsbetreuung</td>
+					<td><form type="text" id="2008_5_3_2_5_0" check="MSK_INT"/></td></tr>
+							
+			</table>
+		
+		</h3>
+	
+	</h2>
+	
+	<h2>
+		<title>Entsendestellen</title>
+		<h3>
+			<title>Entsendestellen der Kinder und Jugendlichen</title>			
+			<table>
+				<head><td> </td><td>Anzahl</td><td>Neu aufgenommen</td></head>
+				<tr>
+					<td>Kreis Dithmarschen</td>
+					<td><form type="text" id="2008_5_4_1_0_0" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_5_4_1_0_1" check="MSK_INT"/></td></tr>		
+				<tr>
+					<td>Kreis Herzogtum Lauenburg</td>
+					<td><form type="text" id="2008_5_4_1_1_0" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_5_4_1_1_1" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>Kreis Nordfriesland</td>
+					<td><form type="text" id="2008_5_4_1_2_0" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_5_4_1_2_1" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>Kreis Ostholstein</td>
+					<td><form type="text" id="2008_5_4_1_3_0" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_5_4_1_3_1" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>Kreis Pinneberg</td>
+					<td><form type="text" id="2008_5_4_1_4_0" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_5_4_1_4_1" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>Kreis Plön</td>
+					<td><form type="text" id="2008_5_4_1_5_0" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_5_4_1_5_1" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>Kreis Rendsburg-Eckernförde</td>
+					<td><form type="text" id="2008_5_4_1_6_0" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_5_4_1_6_1" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>Kreis Schleswig-Flensburg</td>
+					<td><form type="text" id="2008_5_4_1_7_0" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_5_4_1_7_1" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>Kreis Segeberg</td>
+					<td><form type="text" id="2008_5_4_1_8_0" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_5_4_1_8_1" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>Kreis Steinburg</td>
+					<td><form type="text" id="2008_5_4_1_9_0" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_5_4_1_9_1" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>Kreis Storman</td>
+					<td><form type="text" id="2008_5_4_1_10_0" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_5_4_1_10_1" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>Stadt Berlin</td>
+					<td><form type="text" id="2008_5_4_1_11_0" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_5_4_1_11_1" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>Stadt Hamburg</td>
+					<td><form type="text" id="2008_5_4_1_12_0" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_5_4_1_12_1" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>Stadt Kiel</td>
+					<td><form type="text" id="2008_5_4_1_13_0" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_5_4_1_13_1" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>Stadt Neumünster</td>
+					<td><form type="text" id="2008_5_4_1_14_0" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_5_4_1_14_1" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>Baden-Württemberg</td>
+					<td><form type="text" id="2008_5_4_1_15_0" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_5_4_1_15_1" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>Bayern</td>
+					<td><form type="text" id="2008_5_4_1_16_0" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_5_4_1_16_1" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>Brandenburg</td>
+					<td><form type="text" id="2008_5_4_1_17_0" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_5_4_1_17_1" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>Bremen</td>
+					<td><form type="text" id="2008_5_4_1_18_0" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_5_4_1_18_1" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>Hessen</td>
+					<td><form type="text" id="2008_5_4_1_19_0" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_5_4_1_19_1" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>Mecklenburg-Vorpommern</td>
+					<td><form type="text" id="2008_5_4_1_20_0" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_5_4_1_20_1" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>Niedersachsen</td>
+					<td><form type="text" id="2008_5_4_1_21_0" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_5_4_1_21_1" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>Nordrhein-Westfalen</td>
+					<td><form type="text" id="2008_5_4_1_22_0" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_5_4_1_22_1" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>Rheinland-Pfalz</td>
+					<td><form type="text" id="2008_5_4_1_23_0" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_5_4_1_23_1" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>Saarland</td>
+					<td><form type="text" id="2008_5_4_1_24_0" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_5_4_1_24_1" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>Sachsen</td>
+					<td><form type="text" id="2008_5_4_1_25_0" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_5_4_1_25_1" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>Sachsen-Anhalt</td>
+					<td><form type="text" id="2008_5_4_1_26_0" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_5_4_1_26_1" check="MSK_INT"/></td></tr>
+				<tr>
+					<td>Thüringen</td>
+					<td><form type="text" id="2008_5_4_1_27_0" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_5_4_1_27_1" check="MSK_INT"/></td></tr>					
+							
+			</table>
+		
+		</h3>
+	</h2>
+	
+	<h2>
+		<title>Indikationen der Belegung</title>
+		<h3>
+			<title>Anzahl allein erziehende Mutter</title>
+			<text>tatsächliche Belegungszahl am Jahresende. Hinweis: Mehrfachzählungen sind möglich.</text>
+			<form type="text" id="2008_5_5_1_0_0" check="MSK_INT"/>
+		</h3>
+		
+		<h3>
+			<title>Anzahl allein erziehender Vater</title>
+			<text>tatsächliche Belegungszahl am Jahresende. Hinweis: Mehrfachzählungen sind möglich.</text>
+			<form type="text" id="2008_5_5_2_0_0" check="MSK_INT"/>
+		</h3>
+		
+		<h3>
+			<title>Anzahl als Geschwister untergebracht</title>
+			<text>tatsächliche Belegungszahl am Jahresende. Hinweis: Mehrfachzählungen sind möglich.</text>
+			<form type="text" id="2008_5_5_3_0_0" check="MSK_INT"/>
+		</h3>
+		
+		<h3>
+			<title>Anzahl Deliquenz / straffällig geworden</title>
+			<text>tatsächliche Belegungszahl am Jahresende. Hinweis: Mehrfachzählungen sind möglich.</text>
+			<form type="text" id="2008_5_5_4_0_0" check="MSK_INT"/>
+		</h3>
+		
+		<h3>
+			<title>Anzahl Drogen- / Suchtproblematik</title>
+			<text>tatsächliche Belegungszahl am Jahresende. Hinweis: Mehrfachzählungen sind möglich.</text>
+			<form type="text" id="2008_5_5_5_0_0" check="MSK_INT"/>
+		</h3>
+		
+		<h3>
+			<title>Anzahl Entwicklungsverzögerung</title>
+			<text>tatsächliche Belegungszahl am Jahresende. Hinweis: Mehrfachzählungen sind möglich.</text>
+			<form type="text" id="2008_5_5_6_0_0" check="MSK_INT"/>
+		</h3>
+		
+		<h3>
+			<title>Anzahl Erziehungsunfähigkeit</title>
+			<text>tatsächliche Belegungszahl am Jahresende. Hinweis: Mehrfachzählungen sind möglich.</text>
+			<form type="text" id="2008_5_5_7_0_0" check="MSK_INT"/>
+		</h3>
+		
+		<h3>
+			<title>Anzahl Essstörungen, Bulemie</title>
+			<text>tatsächliche Belegungszahl am Jahresende. Hinweis: Mehrfachzählungen sind möglich.</text>
+			<form type="text" id="2008_5_5_8_0_0" check="MSK_INT"/>
+		</h3>
+		
+		<h3>
+			<title>Anzahl Familienproblematiken</title>
+			<text>tatsächliche Belegungszahl am Jahresende. Hinweis: Mehrfachzählungen sind möglich.</text>
+			<form type="text" id="2008_5_5_9_0_0" check="MSK_INT"/>
+		</h3>
+		
+		<h3>
+			<title>Anzahl geistige Behinderung</title>
+			<text>tatsächliche Belegungszahl am Jahresende. Hinweis: Mehrfachzählungen sind möglich.</text>
+			<form type="text" id="2008_5_5_10_0_0" check="MSK_INT"/>
+		</h3>
+		
+		<h3>
+			<title>Anzahl Gewalt-Opfer</title>
+			<text>tatsächliche Belegungszahl am Jahresende. Hinweis: Mehrfachzählungen sind möglich.</text>
+			<form type="text" id="2008_5_5_11_0_0" check="MSK_INT"/>
+		</h3>
+		
+		<h3>
+			<title>1Anzahl Gewaltproblematik</title>
+			<text>tatsächliche Belegungszahl am Jahresende. Hinweis: Mehrfachzählungen sind möglich.</text>
+			<form type="text" id="2008_5_5_12_0_0" check="MSK_INT"/>
+		</h3>
+		
+		<h3>
+			<title>Anzahl Mehrfach-Behinderung</title>
+			<text>tatsächliche Belegungszahl am Jahresende. Hinweis: Mehrfachzählungen sind möglich.</text>
+			<form type="text" id="2008_5_5_13_0_0" check="MSK_INT"/>
+		</h3>
+		
+		<h3>
+			<title>Anzahl Missbrauchs-Opfer</title>
+			<text>tatsächliche Belegungszahl am Jahresende. Hinweis: Mehrfachzählungen sind möglich.</text>
+			<form type="text" id="2008_5_5_14_0_0" check="MSK_INT"/>
+		</h3>
+		
+		
+		<h3>
+			<title>Anzahl Schulproblematik</title>
+			<text>tatsächliche Belegungszahl am Jahresende. Hinweis: Mehrfachzählungen sind möglich.</text>
+			<form type="text" id="2008_5_5_15_0_0" check="MSK_INT"/>
+		</h3>
+		
+		<h3>
+			<title>Anzahl seelische Behinderung</title>
+			<text>tatsächliche Belegungszahl am Jahresende. Hinweis: Mehrfachzählungen sind möglich.</text>
+			<form type="text" id="2008_5_5_16_0_0" check="MSK_INT"/>
+		</h3>
+		
+		<h3>
+			<title>Anzahl Trennung der Eltern</title>
+			<text>tatsächliche Belegungszahl am Jahresende. Hinweis: Mehrfachzählungen sind möglich.</text>
+			<form type="text" id="2008_5_5_17_0_0" check="MSK_INT"/>
+		</h3>
+		
+		<h3>
+			<title>Anzahl Trennung der Eltern</title>
+			<text>tatsächliche Belegungszahl am Jahresende. Hinweis: Mehrfachzählungen sind möglich.</text>
+			<form type="text" id="2008_5_5_18_0_0" check="MSK_INT"/>
+		</h3>
+		
+		<h3>
+			<title>Anzahl Verhaltensauffälligkeit</title>
+			<text>tatsächliche Belegungszahl am Jahresende. Hinweis: Mehrfachzählungen sind möglich.</text>
+			<form type="text" id="2008_5_5_19_0_0" check="MSK_INT"/>
+		</h3>
+		
+		<h3>
+			<title>Anzahl Verwahrlosung</title>
+			<text>tatsächliche Belegungszahl am Jahresende. Hinweis: Mehrfachzählungen sind möglich.</text>
+			<form type="text" id="2008_5_5_20_0_0" check="MSK_INT"/>
+		</h3>
+	</h2>
+	
+	<h2>
+		<title>Mitwirkung von Kindern und Jugendlichen</title>
+		<h3>
+			<title>Wie werden die k+J in Ihrer Einrichtung beteiligt?</title>
+			<text>Bitte geben Sie an, wie in Ihrer Einrichtung die Kinder und Jugendlichen beteiligt werden (z. B. "Kinderrat" - wie häufig im Berichtsjahr getagt? -, Gestaltung von Zimmern, Teilnahme an Befragungen, Gestaltung von Plänen, Mitsprache bei ..., Mitwirkung an ...).</text>
+			<table>
+				<head><td> </td><td>Beteiligung</td><td>Erläuterungen</td></head>
+				<tr>
+					<td>Kinderrat</td>
+					<td><form type="text" id="2008_5_6_1_0_0" check="MSK_INT"><wrt id="1"/><wrt id="2"/></form></td>
+					<td><form type="textarea" id="2008_5_6_1_0_1" /></td></tr>
+					
+				<tr>
+					<td>Gestaltung von Zimmern</td>
+					<td><form type="text" id="2008_5_6_1_1_0" check="MSK_INT"><wrt id="1"/><wrt id="2"/></form></td>
+					<td><form type="textarea" id="2008_5_6_1_1_1" /></td></tr>
+					
+				<tr>
+					<td>Teilnahme an Befragungen</td>
+					<td><form type="text" id="2008_5_6_1_2_0" check="MSK_INT"><wrt id="1"/><wrt id="2"/></form></td>
+					<td><form type="textarea" id="2008_5_6_1_2_1" /></td></tr>
+					
+				<tr>
+					<td>Gestaltung von Plänen</td>
+					<td><form type="text" id="2008_5_6_1_3_0" check="MSK_INT"><wrt id="1"/><wrt id="2"/></form></td>
+					<td><form type="textarea" id="2008_5_6_1_3_1" /></td></tr>
+					
+				<tr>
+					<td>Mitsprache bei...</td>
+					<td><form type="text" id="2008_5_6_1_4_0" check="MSK_INT"><wrt id="1"/><wrt id="2"/></form></td>
+					<td><form type="textarea" id="2008_5_6_1_4_1" /></td></tr>
+					
+				<tr>
+					<td>Mitwirkung an...</td>
+					<td><form type="text" id="2008_5_6_1_5_0" check="MSK_INT"><wrt id="1"/><wrt id="2"/></form></td>
+					<td><form type="textarea" id="2008_5_6_1_5_1" /></td></tr>
+					
+				<tr>
+					<td>Sonstiges</td>
+					<td><form type="text" id="2008_5_6_1_6_0" check="MSK_INT"><wrt id="1"/><wrt id="2"/></form></td>
+					<td><form type="textarea" id="2008_5_6_1_6_1" /></td></tr>
+			</table>
+		</h3>
+	</h2>
+	
+	<h2>
+		<title>Rechtsgrundlagen der Belegung</title>
+		<h3>
+			<title>Rechtsgrundlagen der Belegung</title>
+			<form type="checkbox" id="2008_5_7_1_0_0"><title>§ 19 KJHG ("Mutter und Kind")</title></form>
+			<form type="checkbox" id="2008_5_7_1_1_0"><title>§ 20 KJHG ("Hilfe in Not")</title></form>
+			<form type="checkbox" id="2008_5_7_1_2_0"><title>§ 34 KJHG</title></form>
+			<form type="checkbox" id="2008_5_7_1_3_0"><title>§ 35 KJHG</title></form>
+			<form type="checkbox" id="2008_5_7_1_4_0"><title>§ 35a KJHG</title></form>
+			<form type="checkbox" id="2008_5_7_1_5_0"><title>§ 39/40 BSHG ("Eingliederung")</title></form>
+			<form type="checkbox" id="2008_5_7_1_6_0"><title>§ 41 KJHG</title></form>
+			<form type="checkbox" id="2008_5_7_1_7_0"><title>§ 42 KJHG ("Inobhutnahme")</title></form>
+		</h3>
+		
+		<h3>
+			<title>Anzahl Belegungen</title>
+			<text>Belegungszahlen im Berichtsjahr (Summe kann also von der Zahl der Plätze abweichen bedingt durch Mehrfachbelegungen eines Platzes im Berichtsjahr)</text>
+			<form type="text" id="2008_5_7_2_0_0" check="MSK_INT"/>
+		</h3>
+	</h2>
+	
+	<h2>
+		<title>Schule und Ausbildung</title>
+		<h3>
+			<title>Schulbesuch bei Entlassung</title>
+			<table>
+				<head><td> </td><td>Anzahl /(tatsächliche Belegungszahl am Jahresende)</td></head>
+				<tr>
+				<td>Hauptschule</td>
+				<td><form type="text" id="2008_5_8_3_0_0" check="MSK_INT"/></td></tr>
+				
+				<tr>
+				<td>Realschule</td>
+				<td><form type="text" id="2008_5_8_3_1_0" check="MSK_INT"/></td></tr>
+				
+				<tr>
+				<td>Gymnasium</td>
+				<td><form type="text" id="2008_5_8_3_2_0" check="MSK_INT"/></td></tr>
+				
+				<tr>
+				<td>Fach-, Förderschule</td>
+				<td><form type="text" id="2008_5_8_3_3_0" check="MSK_INT"/></td></tr>
+				
+				<tr>
+				<td>Private Schule</td>
+				<td><form type="text" id="2008_5_8_3_4_0" check="MSK_INT"/></td></tr>
+				
+				<tr>
+				<td>Dänische Schule</td>
+				<td><form type="text" id="2008_5_8_3_5_0" check="MSK_INT"/></td></tr>
+				
+				<tr>
+				<td>Sonstiges</td>
+				<td><form type="text" id="2008_5_8_3_6_0" check="MSK_INT"/></td></tr>
+			</table>
+		</h3>
+		
+		<h3>
+			<title>Wie viele Kinder stehen in der Ausbildung?</title>
+			<table>
+				<head><td> </td><td>Anzahl /(tatsächliche Belegungszahl am Jahresende)</td></head>
+				<tr>
+				<td>Berufsausbildung</td>
+				<td><form type="text" id="2008_5_8_4_0_0" check="MSK_INT"/></td></tr>
+				
+				<tr>
+				<td>Schulausbildung (weiterführende Schule)</td>
+				<td><form type="text" id="2008_5_8_4_1_0" check="MSK_INT"/></td></tr>
+				
+				<tr>
+				<td>Berufsfördernde Maßnahme</td>
+				<td><form type="text" id="2008_5_8_4_2_0" check="MSK_INT"/></td></tr>
+				
+				<tr>
+				<td>Werkstatt für Behinderte (Reha-Bereich)</td>
+				<td><form type="text" id="2008_5_8_4_3_0" check="MSK_INT"/></td></tr>				
+				
+			</table>
+		</h3>
+		
+		<h3>
+			<title>Abschluss erzielt</title>
+			<table>
+				<head><td> </td><td>Anzahl /(tatsächliche Belegungszahl am Jahresende)</td></head>
+				<tr>
+				<td>Berufsausbildung</td>
+				<td><form type="text" id="2008_5_8_5_0_0" check="MSK_INT"/></td></tr>
+				
+				<tr>
+				<td>Schulausbildung</td>
+				<td><form type="text" id="2008_5_8_5_1_0" check="MSK_INT"/></td></tr>											
+				
+			</table>
+		</h3>
+		
+		<h3>
+			<title>Wieviele K+J haben die Schule abgebrochen?</title>
+			<text>Gesamtzahl im Berichtsjahr</text>
+			<form type="text" id="2008_5_8_1_0_0" check="MSK_INT"/>
+		</h3>
+		
+		<h3>
+			<title>Wieviele K+J haben die Berufsausbildung abgebrochen?</title>
+			<text>Gesamtzahl im Berichtsjahr</text>
+			<form type="text" id="2008_5_8_2_0_0" check="MSK_INT"/>
+		</h3>
+	</h2>
+	
+</h1>
+
+<h1>
+	<title>Mitarbeiterinnen und Mitarbeiter</title>
+	<h2>
+		<title>Angabe von Zeiten</title>
+		<text>Hinweis: Hier soll allein der zeitliche Aufwand erfasst werden, der für bestimmte Tätigkeiten in der Regel benötigt wird. Eine inhaltliche, qualitative Aufschlüsselung, z. B. welcher Art die Teamsitzungen sind, erfolgt an anderer Stelle im Fragebogen. Bitte versuchen Sie, den folgenden Personen und Tätigkeiten durchschnittliche Zeiten zuzuordnen. Gehen Sie von einem typischen Stundenkontingent pro Woche eines / einer Mitarbeiters / Mitarbeiterin aus und zerlegen diese Summe in Anteile. Die Summe soll wieder den Ausgangswert ergeben (= Kontrollsumme). Die Tätigkeiten sind so zu verstehen, dass der genannte Aspekt im Vordergrund steht. So kann eine Teambesprechung auch Bereitschaftszeit für Betreuung sein - dann aber steht die Besprechung im Vordergrund - bzw. Bereitschaftszeiten können Betreuungs-zeiten enthalten - dann steht die Bereitschaft im Vordergrund.</text>
+		<h3>
+			<title> </title>
+			<text>Nur wenn TrägerIn in Einrichtung tätig ist / alle Stunden berücksichtigen, auch wenn 38,5 bzw. 40 Arbeitsstunden pro Woche überschritten werden</text>
+			<form type="text" id="2008_6_1_1_0_0" check="MSK_FLOAT"/>
+		</h3>
+		
+		<h3>
+			<title>Direkte Betreuung - Gruppe, Einzel - durch die Leitung/TrägerIn</title>
+			<text>Nur wenn TrägerIn in Einrichtung tätig ist</text>
+			<form type="text" id="2008_6_1_2_0_0" check="MSK_FLOAT"/>
+		</h3>
+		
+		<h3>
+			<title>Teamkommunikation - Besprechungen, Supervision o. a. - mit der Leitung/TrägerIn</title>
+			<text>Nur wenn TrägerIn in Einrichtung tätig ist</text>
+			<form type="text" id="2008_6_1_3_0_0" check="MSK_FLOAT"/>
+		</h3>
+		
+		<h3>
+			<title>Dokumentation, Verwaltung durch die Leitung/TrägerIn</title>
+			<text>Nur wenn TrägerIn in Einrichtung tätig ist</text>
+			<form type="text" id="2008_6_1_4_0_0" check="MSK_FLOAT"/>
+		</h3>
+		
+		<h3>
+			<title>sonstige Tätigkeiten der Leitung/TrägerIn</title>
+			<text>Nur wenn TrägerIn in Einrichtung tätig ist / z. B. Elternarbeit, Außenvertretung, Hauswirtschaft, Haustechnik (je nach Mitarbeiter)</text>
+			<form type="text" id="2008_6_1_5_0_0" check="MSK_FLOAT"/>
+		</h3>
+		
+		<h3>
+			<title>Bereitschaft der Leitung/TrägerIn</title>
+			<text>Nur wenn TrägerIn in Einrichtung tätig ist</text>
+			<form type="text" id="2008_6_1_6_0_0" check="MSK_FLOAT"/>
+		</h3>
+		
+		<h3>
+			<title>Kontrollsumme - Leitung/TrägerIn</title>
+			<text>Nur wenn TrägerIn in Einrichtung tätig ist</text>
+			<form type="text" id="2008_6_1_7_0_0" check="MSK_FLOAT"/>
+		</h3>
+		
+		<h3>
+			<title> </title>
+			<text>alle Stunden berücksichtigen, auch wenn 38,5 bzw. 40 Arbeitsstunden pro Woche überschritten werden</text>
+			<form type="text" id="2008_6_1_8_0_0" check="MSK_FLOAT"/>
+		</h3>
+		
+		<h3>
+			<title>Direkte Betreuung - Gruppe, Einzel - durch die pädagogischen MitarbeiterInen</title>
+			<form type="text" id="2008_6_1_9_0_0" check="MSK_FLOAT"/>
+		</h3>
+		
+		<h3>
+			<title>Teamkommunikation - Besprechungen, Supervision o. a. - mit pädegogischen MitarbeiterInnen</title>
+			<form type="text" id="2008_6_1_10_0_0" check="MSK_FLOAT"/>
+		</h3>
+		
+		<h3>
+			<title>Dokumentation, Verwaltung durch die pädagogischen MitarbeiterInnen</title>
+			<form type="text" id="2008_6_1_11_0_0" check="MSK_FLOAT"/>
+		</h3>
+		
+		<h3>
+			<title>1sonstige Tätigkeiten der pädagogischen MitarbeiterInnen</title>
+			<form type="text" id="2008_6_1_12_0_0" check="MSK_FLOAT"/>
+		</h3>
+		
+		<h3>
+			<title>Bereitschaft der pädagogischen MitarbeiterInnen</title>
+			<form type="text" id="2008_6_1_13_0_0" check="MSK_FLOAT"/>
+		</h3>
+		
+		<h3>
+			<title>Kontrollsumme - pädagogische MitarbeiterInnen</title>
+			<form type="text" id="2008_6_1_14_0_0" check="MSK_FLOAT"/>
+		</h3>
+		
+	</h2>
+	
+	<h2>
+		<title>Nachtbereitschaft</title>
+		<text>Bitte ungefähre prozentuale Anteile an Nachtbereitschaftszeiten - auf das ganze Berichtsjahr bezogen - angeben.</text>
+		<h3>
+			<title>feste/r MitarbeiterIn</title>
+			<form type="text" id="2008_6_10_1_0_0" check="MSK_FLOAT"/>
+		</h3>
+		
+		<h3>
+			<title>anteilig auf pädagogische MitarbeiterInnen verteilt</title>
+			<form type="text" id="2008_6_10_2_0_0" check="MSK_FLOAT"/>
+		</h3>
+		
+		<h3>
+			<title>TrägerIn</title>
+			<form type="text" id="2008_6_10_3_0_0" check="MSK_FLOAT"/>
+		</h3>
+		
+		<h3>
+			<title>zusätzliche Honorarkräfte</title>
+			<form type="text" id="2008_6_10_4_0_0" check="MSK_FLOAT"/>
+		</h3>
+		
+		<h3>
+			<title>Sonstiges (bitte unten angeben)</title>
+			<form type="text" id="2008_6_10_5_0_0" check="MSK_FLOAT"/>
+		</h3>
+		
+		<h3>
+			<title>Bemerkungen und Erläuterungen zur Nachtbereitschaft</title>
+			<form type="textarea" id="2008_6_10_6_0_0" />
+		</h3>
+	</h2>
+	
+	<h2>
+		<title>Träger und Trägerinnen</title>
+		<text>Hinweis: Hier alle Träger und Trägerinnen angeben, also auch solche Personen, die im Berichtsjahr nicht oder nur zu geringen Zeiten in der Einrichtung tätig waren. (keine angestellten Personen!)</text>
+		<h3>
+			<title>Träger und Trägerinnen</title>
+			<table>
+				<head>
+					<td> </td><td>Geschlecht</td><td>Alter im Berichtsjahr</td><td>Wie viele Jahre bereits pädagogisch tätig?</td>
+					<td>Seit welchem Jahr als Trägerin tätig?</td><td>Qualifikation/Funktion</td>
+					<td>ggf. zusätzliche Qualifikationen</td><td>Besonderheiten</td><td>Stelle: Voll-/Teilzeit in %</td>
+					<td>Jahresbruttogehalt im Berichtsjahr in EUR</td></head>
+					
+				<tr>
+					<td>Träger 1</td><td><form type="radio" id="2008_6_11_1_0_0"><wrt id="30"/><wrt id="31"/></form></td>
+					<td><form type="text" id="2008_6_11_1_0_1" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_6_11_1_0_2" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_6_11_1_0_3" check="MSK_INT"/></td>
+					<td><form type="textarea" id="2008_6_11_1_0_4" /></td>
+					<td><form type="textarea" id="2008_6_11_1_0_5" /></td>
+					<td><form type="textarea" id="2008_6_11_1_0_6" /></td>
+					<td><form type="text" id="2008_6_11_1_0_7" check="MSK_FLOAT"/></td>
+					<td><form type="text" id="2008_6_11_1_0_8" check="MSK_FLOAT"/></td></tr>
+				<tr>
+					<td>Träger 2</td><td><form type="radio" id="2008_6_11_1_1_0"><wrt id="30"/><wrt id="31"/></form></td>
+					<td><form type="text" id="2008_6_11_1_1_1" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_6_11_1_1_2" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_6_11_1_1_3" check="MSK_INT"/></td>
+					<td><form type="textarea" id="2008_6_11_1_1_4" /></td>
+					<td><form type="textarea" id="2008_6_11_1_1_5" /></td>
+					<td><form type="textarea" id="2008_6_11_1_1_6" /></td>
+					<td><form type="text" id="2008_6_11_1_1_7" check="MSK_FLOAT"/></td>
+					<td><form type="text" id="2008_6_11_1_1_8" check="MSK_FLOAT"/></td></tr>
+				<tr>
+					<td>Träger 3</td><td><form type="radio" id="2008_6_11_1_2_0"><wrt id="30"/><wrt id="31"/></form></td>
+					<td><form type="text" id="2008_6_11_1_2_1" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_6_11_1_2_2" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_6_11_1_2_3" check="MSK_INT"/></td>
+					<td><form type="textarea" id="2008_6_11_1_2_4" /></td>
+					<td><form type="textarea" id="2008_6_11_1_2_5" /></td>
+					<td><form type="textarea" id="2008_6_11_1_2_6" /></td>
+					<td><form type="text" id="2008_6_11_1_2_7" check="MSK_FLOAT"/></td>
+					<td><form type="text" id="2008_6_11_1_2_8" check="MSK_FLOAT"/></td></tr>
+				<tr>
+					<td>Träger 4</td><td><form type="radio" id="2008_6_11_1_3_0"><wrt id="30"/><wrt id="31"/></form></td>
+					<td><form type="text" id="2008_6_11_1_3_1" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_6_11_1_3_2" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_6_11_1_3_3" check="MSK_INT"/></td>
+					<td><form type="textarea" id="2008_6_11_1_3_4" /></td>
+					<td><form type="textarea" id="2008_6_11_1_3_5" /></td>
+					<td><form type="textarea" id="2008_6_11_1_3_6" /></td>
+					<td><form type="text" id="2008_6_11_1_3_7" check="MSK_FLOAT"/></td>
+					<td><form type="text" id="2008_6_11_1_3_8" check="MSK_FLOAT"/></td></tr>
+				<tr>
+					<td>Träger 5</td><td><form type="radio" id="2008_6_11_1_4_0"><wrt id="30"/><wrt id="31"/></form></td>
+					<td><form type="text" id="2008_6_11_1_4_1" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_6_11_1_4_2" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_6_11_1_4_3" check="MSK_INT"/></td>
+					<td><form type="textarea" id="2008_6_11_1_4_4" /></td>
+					<td><form type="textarea" id="2008_6_11_1_4_5" /></td>
+					<td><form type="textarea" id="2008_6_11_1_4_6" /></td>
+					<td><form type="text" id="2008_6_11_1_4_7" check="MSK_FLOAT"/></td>
+					<td><form type="text" id="2008_6_11_1_4_8" check="MSK_FLOAT"/></td></tr>
+			</table>
+		</h3>
+	</h2>
+	
+	<h2>
+		<title>Angabe von Zeiten mit besonderer Nutzung</title>
+		<text>Hinweis: Hier sind die im Berichtsjahr tatsächlich genutzten Arbeitstage von TrägerIn und allen MitarbeiterInnen anzugeben (nicht theoretisch mögliche Anzahl von Tagen, sondern die tatsächliche Anzahl von vorgekommenen Tagen). Geben Sie dazu die Summe der Tage für alle Personen an, die in den folgenden Bereichen tätig sind (addieren Sie also z. B. alle Krankmeldungen aller MitarbeiterInnen im Berichtsjahr und tragen Sie diese Summe in der Tabelle ein. Mehrere Teiltage addieren Sie bitte zusammen zu ganzen Tagen. Die Angabe in der letzten Spalte ermöglicht die Auswertung von Durchschnittswerten.</text>
+		<h3>
+			<title>Fort- und Weiterbildung der Leitung/TrägerIn</title>
+			<form type="text" id="2008_6_2_1_0_0" check="MSK_INT"/>
+		</h3>
+		
+		<h3>
+			<title>genutzter gesetzlicher Bildungsurlaub der Leitung/TrägerIn</title>
+			<form type="text" id="2008_6_2_2_0_0" check="MSK_INT"/>
+		</h3>
+		
+		<h3>
+			<title>Krankmeldungen der Leitung/TrägerIn</title>
+			<form type="text" id="2008_6_2_3_0_0" check="MSK_INT"/>
+		</h3>
+		
+		<h3>
+			<title>Anzahl der in diesem Abschnitt berücksichtigten Personen - Leitung/TrägerIn</title>
+			<form type="text" id="2008_6_2_4_0_0" check="MSK_INT"/>
+		</h3>
+		
+		<h3>
+			<title>Fort- und Weiterbildung aller pädagogischen MitarbeiterInnen</title>
+			<form type="text" id="2008_6_2_5_0_0" check="MSK_INT"/>
+		</h3>
+		
+		<h3>
+			<title>genutzter gesetzlicher Bildungsurlaub aller pädagogischen MitarbeiterInnen</title>
+			<form type="text" id="2008_6_2_6_0_0" check="MSK_INT"/>
+		</h3>
+		
+		<h3>
+			<title>Krankmeldungen aller pädagogischen MitarbeiterInnen</title>
+			<form type="text" id="2008_6_2_7_0_0" check="MSK_INT"/>
+		</h3>
+		
+		<h3>
+			<title>Anzahl der in diesem Abschnitt berücksichtigten Personen - pädagogische MitarbeiterInnen</title>
+			<form type="text" id="2008_6_2_8_0_0" check="MSK_INT"/>
+		</h3>
+		
+		<h3>
+			<title>Fort- und Weiterbildung aller hauswirtschaftlichen MitarbeiterInnen</title>
+			<form type="text" id="2008_6_2_9_0_0" check="MSK_INT"/>
+		</h3>
+		
+		<h3>
+			<title>genutzter gesetzlicher Bildungsurlaub aller hauswirtschaftlichen MitarbeiterInnen</title>
+			<form type="text" id="2008_6_2_10_0_0" check="MSK_INT"/>
+		</h3>
+		
+		<h3>
+			<title>Krankmeldungen aller hauswirtschaftlichen MitarbeiterInnen</title>
+			<form type="text" id="2008_6_2_11_0_0" check="MSK_INT"/>
+		</h3>
+		
+		<h3>
+			<title>1Anzahl der in diesem Abschnitt berücksichtigten Personen - hauswirtschaftliche MitarbeiterInnen</title>
+			<form type="text" id="2008_6_2_12_0_0" check="MSK_INT"/>
+		</h3>
+		
+		<h3>
+			<title>Fort- und Weiterbildung aller MA Hausmeister und -technik</title>
+			<form type="text" id="2008_6_2_13_0_0" check="MSK_INT"/>
+		</h3>
+		
+		<h3>
+			<title>genutzter gesetzlicher Bildungsurlaub aller MA Hausmeister und -technik</title>
+			<form type="text" id="2008_6_2_14_0_0" check="MSK_INT"/>
+		</h3>
+		
+		<h3>
+			<title>Krankmeldungen aller MA Hausmeister und -technik</title>
+			<form type="text" id="2008_6_2_15_0_0" check="MSK_INT"/>
+		</h3>
+		
+		<h3>
+			<title>Anzahl der in diesem Abschnitt berücksichtigten Personen - MA Hausmeister und -technik</title>
+			<form type="text" id="2008_6_2_16_0_0" check="MSK_INT"/>
+		</h3>
+		
+		<h3>
+			<title>Fort- und Weiterbildung - Sonstige</title>
+			<form type="text" id="2008_6_2_17_0_0" check="MSK_INT"/>
+		</h3>
+		
+		<h3>
+			<title>genutzter gesetzlicher Bildungsurlaub - Sonstige</title>
+			<form type="text" id="2008_6_2_18_0_0" check="MSK_INT"/>
+		</h3>
+		
+		<h3>
+			<title>Krankmeldungen - Sonstige</title>
+			<form type="text" id="2008_6_2_19_0_0" check="MSK_INT"/>
+		</h3>
+		
+		<h3>
+			<title>Anzahl der in diesem Abschnitt berücksichtigten Personen - Sonstige</title>
+			<form type="text" id="2008_6_2_20_0_0" check="MSK_INT"/>
+		</h3>		
+		
+	</h2>
+	
+	<h2>
+		<title>Angestellte im Bereich Pädagogische Betreuung (auch übergreifend)</title>
+		<text>Hinweis: Hier alle Personen angeben, die im Berichtsjahr in Vollzeit oder Teilzeit - auch zeitweise - angestellt waren. Dies kann auch ein Partner des Trägers / der Trägerin sein. (Keine externen Dienstleister!)</text>
+		<h3>
+			<title>Angestellte im Bereich Pädagogische Betreuung</title>
+			<table>
+			<head>
+				<td> </td><td>Geschlecht</td><td>Einrichtung im berichtsjahr verlassen</td><td>Alter im Berichtsjahr</td>
+				<td>Seit welchem Jahr in der Einrichtung tätig?</td><td>Qualifikation/Funktion</td>
+				<td>Stelle: Voll-/Teilzeit in %</td></head>
+			<tr>
+				<td>Mitarbeiter 1</td>
+				<td><form type="radio" id="2008_6_3_1_0_0"><wrt id="30"/><wrt id="31"/></form></td>
+				<td><form type="radio" id="2008_6_3_1_0_1"><wrt id="1"/><wrt id="2"/></form></td>
+				<td><form type="text" id="2008_6_3_1_0_2" check="MSK_INT"/></td>
+				<td><form type="text" id="2008_6_3_1_0_3" check="MSK_INT"/></td>
+				<td><form type="textarea" id="2008_6_3_1_0_4" /></td>
+				<td><form type="text" id="2008_6_3_1_0_5" check="MSK_FLOAT"/></td></tr>
+			<tr>
+				<td>Mitarbeiter 2</td>
+				<td><form type="radio" id="2008_6_3_1_1_0"><wrt id="30"/><wrt id="31"/></form></td>
+				<td><form type="radio" id="2008_6_3_1_1_1"><wrt id="1"/><wrt id="2"/></form></td>
+				<td><form type="text" id="2008_6_3_1_1_2" check="MSK_INT"/></td>
+				<td><form type="text" id="2008_6_3_1_1_3" check="MSK_INT"/></td>
+				<td><form type="textarea" id="2008_6_3_1_1_4" /></td>
+				<td><form type="text" id="2008_6_3_1_1_5" check="MSK_FLOAT"/></td></tr>
+			<tr>
+				<td>Mitarbeiter 3</td>
+				<td><form type="radio" id="2008_6_3_1_2_0"><wrt id="30"/><wrt id="31"/></form></td>
+				<td><form type="radio" id="2008_6_3_1_2_1"><wrt id="1"/><wrt id="2"/></form></td>
+				<td><form type="text" id="2008_6_3_1_2_2" check="MSK_INT"/></td>
+				<td><form type="text" id="2008_6_3_1_2_3" check="MSK_INT"/></td>
+				<td><form type="textarea" id="2008_6_3_1_2_4" /></td>
+				<td><form type="text" id="2008_6_3_1_2_5" check="MSK_FLOAT"/></td></tr>
+			<tr>
+				<td>Mitarbeiter 4</td>
+				<td><form type="radio" id="2008_6_3_1_3_0"><wrt id="30"/><wrt id="31"/></form></td>
+				<td><form type="radio" id="2008_6_3_1_3_1"><wrt id="1"/><wrt id="2"/></form></td>
+				<td><form type="text" id="2008_6_3_1_3_2" check="MSK_INT"/></td>
+				<td><form type="text" id="2008_6_3_1_3_3" check="MSK_INT"/></td>
+				<td><form type="textarea" id="2008_6_3_1_3_4" /></td>
+				<td><form type="text" id="2008_6_3_1_3_5" check="MSK_FLOAT"/></td></tr>
+			<tr>
+				<td>Mitarbeiter 5</td>
+				<td><form type="radio" id="2008_6_3_1_4_0"><wrt id="30"/><wrt id="31"/></form></td>
+				<td><form type="radio" id="2008_6_3_1_4_1"><wrt id="1"/><wrt id="2"/></form></td>
+				<td><form type="text" id="2008_6_3_1_4_2" check="MSK_INT"/></td>
+				<td><form type="text" id="2008_6_3_1_4_3" check="MSK_INT"/></td>
+				<td><form type="textarea" id="2008_6_3_1_4_4" /></td>
+				<td><form type="text" id="2008_6_3_1_4_5" check="MSK_FLOAT"/></td></tr>
+			<tr>
+				<td>Mitarbeiter 6</td>
+				<td><form type="radio" id="2008_6_3_1_5_0"><wrt id="30"/><wrt id="31"/></form></td>
+				<td><form type="radio" id="2008_6_3_1_5_1"><wrt id="1"/><wrt id="2"/></form></td>
+				<td><form type="text" id="2008_6_3_1_5_2" check="MSK_INT"/></td>
+				<td><form type="text" id="2008_6_3_1_5_3" check="MSK_INT"/></td>
+				<td><form type="textarea" id="2008_6_3_1_5_4" /></td>
+				<td><form type="text" id="2008_6_3_1_5_5" check="MSK_FLOAT"/></td></tr>
+			<tr>
+				<td>Mitarbeiter 7</td>
+				<td><form type="radio" id="2008_6_3_1_6_0"><wrt id="30"/><wrt id="31"/></form></td>
+				<td><form type="radio" id="2008_6_3_1_6_1"><wrt id="1"/><wrt id="2"/></form></td>
+				<td><form type="text" id="2008_6_3_1_6_2" check="MSK_INT"/></td>
+				<td><form type="text" id="2008_6_3_1_6_3" check="MSK_INT"/></td>
+				<td><form type="textarea" id="2008_6_3_1_6_4" /></td>
+				<td><form type="text" id="2008_6_3_1_6_5" check="MSK_FLOAT"/></td></tr>
+			<tr>
+				<td>Mitarbeiter 8</td>
+				<td><form type="radio" id="2008_6_3_1_7_0"><wrt id="30"/><wrt id="31"/></form></td>
+				<td><form type="radio" id="2008_6_3_1_7_1"><wrt id="1"/><wrt id="2"/></form></td>
+				<td><form type="text" id="2008_6_3_1_7_2" check="MSK_INT"/></td>
+				<td><form type="text" id="2008_6_3_1_7_3" check="MSK_INT"/></td>
+				<td><form type="textarea" id="2008_6_3_1_7_4" /></td>
+				<td><form type="text" id="2008_6_3_1_7_5" check="MSK_FLOAT"/></td></tr>
+			<tr>
+				<td>Mitarbeiter 9</td>
+				<td><form type="radio" id="2008_6_3_1_8_0"><wrt id="30"/><wrt id="31"/></form></td>
+				<td><form type="radio" id="2008_6_3_1_8_1"><wrt id="1"/><wrt id="2"/></form></td>
+				<td><form type="text" id="2008_6_3_1_8_2" check="MSK_INT"/></td>
+				<td><form type="text" id="2008_6_3_1_8_3" check="MSK_INT"/></td>
+				<td><form type="textarea" id="2008_6_3_1_8_4" /></td>
+				<td><form type="text" id="2008_6_3_1_8_5" check="MSK_FLOAT"/></td></tr>
+			<tr>
+				<td>Mitarbeiter 10</td>
+				<td><form type="radio" id="2008_6_3_1_9_0"><wrt id="30"/><wrt id="31"/></form></td>
+				<td><form type="radio" id="2008_6_3_1_9_1"><wrt id="1"/><wrt id="2"/></form></td>
+				<td><form type="text" id="2008_6_3_1_9_2" check="MSK_INT"/></td>
+				<td><form type="text" id="2008_6_3_1_9_3" check="MSK_INT"/></td>
+				<td><form type="textarea" id="2008_6_3_1_9_4" /></td>
+				<td><form type="text" id="2008_6_3_1_9_5" check="MSK_FLOAT"/></td></tr>			
+			
+			</table>
+		</h3>
+	</h2>
+	
+	
+	<h2>
+		<title>Angestellte in den Bereichen Verwaltung, Hauswirtschaft und Technik</title>
+		<text>Hinweis: Hier alle Personen angeben, die im Berichtsjahr in Vollzeit oder Teilzeit angestellt waren.</text>
+		<h3>
+			<title>Angestellte in den Bereichen Verwaltung, Hauswirtschaft und Technik</title>
+			<table>
+			<head>
+				<td> </td><td>Geschlecht</td><td>Einrichtung im berichtsjahr verlassen</td><td>Alter im Berichtsjahr</td>
+				<td>Seit welchem Jahr in der Einrichtung tätig?</td><td>Qualifikation/Funktion</td>
+				<td>Stelle: Voll-/Teilzeit in %</td></head>
+			<tr>
+				<td>Mitarbeiter 1</td>
+				<td><form type="radio" id="2008_6_4_1_0_0"><wrt id="30"/><wrt id="31"/></form></td>
+				<td><form type="radio" id="2008_6_4_1_0_1"><wrt id="1"/><wrt id="2"/></form></td>
+				<td><form type="text" id="2008_6_4_1_0_2" check="MSK_INT"/></td>
+				<td><form type="text" id="2008_6_4_1_0_3" check="MSK_INT"/></td>
+				<td><form type="textarea" id="2008_6_4_1_0_4" /></td>
+				<td><form type="text" id="2008_6_4_1_0_5" check="MSK_FLOAT"/></td></tr>
+			<tr>
+				<td>Mitarbeiter 2</td>
+				<td><form type="radio" id="2008_6_4_1_1_0"><wrt id="30"/><wrt id="31"/></form></td>
+				<td><form type="radio" id="2008_6_4_1_1_1"><wrt id="1"/><wrt id="2"/></form></td>
+				<td><form type="text" id="2008_6_4_1_1_2" check="MSK_INT"/></td>
+				<td><form type="text" id="2008_6_4_1_1_3" check="MSK_INT"/></td>
+				<td><form type="textarea" id="2008_6_4_1_1_4" /></td>
+				<td><form type="text" id="2008_6_4_1_1_5" check="MSK_FLOAT"/></td></tr>
+			<tr>
+				<td>Mitarbeiter 3</td>
+				<td><form type="radio" id="2008_6_4_1_2_0"><wrt id="30"/><wrt id="31"/></form></td>
+				<td><form type="radio" id="2008_6_4_1_2_1"><wrt id="1"/><wrt id="2"/></form></td>
+				<td><form type="text" id="2008_6_4_1_2_2" check="MSK_INT"/></td>
+				<td><form type="text" id="2008_6_4_1_2_3" check="MSK_INT"/></td>
+				<td><form type="textarea" id="2008_6_4_1_2_4" /></td>
+				<td><form type="text" id="2008_6_4_1_2_5" check="MSK_FLOAT"/></td></tr>
+			<tr>
+				<td>Mitarbeiter 4</td>
+				<td><form type="radio" id="2008_6_4_1_3_0"><wrt id="30"/><wrt id="31"/></form></td>
+				<td><form type="radio" id="2008_6_4_1_3_1"><wrt id="1"/><wrt id="2"/></form></td>
+				<td><form type="text" id="2008_6_4_1_3_2" check="MSK_INT"/></td>
+				<td><form type="text" id="2008_6_4_1_3_3" check="MSK_INT"/></td>
+				<td><form type="textarea" id="2008_6_4_1_3_4" /></td>
+				<td><form type="text" id="2008_6_4_1_3_5" check="MSK_FLOAT"/></td></tr>
+			<tr>
+				<td>Mitarbeiter 5</td>
+				<td><form type="radio" id="2008_6_4_1_4_0"><wrt id="30"/><wrt id="31"/></form></td>
+				<td><form type="radio" id="2008_6_4_1_4_1"><wrt id="1"/><wrt id="2"/></form></td>
+				<td><form type="text" id="2008_6_4_1_4_2" check="MSK_INT"/></td>
+				<td><form type="text" id="2008_6_4_1_4_3" check="MSK_INT"/></td>
+				<td><form type="textarea" id="2008_6_4_1_4_4" /></td>
+				<td><form type="text" id="2008_6_4_1_4_5" check="MSK_FLOAT"/></td></tr>
+			<tr>
+				<td>Mitarbeiter 6</td>
+				<td><form type="radio" id="2008_6_4_1_5_0"><wrt id="30"/><wrt id="31"/></form></td>
+				<td><form type="radio" id="2008_6_4_1_5_1"><wrt id="1"/><wrt id="2"/></form></td>
+				<td><form type="text" id="2008_6_4_1_5_2" check="MSK_INT"/></td>
+				<td><form type="text" id="2008_6_4_1_5_3" check="MSK_INT"/></td>
+				<td><form type="textarea" id="2008_6_4_1_5_4" /></td>
+				<td><form type="text" id="2008_6_4_1_5_5" check="MSK_FLOAT"/></td></tr>
+			<tr>
+				<td>Mitarbeiter 7</td>
+				<td><form type="radio" id="2008_6_4_1_6_0"><wrt id="30"/><wrt id="31"/></form></td>
+				<td><form type="radio" id="2008_6_4_1_6_1"><wrt id="1"/><wrt id="2"/></form></td>
+				<td><form type="text" id="2008_6_4_1_6_2" check="MSK_INT"/></td>
+				<td><form type="text" id="2008_6_4_1_6_3" check="MSK_INT"/></td>
+				<td><form type="textarea" id="2008_6_4_1_6_4" /></td>
+				<td><form type="text" id="2008_6_4_1_6_5" check="MSK_FLOAT"/></td></tr>
+			<tr>
+				<td>Mitarbeiter 8</td>
+				<td><form type="radio" id="2008_6_4_1_7_0"><wrt id="30"/><wrt id="31"/></form></td>
+				<td><form type="radio" id="2008_6_4_1_7_1"><wrt id="1"/><wrt id="2"/></form></td>
+				<td><form type="text" id="2008_6_4_1_7_2" check="MSK_INT"/></td>
+				<td><form type="text" id="2008_6_4_1_7_3" check="MSK_INT"/></td>
+				<td><form type="textarea" id="2008_6_4_1_7_4" /></td>
+				<td><form type="text" id="2008_6_4_1_7_5" check="MSK_FLOAT"/></td></tr>
+			<tr>
+				<td>Mitarbeiter 9</td>
+				<td><form type="radio" id="2008_6_4_1_8_0"><wrt id="30"/><wrt id="31"/></form></td>
+				<td><form type="radio" id="2008_6_4_1_8_1"><wrt id="1"/><wrt id="2"/></form></td>
+				<td><form type="text" id="2008_6_4_1_8_2" check="MSK_INT"/></td>
+				<td><form type="text" id="2008_6_4_1_8_3" check="MSK_INT"/></td>
+				<td><form type="textarea" id="2008_6_4_1_8_4" /></td>
+				<td><form type="text" id="2008_6_4_1_8_5" check="MSK_FLOAT"/></td></tr>
+			<tr>
+				<td>Mitarbeiter 10</td>
+				<td><form type="radio" id="2008_6_4_1_9_0"><wrt id="30"/><wrt id="31"/></form></td>
+				<td><form type="radio" id="2008_6_4_1_9_1"><wrt id="1"/><wrt id="2"/></form></td>
+				<td><form type="text" id="2008_6_4_1_9_2" check="MSK_INT"/></td>
+				<td><form type="text" id="2008_6_4_1_9_3" check="MSK_INT"/></td>
+				<td><form type="textarea" id="2008_6_4_1_9_4" /></td>
+				<td><form type="text" id="2008_6_4_1_9_5" check="MSK_FLOAT"/></td></tr>			
+			
+			</table>
+		</h3>
+	</h2>
+	
+	<h2>
+		<title>Anregungen</title>
+		<h3>
+			<title>Welche Anregungen und Wünsche haben Sie bezüglich des Punktes</title>
+			<form type="textarea" id="2008_6_5_1_0_0" />
+		</h3>
+	</h2>
+	
+	<h2>
+		<title>Fragen zur Fluktuation</title>
+		<text>Falls pädagogische MA, die im stationären Bereich tätig waren, im Berichtsjahr die Einrichtung verlassen haben, bitte hierfür die Gründe angeben</text>
+		<h3>
+			<title>Gründe</title>
+			<form type="textarea" id="2008_6_6_1_0_0" />
+		</h3>
+	</h2>
+	
+	
+	<h2>
+		<title>Fragen zur Vergütung</title>
+		<text>Hinweis: Zur verlässlichen Vergleichbarkeit von Gehältern für pädagogische MitarbeiterInnen sollen im Folgenden Jahresbruttogehälter (exclusiv Arbeitgeberanteile) angegeben werden, die für pädagogische MitarbeiterInnen im Berichtsjahr bezahlt worden sind. Geben Sie bitte den Betrag an, den Ihre MitarbeiterInnen insgesamt im Berichtsjahr brutto verdient haben, also einschließlich Urlaubsgeld, Weihnachtsgeld, allen Zulagen, VWL, Altersversorgung, Prämien und sonstigen Gratifikationen. (Bitte befragen Sie ggf. dazu Ihr Lohnbüro.) Um die Vergleichbarkeit zu gewähren, sollen nur MitarbeiterInnen in die Auflistung eingehen, die Vollzeitkräfte sind und das ganze Berichtsjahr bei Ihnen gearbeitet haben. Achtung: Bitte keine Honorare für Ãœberstunden mit einrechnen!</text>
+		<h3>
+			<title>Fragen zur Vergütung</title>
+			<table>
+				<head>
+					<td> </td><td>Geschlecht</td><td>Familienstand</td><td>Alter</td>
+					<td>Berufserfahrung (pädagogische Berufe in Jahren)</td><td>Anzahl Kinder</td>
+					<td>Qualifikation</td><td>Jahresbruttogehalt im Berichtsjahr in EUR</td></head>
+				<tr><td>Mitarbeiter 1</td>
+					<td><form type="radio" id="2008_6_7_1_0_0"><wrt id="30"/><wrt id="31"/></form></td>
+					<td><form type="radio" id="2008_6_7_1_0_1"><wrt id="40"/><wrt id="41"/></form></td>
+					<td><form type="text" id="2008_6_7_1_0_2" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_6_7_1_0_3" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_6_7_1_0_4" check="MSK_INT"/></td>
+					<td><form type="textarea" id="2008_6_7_1_0_5" /></td>
+					<td><form type="text" id="2008_6_7_1_0_6" check="MSK_FLOAT"/></td></tr>
+				<tr><td>Mitarbeiter 2</td>
+					<td><form type="radio" id="2008_6_7_1_1_0"><wrt id="30"/><wrt id="31"/></form></td>
+					<td><form type="radio" id="2008_6_7_1_1_1"><wrt id="40"/><wrt id="41"/></form></td>
+					<td><form type="text" id="2008_6_7_1_1_2" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_6_7_1_1_3" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_6_7_1_1_4" check="MSK_INT"/></td>
+					<td><form type="textarea" id="2008_6_7_1_1_5" /></td>
+					<td><form type="text" id="2008_6_7_1_1_6" check="MSK_FLOAT"/></td></tr>
+				<tr><td>Mitarbeiter 3</td>
+					<td><form type="radio" id="2008_6_7_1_2_0"><wrt id="30"/><wrt id="31"/></form></td>
+					<td><form type="radio" id="2008_6_7_1_2_1"><wrt id="40"/><wrt id="41"/></form></td>
+					<td><form type="text" id="2008_6_7_1_2_2" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_6_7_1_2_3" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_6_7_1_2_4" check="MSK_INT"/></td>
+					<td><form type="textarea" id="2008_6_7_1_2_5" /></td>
+					<td><form type="text" id="2008_6_7_1_2_6" check="MSK_FLOAT"/></td></tr>
+				<tr><td>Mitarbeiter 4</td>
+					<td><form type="radio" id="2008_6_7_1_3_0"><wrt id="30"/><wrt id="31"/></form></td>
+					<td><form type="radio" id="2008_6_7_1_3_1"><wrt id="40"/><wrt id="41"/></form></td>
+					<td><form type="text" id="2008_6_7_1_3_2" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_6_7_1_3_3" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_6_7_1_3_4" check="MSK_INT"/></td>
+					<td><form type="textarea" id="2008_6_7_1_3_5" /></td>
+					<td><form type="text" id="2008_6_7_1_3_6" check="MSK_FLOAT"/></td></tr>
+				<tr><td>Mitarbeiter 5</td>
+					<td><form type="radio" id="2008_6_7_1_4_0"><wrt id="30"/><wrt id="31"/></form></td>
+					<td><form type="radio" id="2008_6_7_1_4_1"><wrt id="40"/><wrt id="41"/></form></td>
+					<td><form type="text" id="2008_6_7_1_4_2" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_6_7_1_4_3" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_6_7_1_4_4" check="MSK_INT"/></td>
+					<td><form type="textarea" id="2008_6_7_1_4_5" /></td>
+					<td><form type="text" id="2008_6_7_1_4_6" check="MSK_FLOAT"/></td></tr>
+				<tr><td>Mitarbeiter 6</td>
+					<td><form type="radio" id="2008_6_7_1_5_0"><wrt id="30"/><wrt id="31"/></form></td>
+					<td><form type="radio" id="2008_6_7_1_5_1"><wrt id="40"/><wrt id="41"/></form></td>
+					<td><form type="text" id="2008_6_7_1_5_2" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_6_7_1_5_3" check="MSK_INT"/></td>
+					<td><form type="text" id="2008_6_7_1_5_4" check="MSK_INT"/></td>
+					<td><form type="textarea" id="2008_6_7_1_5_5" /></td>
+					<td><form type="text" id="2008_6_7_1_5_6" check="MSK_FLOAT"/></td></tr>
+			</table>
+		</h3>
+	</h2>
+	
+	<h2>
+		<title>Honorarkräfte und externe Dienstleister</title>
+		<text>Angaben nur zu Kräften, die Sie aus eigenem Etat bezahlen</text>
+		<h3>
+			<title>Honorarkräfte und externe Dienstleister</title>
+			<table>
+				<head>
+					<td> </td><td>Geschlecht</td><td>Wie viele Jahre bereits in/für die Einrichtung tätig?</td>
+					<td>Funktion</td><td>Qualifikation</td><td>Besonderheiten der Tätigkeit</td>
+					<td>Arbeitszeit in Stunden pro Monat</td><td>Stundenhonorar in EUR</td></head>
+				<tr>
+					<td>Honorarkraft 1</td>
+					<td><form type="radio" id="2008_6_8_1_0_0"><wrt id="30"/><wrt id="31"/></form></td>
+					<td><form type="text" id="2008_6_8_1_0_1" check="MSK_INT"/></td>
+					<td><form type="textarea" id="2008_6_8_1_0_2" /></td>
+					<td><form type="textarea" id="2008_6_8_1_0_3" /></td>
+					<td><form type="textarea" id="2008_6_8_1_0_4" /></td>
+					<td><form type="text" id="2008_6_8_1_0_5" check="MSK_FLOAT"/></td>
+					<td><form type="text" id="2008_6_8_1_0_6" check="MSK_FLOAT"/></td></tr>
+				<tr>
+					<td>Honorarkraft 2</td>
+					<td><form type="radio" id="2008_6_8_1_1_0"><wrt id="30"/><wrt id="31"/></form></td>
+					<td><form type="text" id="2008_6_8_1_1_1" check="MSK_INT"/></td>
+					<td><form type="textarea" id="2008_6_8_1_1_2" /></td>
+					<td><form type="textarea" id="2008_6_8_1_1_3" /></td>
+					<td><form type="textarea" id="2008_6_8_1_1_4" /></td>
+					<td><form type="text" id="2008_6_8_1_1_5" check="MSK_FLOAT"/></td>
+					<td><form type="text" id="2008_6_8_1_1_6" check="MSK_FLOAT"/></td></tr>
+				<tr>
+					<td>Honorarkraft 3</td>
+					<td><form type="radio" id="2008_6_8_1_2_0"><wrt id="30"/><wrt id="31"/></form></td>
+					<td><form type="text" id="2008_6_8_1_2_1" check="MSK_INT"/></td>
+					<td><form type="textarea" id="2008_6_8_1_2_2" /></td>
+					<td><form type="textarea" id="2008_6_8_1_2_3" /></td>
+					<td><form type="textarea" id="2008_6_8_1_2_4" /></td>
+					<td><form type="text" id="2008_6_8_1_2_5" check="MSK_FLOAT"/></td>
+					<td><form type="text" id="2008_6_8_1_2_6" check="MSK_FLOAT"/></td></tr>
+				<tr>
+					<td>Honorarkraft 4</td>
+					<td><form type="radio" id="2008_6_8_1_3_0"><wrt id="30"/><wrt id="31"/></form></td>
+					<td><form type="text" id="2008_6_8_1_3_1" check="MSK_INT"/></td>
+					<td><form type="textarea" id="2008_6_8_1_3_2" /></td>
+					<td><form type="textarea" id="2008_6_8_1_3_3" /></td>
+					<td><form type="textarea" id="2008_6_8_1_3_4" /></td>
+					<td><form type="text" id="2008_6_8_1_3_5" check="MSK_FLOAT"/></td>
+					<td><form type="text" id="2008_6_8_1_3_6" check="MSK_FLOAT"/></td></tr>
+				<tr>
+					<td>Honorarkraft 5</td>
+					<td><form type="radio" id="2008_6_8_1_4_0"><wrt id="30"/><wrt id="31"/></form></td>
+					<td><form type="text" id="2008_6_8_1_4_1" check="MSK_INT"/></td>
+					<td><form type="textarea" id="2008_6_8_1_4_2" /></td>
+					<td><form type="textarea" id="2008_6_8_1_4_3" /></td>
+					<td><form type="textarea" id="2008_6_8_1_4_4" /></td>
+					<td><form type="text" id="2008_6_8_1_4_5" check="MSK_FLOAT"/></td>
+					<td><form type="text" id="2008_6_8_1_4_6" check="MSK_FLOAT"/></td></tr>
+				<tr>
+					<td>Honorarkraft 6</td>
+					<td><form type="radio" id="2008_6_8_1_5_0"><wrt id="30"/><wrt id="31"/></form></td>
+					<td><form type="text" id="2008_6_8_1_5_1" check="MSK_INT"/></td>
+					<td><form type="textarea" id="2008_6_8_1_5_2" /></td>
+					<td><form type="textarea" id="2008_6_8_1_5_3" /></td>
+					<td><form type="textarea" id="2008_6_8_1_5_4" /></td>
+					<td><form type="text" id="2008_6_8_1_5_5" check="MSK_FLOAT"/></td>
+					<td><form type="text" id="2008_6_8_1_5_6" check="MSK_FLOAT"/></td></tr>
+				<tr>
+					<td>Honorarkraft 7</td>
+					<td><form type="radio" id="2008_6_8_1_6_0"><wrt id="30"/><wrt id="31"/></form></td>
+					<td><form type="text" id="2008_6_8_1_6_1" check="MSK_INT"/></td>
+					<td><form type="textarea" id="2008_6_8_1_6_2" /></td>
+					<td><form type="textarea" id="2008_6_8_1_6_3" /></td>
+					<td><form type="textarea" id="2008_6_8_1_6_4" /></td>
+					<td><form type="text" id="2008_6_8_1_6_5" check="MSK_FLOAT"/></td>
+					<td><form type="text" id="2008_6_8_1_6_6" check="MSK_FLOAT"/></td></tr>				
+			</table>
+		</h3>
+	</h2>
+	
+	
+	<h2>
+		<title>Mitarbeiterbeteiligung</title>
+		<text>Hinweis: Gefragt ist nach allen Formen der Partizipation an Entscheidungen und Festlegungen, die für die Entwicklung der Einrichtung von Bedeutung sind.</text>
+		<h3>
+			<title>Wie wird bei Ihnen MitarbeiterInnenbeteiligung realisiert?</title>
+			<form type="checkbox" id="2008_6_9_1_1_0"><title>Erarbeitung</title></form>		
+			<form type="checkbox" id="2008_6_9_1_2_0"><title>Führungsgespräche mit Zielvereinbarung</title></form>
+			<form type="checkbox" id="2008_6_9_1_3_0"><title>Informierung/Anleitung</title></form>
+			<form type="checkbox" id="2008_6_9_1_4_0"><title>Supervision</title></form>
+			<form type="checkbox" id="2008_6_9_1_5_0"><title>Beauftragte bzw. Sprecher- innen</title></form>
+			<form type="checkbox" id="2008_6_9_1_6_0"><title>Erstellung von Dienst-, Arbeitsplänen</title></form>
+			<form type="checkbox" id="2008_6_9_1_7_0"><title>Festlegung von Standards</title></form>
+			<form type="checkbox" id="2008_6_9_1_8_0"><title>Führungsgespräche (ohne Zielvereinbarung)</title></form>
+			<form type="checkbox" id="2008_6_9_1_9_0"><title>MA-Gespräche (informell)</title></form>
+			<form type="checkbox" id="2008_6_9_1_10_0"><title>Qualitätszirkel (spez. Arbeitsgruppen)</title></form>
+			<form type="checkbox" id="2008_6_9_1_1_0"><title>Teamgespräche (allgemein)</title></form>
+		</h3>
+		
+		<h3>
+			<title>An welchen Prozessen werden Ihre Mitarbeiter beteiligt?</title>
+			<form type="checkbox" id="2008_6_9_2_1_0"><title>Arbeitsplatzbeschreibung</title></form>
+			<form type="checkbox" id="2008_6_9_2_2_0"><title>Aufnahme von K+J</title></form>
+			<form type="checkbox" id="2008_6_9_2_3_0"><title>Berichtswesen</title></form>
+			<form type="checkbox" id="2008_6_9_2_4_0"><title>Einstellung von MA</title></form>
+			<form type="checkbox" id="2008_6_9_2_5_0"><title>Elternarbeit</title></form>
+			<form type="checkbox" id="2008_6_9_2_6_0"><title>Entlassung von K+J</title></form>
+			<form type="checkbox" id="2008_6_9_2_7_0"><title>Erstellung von Förderplänen etc.</title></form>
+			<form type="checkbox" id="2008_6_9_2_8_0"><title>Gestaltung von Bereichen der Betreuung</title></form>
+			<form type="checkbox" id="2008_6_9_2_9_0"><title>Gestaltung von Bereichen der Außenkontakte</title></form>
+			<form type="checkbox" id="2008_6_9_2_10_0"><title>Hilfeplangespräche</title></form>
+			<form type="checkbox" id="2008_6_9_2_11_0"><title>Hilfeplanung</title></form>
+			<form type="checkbox" id="2008_6_9_2_12_0"><title>Planung von Weiterbildungv</title></form>
+			<form type="checkbox" id="2008_6_9_2_13_0"><title>Urlaubsplanung</title></form>
+		</h3>
+		
+	</h2>
+	
+</h1>
+
+<h1>
+	<title>Qualität pädagogischer Prozesse</title>
+	<h2>
+		<title>Bereiche für pädagogische Intervention</title>
+		<h3>
+			<title>Bereiche für pädagogische Intervention</title>
+			<table>
+			<head>
+			<td> </td><td>Häufigkeit</td><td>Häufigkeit	intensiv betroffene K+J</td>
+			</head>
+				<tr>
+					<td>Der Bereich Hygiene bestimmt unseren</td>
+					<td><form type="select" id="2008_7_1_1_0_0"><wrt id="3" value="0"/><wrt id="50"/><wrt id="51"/><wrt id="52"/><wrt id="53"/><wrt id="54"/></form></td>
+					<td><form type="text" id="2008_7_1_1_0_1" check="MSK_INT"/></td></tr>
+					
+<tr>
+					<td>Der Bereich Umgang mit Geld bestimmt unseren Alltag</td>
+					<td><form type="select" id="2008_7_1_1_1_0"><wrt id="3" value="0"/><wrt id="50"/><wrt id="51"/><wrt id="52"/><wrt id="53"/><wrt id="54"/></form></td>
+					<td><form type="text" id="2008_7_1_1_1_1" check="MSK_INT"/></td></tr>		
+<tr>
+					<td>Der Bereich schulischer Leistungen Schwerpunkt unserer Arbeit</td>
+					<td><form type="select" id="2008_7_1_1_2_0"><wrt id="3" value="0"/><wrt id="50"/><wrt id="51"/><wrt id="52"/><wrt id="53"/><wrt id="54"/></form></td>
+					<td><form type="text" id="2008_7_1_1_2_1" check="MSK_INT"/></td></tr>		
+<tr>
+					<td>Der Bereich Motivation, Arbeitseinstellung Schwerpunkt unserer Arbeit</td>
+					<td><form type="select" id="2008_7_1_1_3_0"><wrt id="3" value="0"/><wrt id="50"/><wrt id="51"/><wrt id="52"/><wrt id="53"/><wrt id="54"/></form></td>
+					<td><form type="text" id="2008_7_1_1_3_1" check="MSK_INT"/></td></tr>		
+<tr>
+					<td>Der Bereich Verhalten im Unterricht ist Schwerpunkt unserer Arbeit</td>
+					<td><form type="select" id="2008_7_1_1_4_0"><wrt id="3" value="0"/><wrt id="50"/><wrt id="51"/><wrt id="52"/><wrt id="53"/><wrt id="54"/></form></td>
+					<td><form type="text" id="2008_7_1_1_4_1" check="MSK_INT"/></td></tr>		
+<tr>
+					<td>Der Bereich beruflicher Leistungen Schwerpunkt unserer Arbeit</td>
+					<td><form type="select" id="2008_7_1_1_5_0"><wrt id="3" value="0"/><wrt id="50"/><wrt id="51"/><wrt id="52"/><wrt id="53"/><wrt id="54"/></form></td>
+					<td><form type="text" id="2008_7_1_1_5_1" check="MSK_INT"/></td></tr>		
+<tr>
+					<td>Der Bereich Motivation, Arbeitseinstellung Schwerpunkt unserer Arbeit</td>
+					<td><form type="select" id="2008_7_1_1_6_0"><wrt id="3" value="0"/><wrt id="50"/><wrt id="51"/><wrt id="52"/><wrt id="53"/><wrt id="54"/></form></td>
+					<td><form type="text" id="2008_7_1_1_6_1" check="MSK_INT"/></td></tr>		
+<tr>
+					<td>Der Bereich Verhalten im Unterricht ist Schwerpunkt unserer Arbeit</td>
+					<td><form type="select" id="2008_7_1_1_7_0"><wrt id="3" value="0"/><wrt id="50"/><wrt id="51"/><wrt id="52"/><wrt id="53"/><wrt id="54"/></form></td>
+					<td><form type="text" id="2008_7_1_1_7_1" check="MSK_INT"/></td></tr>		
+<tr>
+					<td>Der Bereich aggressive Verhaltensweisen ist Schwerpunkt unserer Arbeit</td>
+					<td><form type="select" id="2008_7_1_1_8_0"><wrt id="3" value="0"/><wrt id="50"/><wrt id="51"/><wrt id="52"/><wrt id="53"/><wrt id="54"/></form></td>
+					<td><form type="text" id="2008_7_1_1_8_1" check="MSK_INT"/></td></tr>		
+<tr>
+					<td>Der Bereich Aufmerksamkeitsdefizite ist Schwerpunkt unserer Arbeit</td>
+					<td><form type="select" id="2008_7_1_1_9_0"><wrt id="3" value="0"/><wrt id="50"/><wrt id="51"/><wrt id="52"/><wrt id="53"/><wrt id="54"/></form></td>
+					<td><form type="text" id="2008_7_1_1_9_1" check="MSK_INT"/></td></tr>		
+<tr>
+					<td>Der Bereich delinquentes Verhalten ist Schwerpunkt unserer Arbeit</td>
+					<td><form type="select" id="2008_7_1_1_10_0"><wrt id="3" value="0"/><wrt id="50"/><wrt id="51"/><wrt id="52"/><wrt id="53"/><wrt id="54"/></form></td>
+					<td><form type="text" id="2008_7_1_1_10_1" check="MSK_INT"/></td></tr>		
+<tr>
+					<td>Der Bereich Schulverweigerer / Ausbildungsverweigerer ist Schwerpunkt unserer Arbeit</td>
+					<td><form type="select" id="2008_7_1_1_11_0"><wrt id="3" value="0"/><wrt id="50"/><wrt id="51"/><wrt id="52"/><wrt id="53"/><wrt id="54"/></form></td>
+					<td><form type="text" id="2008_7_1_1_11_1" check="MSK_INT"/></td></tr>		
+<tr>
+					<td>Soziale Integration in das allgemeine Umfeld ist Schwerpunkt unserer Arbeit</td>
+					<td><form type="select" id="2008_7_1_1_12_0"><wrt id="3" value="0"/><wrt id="50"/><wrt id="51"/><wrt id="52"/><wrt id="53"/><wrt id="54"/></form></td>
+					<td><form type="text" id="2008_7_1_1_12_1" check="MSK_INT"/></td></tr>		
+<tr>
+					<td>Soziale Integration in die Einrichtung ist Schwerpunkt unserer Arbeit</td>
+					<td><form type="select" id="2008_7_1_1_13_0"><wrt id="3" value="0"/><wrt id="50"/><wrt id="51"/><wrt id="52"/><wrt id="53"/><wrt id="54"/></form></td>
+					<td><form type="text" id="2008_7_1_1_13_1" check="MSK_INT"/></td></tr>		
+<tr>
+					<td>Soziale Integration in die Schule ist Schwerpunkt unserer Arbeit</td>
+					<td><form type="select" id="2008_7_1_1_14_0"><wrt id="3" value="0"/><wrt id="50"/><wrt id="51"/><wrt id="52"/><wrt id="53"/><wrt id="54"/></form></td>
+					<td><form type="text" id="2008_7_1_1_14_1" check="MSK_INT"/></td></tr>		
+<tr>
+					<td>Handwerkliche Fähigkeiten werden individuell gefördert</td>
+					<td><form type="select" id="2008_7_1_1_15_0"><wrt id="3" value="0"/><wrt id="50"/><wrt id="51"/><wrt id="52"/><wrt id="53"/><wrt id="54"/></form></td>
+					<td><form type="text" id="2008_7_1_1_15_1" check="MSK_INT"/></td></tr>		
+<tr>
+					<td>Künstlerischer Fähigkeiten werden individuell gefördert</td>
+					<td><form type="select" id="2008_7_1_1_16_0"><wrt id="3" value="0"/><wrt id="50"/><wrt id="51"/><wrt id="52"/><wrt id="53"/><wrt id="54"/></form></td>
+					<td><form type="text" id="2008_7_1_1_16_1" check="MSK_INT"/></td></tr>		
+<tr>
+					<td>Sportliche Fähigkeiten werden individuell gefördert</td>
+					<td><form type="select" id="2008_7_1_1_17_0"><wrt id="3" value="0"/><wrt id="50"/><wrt id="51"/><wrt id="52"/><wrt id="53"/><wrt id="54"/></form></td>
+					<td><form type="text" id="2008_7_1_1_17_1" check="MSK_INT"/></td></tr>		
+<tr>
+					<td>Besuche bei Eltern sind</td>
+					<td><form type="select" id="2008_7_1_1_18_0"><wrt id="3" value="0"/><wrt id="50"/><wrt id="51"/><wrt id="52"/><wrt id="53"/><wrt id="54"/></form></td>
+					<td><form type="text" id="2008_7_1_1_18_1" check="MSK_INT"/></td></tr>		
+<tr>
+					<td>Rueckfuehrung ist</td>
+					<td><form type="select" id="2008_7_1_1_19_0"><wrt id="3" value="0"/><wrt id="50"/><wrt id="51"/><wrt id="52"/><wrt id="53"/><wrt id="54"/></form></td>
+					<td><form type="text" id="2008_7_1_1_19_1" check="MSK_INT"/></td></tr>		
+<tr>
+					<td>Eine Aufnahme haben wir</td>
+					<td><form type="select" id="2008_7_1_1_20_0"><wrt id="3" value="0"/><wrt id="50"/><wrt id="51"/><wrt id="52"/><wrt id="53"/><wrt id="54"/></form></td>
+					<td><form type="text" id="2008_7_1_1_20_1" check="MSK_INT"/></td></tr>		
+<tr>
+					<td>Eine Entlassung in eine andere Einrichtung haben wir</td>
+					<td><form type="select" id="2008_7_1_1_21_0"><wrt id="3" value="0"/><wrt id="50"/><wrt id="51"/><wrt id="52"/><wrt id="53"/><wrt id="54"/></form></td>
+					<td><form type="text" id="2008_7_1_1_21_1" check="MSK_INT"/></td></tr>		
+<tr>
+					<td>Eine Entlassung in die Selbstaendigkeit haben wir</td>
+					<td><form type="select" id="2008_7_1_1_22_0"><wrt id="3" value="0"/><wrt id="50"/><wrt id="51"/><wrt id="52"/><wrt id="53"/><wrt id="54"/></form></td>
+					<td><form type="text" id="2008_7_1_1_22_1" check="MSK_INT"/></td></tr>
+			</table>
+		</h3>
+	</h2>
+	
+	<h2>
+		<title>Erfolge Ihrer pädagogischen Prozesse</title>
+		<h3>
+			<title>Erfolge Ihrer pädagogischen Prozesse</title>
+			<text>Bitte geben Sie im Folgenden jeweils an, wie hoch Sie den Erfolg Ihrer Arbeit selbst einschätzen. Dazu wird eine Reihe von Kriterien vorgegeben, die für Ergebnisqualität stehen. Bitte kreuzen Sie an, ob das Kriterium im Berichtsjahr von Bedeutung war - das ist auch dann der Fall, wenn nur ein Kind oder Jugendlicher betroffen war - und schätzen Sie dann auf der Ratingskala Ihren (über alle betroffenen Fälle gemittelten) Erfolg ein. Bitte seien Sie ruhig selbstkritisch, denn nur aus dem Vergleich mit den selbstkritischen Einschätzungen Ihrer Kollegen/Kolleginnen ergeben sich Ihre spezifischen Stärken und Schwächen.</text>
+			<table>
+			<head><td> </td><td>Diesen Erfolg schätze ich selbst ein als:</td></head>
+			<tr>
+				<td>Erfolge Ihrer pädagogischen Prozesse war die Integration in eine Regelschule</td>
+				<td><form type="select" id="2008_7_2_1_0_0"><wrt id="3" value="0"/><wrt id="60"/><wrt id="61"/><wrt id="62"/><wrt id="63"/><wrt id="64"/><wrt id="65"/></form></td></tr>
+			<tr>
+				<td>Erfolge Ihrer pädagogischen Prozesse war die Leistungsstabilsierung</td>
+				<td><form type="select" id="2008_7_2_1_1_0"><wrt id="3" value="0"/><wrt id="60"/><wrt id="61"/><wrt id="62"/><wrt id="63"/><wrt id="64"/><wrt id="65"/></form></td></tr>	
+			<tr>
+				<td>Erfolge Ihrer pädagogischen Prozesse war die berufliche Integration</td>
+				<td><form type="select" id="2008_7_2_1_2_0"><wrt id="3" value="0"/><wrt id="60"/><wrt id="61"/><wrt id="62"/><wrt id="63"/><wrt id="64"/><wrt id="65"/></form></td></tr>	
+			<tr>
+				<td>Erfolge Ihrer pädagogischen Prozesse war die Leistungsstabilisierung</td>
+				<td><form type="select" id="2008_7_2_1_3_0"><wrt id="3" value="0"/><wrt id="60"/><wrt id="61"/><wrt id="62"/><wrt id="63"/><wrt id="64"/><wrt id="65"/></form></td></tr>	
+			<tr>
+				<td>Erfolge Ihrer pädagogischen Prozesse war die soziale Integration</td>
+				<td><form type="select" id="2008_7_2_1_4_0"><wrt id="3" value="0"/><wrt id="60"/><wrt id="61"/><wrt id="62"/><wrt id="63"/><wrt id="64"/><wrt id="65"/></form></td></tr>	
+			<tr>
+				<td>Erfolge Ihrer pädagogischen Prozesse war die Persönlichkeitsentfaltung</td>
+				<td><form type="select" id="2008_7_2_1_5_0"><wrt id="3" value="0"/><wrt id="60"/><wrt id="61"/><wrt id="62"/><wrt id="63"/><wrt id="64"/><wrt id="65"/></form></td></tr>	
+			<tr>
+				<td>Erfolge Ihrer pädagogischen Prozesse war die Aufnahme (z.B. nach Probewohnen)</td>
+				<td><form type="select" id="2008_7_2_1_6_0"><wrt id="3" value="0"/><wrt id="60"/><wrt id="61"/><wrt id="62"/><wrt id="63"/><wrt id="64"/><wrt id="65"/></form></td></tr>	
+			<tr>
+				<td>Erfolge Ihrer pädagogischen Prozesse war die Entlassung (z.B. Verselbstständigung, Reintegration Eltern)</td>
+				<td><form type="select" id="2008_7_2_1_7_0"><wrt id="3" value="0"/><wrt id="60"/><wrt id="61"/><wrt id="62"/><wrt id="63"/><wrt id="64"/><wrt id="65"/></form></td></tr>			
+	
+			</table>
+			
+		</h3>
+	</h2>
+	
+	<h2>
+		<title>Evaluation der pädagogischen Prozesse</title>
+		<h3>
+			<title>Evaluation der pädagogischen Prozesse</title>
+			<text>Bitte geben Sie speziell an, wie und in welchem Maße Sie bei der Steuerung Ihrer Prozesse den Verlauf und die Ergebnisse evaluieren.</text>
+			<table>
+			<head><td> </td><td>Intensität</td></head>
+			<tr>
+				<td>Die Evaluation pädagogischer Prozesse, mittels interner Personen, durch eine Fachkraft, erfolgt ...</td>
+				<td><form type="select" id="2008_7_3_1_0_0"><wrt id="3" value="0"/><wrt id="70"/><wrt id="71"/><wrt id="72"/><wrt id="73"/><wrt id="74"/></form></td></tr>			
+<tr>
+				<td>Die Evaluation pädagogischer Prozesse, mittels interner Personen, durch die Leitung, erfolgt ...</td>
+				<td><form type="select" id="2008_7_3_1_1_0"><wrt id="3" value="0"/><wrt id="70"/><wrt id="71"/><wrt id="72"/><wrt id="73"/><wrt id="74"/></form></td></tr>			
+					
+<tr>
+				<td>Die Evaluation pädagogischer Prozesse, mittels interner Instrumente, wie der Auswertung von Dokumentationen, erfolgt ...</td>
+				<td><form type="select" id="2008_7_3_1_2_0"><wrt id="3" value="0"/><wrt id="70"/><wrt id="71"/><wrt id="72"/><wrt id="73"/><wrt id="74"/></form></td></tr>			
+					
+<tr>
+				<td>Die Evaluation pädagogischer Prozesse, mittels interner Instrumente, wie Bewertungsbögen o. a., erfolgt ...</td>
+				<td><form type="select" id="2008_7_3_1_3_0"><wrt id="3" value="0"/><wrt id="70"/><wrt id="71"/><wrt id="72"/><wrt id="73"/><wrt id="74"/></form></td></tr>			
+					
+<tr>
+				<td>Die Evaluation pädagogischer Prozesse, mittels externer Personen, durch die Einbindung einer Fachkraft (z.B. Therapeut), erfolgt ...</td>
+				<td><form type="select" id="2008_7_3_1_4_0"><wrt id="3" value="0"/><wrt id="70"/><wrt id="71"/><wrt id="72"/><wrt id="73"/><wrt id="74"/></form></td></tr>			
+					
+<tr>
+				<td>Die Evaluation pädagogischer Prozesse, mittels externer Personen, durch die Einbindung von Spezialist/in (Arzt, Psychologe), erfolgt ...</td>
+				<td><form type="select" id="2008_7_3_1_5_0"><wrt id="3" value="0"/><wrt id="70"/><wrt id="71"/><wrt id="72"/><wrt id="73"/><wrt id="74"/></form></td></tr>			
+					
+<tr>
+				<td>Die Evaluation pädagogischer Prozesse, mittels externer Organisationen, wie Jugendamt (z. B. mittels Fragebogen), erfolgt ...</td>
+				<td><form type="select" id="2008_7_3_1_6_0"><wrt id="3" value="0"/><wrt id="70"/><wrt id="71"/><wrt id="72"/><wrt id="73"/><wrt id="74"/></form></td></tr>			
+					
+<tr>
+				<td>Die Evaluation pädagogischer Prozesse, mittels Benchmarking, erfolgt ...</td>
+				<td><form type="select" id="2008_7_3_1_7_0"><wrt id="3" value="0"/><wrt id="70"/><wrt id="71"/><wrt id="72"/><wrt id="73"/><wrt id="74"/></form></td></tr>			
+					
+<tr>
+				<td>Die Evaluation pädagogischer Prozesse, mittels verbandseigenem Qualitätsmanagement - Audit, erfolgt ...</td>
+				<td><form type="select" id="2008_7_3_1_8_0"><wrt id="3" value="0"/><wrt id="70"/><wrt id="71"/><wrt id="72"/><wrt id="73"/><wrt id="74"/></form></td></tr>			
+					
+<tr>
+				<td>Die Evaluation pädagogischer Prozesse, mittels externer Organisationen, wie der Schule (z. B. Einbindung in Einrichtung), erfolgt ...</td>
+				<td><form type="select" id="2008_7_3_1_9_0"><wrt id="3" value="0"/><wrt id="70"/><wrt id="71"/><wrt id="72"/><wrt id="73"/><wrt id="74"/></form></td></tr>			
+				
+			</table>
+		</h3>
+		
+	</h2>
+	
+	<h2>
+		<title>Krisenprävention</title>
+		<h3>
+			<title>Vorgehensweisen zur Krisenprävention</title>
+			<text>Bitte geben Sie an, welche Arbeitsformen, Techniken und in Ihrer Einrichtung vorwiegend einsetzen:</text>
+			<form type="textarea" id="2008_7_4_1_0_0"/>
+		</h3>
+	</h2>
+	
+	<h2>
+		<title>Pädagogische Ansätze</title>
+		<h3>
+			<title>Wir arbeiten mit folgenden pädagogischen Ansätzen:</title>
+			<text>Bitte tragen Sie hier weitere, noch nicht aufgeführte, pädagogischen Ansätze ein, nach denen Sie in Ihrer Einrichtung vorwiegend arbeiten und die somit Ihren pädagogischen Alltag bestimmen.</text>
+			<form type="textarea" id="2008_7_5_2_0_0"/>
+		</h3>
+		
+		<h3>
+			<title>Nach welchen pädagogischen Ansätzen arbeiten Sie vorwiegend?</title>
+			<text>Bitte kreuzen Sie aus der nachfolgenden Liste diejenigen pädagogischen Ansatze an, nach denen Sie in Ihrer Einrichtung vorwiegend arbeiten und die somit Ihren pädagogischen Alltag bestimmen (Mehrfachnennungen möglich).</text>
+			<form type="checkbox" id="2008_7_5_1_0_0"><title>familienanalog, -orientiert, -nah etc.</title></form>
+			<form type="checkbox" id="2008_7_5_1_1_0"><title>Herstellen/Anbieten von Beziehungen</title></form>
+			<form type="checkbox" id="2008_7_5_1_2_0"><title>Lernen am Modell (authentisches Verhalten vorleben)</title></form>
+			<form type="checkbox" id="2008_7_5_1_3_0"><title>Lösungs-/Ressorcenorientiert</title></form>
+			<form type="checkbox" id="2008_7_5_1_4_0"><title>Projektorientiert</title></form>
+			<form type="checkbox" id="2008_7_5_1_5_0"><title>systemisch</title></form>
+		</h3>
+	</h2>
+	
+	<h2>
+		<title>Pädagogische Arbeitsformen, Techniken und Vorgehensweisen</title>
+		<h3>
+			<title>Mit welchen Verfahren zur Analyse, Diagnostik und Kasuistik arbeiten Sie in der Regel (z.B. Genogramm, Testverfahren etc.)?</title>
+			<form type="textarea" id="2008_7_6_2_0_0"/>
+		</h3>
+		
+		<h3>
+			<title>Pädagogische Arbeitsformen, Techniken und Vorgehensweisen</title>
+			<text>Gemeint sind nur Arbeitsformen, Techniken und Vorgehensweisen, die mit pädagogischer Zielsetzung eingesetzt werden, d.h. zur Realisierung und Unterstützung pädagogischer Prozesse, zur Lösung von Konflikten etc. In der rechten Spalte bewerten Sie auf der Ratingskala bitte alle Arbeitsformen, Techniken und Vorgehensweisen im Hinblick auf die Bedeutung, die sie in der Regel in Ihrer Einrichtung für den Erfolg der pädagogischen Prozesse haben.</text>
+			<table>
+				<head><td> </td><td>Die Bedeutung im Allgemeinen für unsere pädagogischen Prozesse</td></head>
+				<tr>
+					<td>Wir arbeiten in der Regel mit Einzelbetreuung durch externe MitarbeiterInnen</td>
+					<td><form type="select" id="2008_7_6_1_0_0"><wrt id="3" value="0"/><wrt id="80"/><wrt id="81"/><wrt id="82"/><wrt id="83"/><wrt id="84"/></form></td></tr>
+			
+				<tr>
+					<td>Wir arbeiten in der Regel mit Einzelbetreuung durch interne MitarbeiterInnen</td>
+					<td><form type="select" id="2008_7_6_1_1_0"><wrt id="3" value="0"/><wrt id="80"/><wrt id="81"/><wrt id="82"/><wrt id="83"/><wrt id="84"/></form></td></tr>
+				
+				<tr>
+					<td>Wir arbeiten in der Regel mit Gesprächen mit einzelnen Kindern und Jugendlichen</td>
+					<td><form type="select" id="2008_7_6_1_2_0"><wrt id="3" value="0"/><wrt id="80"/><wrt id="81"/><wrt id="82"/><wrt id="83"/><wrt id="84"/></form></td></tr>
+				
+				<tr>
+					<td>Wir arbeiten in der Regel mit Gesprächen mit einzelnen Kindern und Jugendlichen</td>
+					<td><form type="select" id="2008_7_6_1_3_0"><wrt id="3" value="0"/><wrt id="80"/><wrt id="81"/><wrt id="82"/><wrt id="83"/><wrt id="84"/></form></td></tr>
+				
+				<tr>
+					<td>Wir arbeiten in der Regel mit Gruppengesprächen mit Kindern und Jugendlichen</td>
+					<td><form type="select" id="2008_7_6_1_4_0"><wrt id="3" value="0"/><wrt id="80"/><wrt id="81"/><wrt id="82"/><wrt id="83"/><wrt id="84"/></form></td></tr>
+				
+				<tr>
+					<td>Wir arbeiten in der Regel mit eigenen Freizeitkursen</td>
+					<td><form type="select" id="2008_7_6_1_5_0"><wrt id="3" value="0"/><wrt id="80"/><wrt id="81"/><wrt id="82"/><wrt id="83"/><wrt id="84"/></form></td></tr>
+				
+				<tr>
+					<td>Wir arbeiten in der Regel mit Einsatz von Gross-Tieren</td>
+					<td><form type="select" id="2008_7_6_1_6_0"><wrt id="3" value="0"/><wrt id="80"/><wrt id="81"/><wrt id="82"/><wrt id="83"/><wrt id="84"/></form></td></tr>
+				
+				<tr>
+					<td>Wir arbeiten in der Regel mit Einsatz von Klein-Tieren</td>
+					<td><form type="select" id="2008_7_6_1_7_0"><wrt id="3" value="0"/><wrt id="80"/><wrt id="81"/><wrt id="82"/><wrt id="83"/><wrt id="84"/></form></td></tr>
+				
+				<tr>
+					<td>Wir arbeiten in der Regel mit Erlebnispädagogik</td>
+					<td><form type="select" id="2008_7_6_1_8_0"><wrt id="3" value="0"/><wrt id="80"/><wrt id="81"/><wrt id="82"/><wrt id="83"/><wrt id="84"/></form></td></tr>
+				
+				<tr>
+					<td>Wir arbeiten in der Regel mit Ferienfahrten</td>
+					<td><form type="select" id="2008_7_6_1_9_0"><wrt id="3" value="0"/><wrt id="80"/><wrt id="81"/><wrt id="82"/><wrt id="83"/><wrt id="84"/></form></td></tr>
+				
+				<tr>
+					<td>Wir arbeiten in der Regel mit Wochenendfahrten</td>
+					<td><form type="select" id="2008_7_6_1_10_0"><wrt id="3" value="0"/><wrt id="80"/><wrt id="81"/><wrt id="82"/><wrt id="83"/><wrt id="84"/></form></td></tr>
+				
+				<tr>
+					<td>Wir arbeiten in der Regel mi Vereinsmitgliedschaften</td>
+					<td><form type="select" id="2008_7_6_1_11_0"><wrt id="3" value="0"/><wrt id="80"/><wrt id="81"/><wrt id="82"/><wrt id="83"/><wrt id="84"/></form></td></tr>
+				
+				<tr>
+					<td>Wir arbeiten in der Regel mit Gewaltberatung</td>
+					<td><form type="select" id="2008_7_6_1_12_0"><wrt id="3" value="0"/><wrt id="80"/><wrt id="81"/><wrt id="82"/><wrt id="83"/><wrt id="84"/></form></td></tr>
+				
+				<tr>
+					<td>Wir arbeiten in der Regel mit psychologischer Betreuung</td>
+					<td><form type="select" id="2008_7_6_1_13_0"><wrt id="3" value="0"/><wrt id="80"/><wrt id="81"/><wrt id="82"/><wrt id="83"/><wrt id="84"/></form></td></tr>
+				
+				<tr>
+					<td>Wir arbeiten in der Regel mit Einzelbeschulung</td>
+					<td><form type="select" id="2008_7_6_1_14_0"><wrt id="3" value="0"/><wrt id="80"/><wrt id="81"/><wrt id="82"/><wrt id="83"/><wrt id="84"/></form></td></tr>
+				
+				<tr>
+					<td>Wir arbeiten in der Regel mit Schulaufgabenbetreuung (Erzieher)</td>
+					<td><form type="select" id="2008_7_6_1_15_0"><wrt id="3" value="0"/><wrt id="80"/><wrt id="81"/><wrt id="82"/><wrt id="83"/><wrt id="84"/></form></td></tr>
+				
+				<tr>
+					<td>Wir arbeiten in der Regel mit Schulaufgabenbetreuung (spez. Kraft)</td>
+					<td><form type="select" id="2008_7_6_1_16_0"><wrt id="3" value="0"/><wrt id="80"/><wrt id="81"/><wrt id="82"/><wrt id="83"/><wrt id="84"/></form></td></tr>
+				
+				<tr>
+					<td>Wir arbeiten in der Regel mit Sonderbeschulung</td>
+					<td><form type="select" id="2008_7_6_1_17_0"><wrt id="3" value="0"/><wrt id="80"/><wrt id="81"/><wrt id="82"/><wrt id="83"/><wrt id="84"/></form></td></tr>
+				
+				<tr>
+					<td>Begleitung/Beaufsichtigung: Wir arbeiten in der Regel mit intensiven Einzelmaßnahmen</td>
+					<td><form type="select" id="2008_7_6_1_18_0"><wrt id="3" value="0"/><wrt id="80"/><wrt id="81"/><wrt id="82"/><wrt id="83"/><wrt id="84"/></form></td></tr>
+				
+				<tr>
+					<td>Begleitung/Beaufsichtigung: Wir arbeiten in der Regel mit Unterstützung am Arbeitsplatz</td>
+					<td><form type="select" id="2008_7_6_1_19_0"><wrt id="3" value="0"/><wrt id="80"/><wrt id="81"/><wrt id="82"/><wrt id="83"/><wrt id="84"/></form></td></tr>
+				
+				<tr>
+					<td>Begleitung/Beaufsichtigung: Wir arbeiten in der Regel mit Unterstuetzung (in) der Schule</td>
+					<td><form type="select" id="2008_7_6_1_20_0"><wrt id="3" value="0"/><wrt id="80"/><wrt id="81"/><wrt id="82"/><wrt id="83"/><wrt id="84"/></form></td></tr>
+				
+				<tr>
+					<td>Wir arbeiten in der Regel mit Aufmerksamkeits- / Konzentrationstraining</td>
+					<td><form type="select" id="2008_7_6_1_21_0"><wrt id="3" value="0"/><wrt id="80"/><wrt id="81"/><wrt id="82"/><wrt id="83"/><wrt id="84"/></form></td></tr>
+				
+				<tr>
+					<td>Wir arbeiten in der Regel mit Einsatz therapeutischer Millieus</td>
+					<td><form type="select" id="2008_7_6_1_22_0"><wrt id="3" value="0"/><wrt id="80"/><wrt id="81"/><wrt id="82"/><wrt id="83"/><wrt id="84"/></form></td></tr>
+				
+				<tr>
+					<td>Wir arbeiten in der Regel mit Ergotherapie</td>
+					<td><form type="select" id="2008_7_6_1_23_0"><wrt id="3" value="0"/><wrt id="80"/><wrt id="81"/><wrt id="82"/><wrt id="83"/><wrt id="84"/></form></td></tr>
+				
+				<tr>
+					<td>Wir arbeiten in der Regel mit Kunsttherapie</td>
+					<td><form type="select" id="2008_7_6_1_24_0"><wrt id="3" value="0"/><wrt id="80"/><wrt id="81"/><wrt id="82"/><wrt id="83"/><wrt id="84"/></form></td></tr>
+				
+				<tr>
+					<td>Wir arbeiten in der Regel mit Lerntherapeutischen Maßnahmen</td>
+					<td><form type="select" id="2008_7_6_1_25_0"><wrt id="3" value="0"/><wrt id="80"/><wrt id="81"/><wrt id="82"/><wrt id="83"/><wrt id="84"/></form></td></tr>
+				
+				<tr>
+					<td>Wir arbeiten in der Regel mit multiperspektivischem Ansatz</td>
+					<td><form type="select" id="2008_7_6_1_26_0"><wrt id="3" value="0"/><wrt id="80"/><wrt id="81"/><wrt id="82"/><wrt id="83"/><wrt id="84"/></form></td></tr>
+				
+				<tr>
+					<td>Wir arbeiten in der Regel mit Orientierungstraining</td>
+					<td><form type="select" id="2008_7_6_1_27_0"><wrt id="3" value="0"/><wrt id="80"/><wrt id="81"/><wrt id="82"/><wrt id="83"/><wrt id="84"/></form></td></tr>
+				
+				<tr>
+					<td>Wir arbeiten in der Regel mit pädagogisch-therapeutischen Reitstunden</td>
+					<td><form type="select" id="2008_7_6_1_28_0"><wrt id="3" value="0"/><wrt id="80"/><wrt id="81"/><wrt id="82"/><wrt id="83"/><wrt id="84"/></form></td></tr>
+				
+				<tr>
+					<td>Wir arbeiten in der Regel mit Psychotherapie</td>
+					<td><form type="select" id="2008_7_6_1_29_0"><wrt id="3" value="0"/><wrt id="80"/><wrt id="81"/><wrt id="82"/><wrt id="83"/><wrt id="84"/></form></td></tr>
+				
+				<tr>
+					<td>Wir arbeiten in der Regel mit Sprachtherapie</td>
+					<td><form type="select" id="2008_7_6_1_30_0"><wrt id="3" value="0"/><wrt id="80"/><wrt id="81"/><wrt id="82"/><wrt id="83"/><wrt id="84"/></form></td></tr>
+				
+				<tr>
+					<td>Wir arbeiten in der Regel mit Gesprächen gemeinsam mit K+J und ihren Eltern</td>
+					<td><form type="select" id="2008_7_6_1_31_0"><wrt id="3" value="0"/><wrt id="80"/><wrt id="81"/><wrt id="82"/><wrt id="83"/><wrt id="84"/></form></td></tr>
+				
+				<tr>
+					<td>Wir arbeiten in der Regel mit Gesprächen nur mit Eltern</td>
+					<td><form type="select" id="2008_7_6_1_32_0"><wrt id="3" value="0"/><wrt id="80"/><wrt id="81"/><wrt id="82"/><wrt id="83"/><wrt id="84"/></form></td></tr>
+				
+				<tr>
+					<td>Training / Vorbereitung Beruf, Selbstständigkeit: Wir arbeiten in der Regel extern</td>
+					<td><form type="select" id="2008_7_6_1_33_0"><wrt id="3" value="0"/><wrt id="80"/><wrt id="81"/><wrt id="82"/><wrt id="83"/><wrt id="84"/></form></td></tr>
+				
+				<tr>
+					<td>Training / Vorbereitung Beruf, Selbstständigkeit: Wir arbeiten in der Regel intern</td>
+					<td><form type="select" id="2008_7_6_1_34_0"><wrt id="3" value="0"/><wrt id="80"/><wrt id="81"/><wrt id="82"/><wrt id="83"/><wrt id="84"/></form></td></tr>
+			
+			</table>
+		</h3>
+	</h2>
+	
+	<h2>
+		<title>Steuerung der Hilfeplanung nach § 36</title>
+		<h3>
+			<title>Steuerung der Hilfeplanung nach § 36</title>
+			<text>Bitte geben Sie speziell an, wie und in welchem Maße Sie bei der Steuerung Ihrer Prozesse den Verlauf und die Ergebnisse evaluieren.</text>
+			<table>
+				<head><td> </td><td>Intensität</td></head>
+				<tr>
+					<td>Die Steuerung der Hilfeplanung nach § 36, durch die Leitung allein erfolgt ...</td>
+					<td><form type="select" id="2008_7_7_1_0_0"><wrt id="3" value="0"/><wrt id="70"/><wrt id="71"/><wrt id="72"/><wrt id="73"/><wrt id="74"/></form></td></tr>
+				
+				<tr>
+					<td>Die Steuerung der Hilfeplanung nach § 36, im Team (z.B. mit Mitarbeiter/-innen, Psychologen oder anderen) erfolgt ...</td>
+					<td><form type="select" id="2008_7_7_1_1_0"><wrt id="3" value="0"/><wrt id="70"/><wrt id="71"/><wrt id="72"/><wrt id="73"/><wrt id="74"/></form></td></tr>
+				
+			</table>
+		</h3>
+	</h2>
+	
+	<h2>
+		<title>Steuerung der pädagogischen Prozesse</title>
+		<h3>
+			<title>Instrumente zur Steuerung pädagogischer Prozesse</title>
+			<text>Welche Instrumente zur Steuerung pädagogischer Prozesse setzen Sie ein?</text>
+			<form type="textarea" id="2008_7_8_2_0_0"/>
+		</h3>
+		
+		<h3>
+			<title>Steuerung der pädagogischen Prozesse</title>
+			<text>Bitte geben Sie an, wer bzw. womit und in welchem Maße Sie allgemein Ihre pädagogischen Preozesse steuern, d.h. den Einsatz der genannten Arbeitsformen, Techniken und Vorgehensweisen planen, den Verlauf der pädagogischen Interventionen evaluieren und ggf. korrigieren.</text>
+			<table>
+			<head><td> </td><td>Intensität</td></head>
+			<tr>
+				<td>Die Steuerung pädagogischer Prozesse, mittels interner Personen, durch die Leitung allein, erfolgt ...</td>
+					<td><form type="select" id="2008_7_8_1_0_0"><wrt id="3" value="0"/><wrt id="70"/><wrt id="71"/><wrt id="72"/><wrt id="73"/><wrt id="74"/></form></td></tr>
+			
+			<tr>
+				<td>Die Steuerung pädogogischer Prozesse, mittels interner Personen, anleitend ...</td>
+					<td><form type="select" id="2008_7_7_1_1_0"><wrt id="3" value="0"/><wrt id="70"/><wrt id="71"/><wrt id="72"/><wrt id="73"/><wrt id="74"/></form></td></tr>
+				
+			<tr>
+				<td>Die Steuerung pädagogischer Prozesse, mittels interner Instrumente, wie</td>
+					<td><form type="select" id="2008_7_7_1_2_0"><wrt id="3" value="0"/><wrt id="70"/><wrt id="71"/><wrt id="72"/><wrt id="73"/><wrt id="74"/></form></td></tr>
+				
+			<tr>
+				<td>Die Steuerung pädagogischer Prozesse, mittels interner Instrumente, wie dem Förderplan, erfolgt ...</td>
+					<td><form type="select" id="2008_7_7_1_3_0"><wrt id="3" value="0"/><wrt id="70"/><wrt id="71"/><wrt id="72"/><wrt id="73"/><wrt id="74"/></form></td></tr>
+				
+			<tr>
+				<td>Die Steuerung pädagogischer Prozesse, mittels interner Instrumente, wie dem Hilfeplan, erfolgt ...</td>
+					<td><form type="select" id="2008_7_7_1_4_0"><wrt id="3" value="0"/><wrt id="70"/><wrt id="71"/><wrt id="72"/><wrt id="73"/><wrt id="74"/></form></td></tr>
+				
+			<tr>
+				<td>Die Steuerung pädagogischer Prozesse, mittels externer Personen, durch die Einbindung einer Fachkraft (z.B. Therapeut), erfolgt ...</td>
+					<td><form type="select" id="2008_7_7_1_5_0"><wrt id="3" value="0"/><wrt id="70"/><wrt id="71"/><wrt id="72"/><wrt id="73"/><wrt id="74"/></form></td></tr>
+				
+			<tr>
+				<td>Die Steuerung pädogogischer Prozesse, mittels externer Personen, durch die Einbindung von Spezialist/in (Arzt, Psychologe), erfolgt ..</td>
+					<td><form type="select" id="2008_7_7_1_6_0"><wrt id="3" value="0"/><wrt id="70"/><wrt id="71"/><wrt id="72"/><wrt id="73"/><wrt id="74"/></form></td></tr>
+				
+			<tr>
+				<td>Die Steuerung pädagogischer Prozesse, mittels externer Organisationen, wie Kooperation mit dem Jugendamt (Hilfeplanung), erfolgt ...</td>
+					<td><form type="select" id="2008_7_7_1_7_0"><wrt id="3" value="0"/><wrt id="70"/><wrt id="71"/><wrt id="72"/><wrt id="73"/><wrt id="74"/></form></td></tr>
+				
+			<tr>
+				<td>Die Steuerung pädagogischer Prozesse, mittels externer Organisationen, wie Kooperation mit der Schule, erfolgt ...</td>
+					<td><form type="select" id="2008_7_7_1_8_0"><wrt id="3" value="0"/><wrt id="70"/><wrt id="71"/><wrt id="72"/><wrt id="73"/><wrt id="74"/></form></td></tr>
+							
+			</table>
+		</h3>
+	</h2>
+</h1>
+
+<h1>
+	<title>Qualitätssicherung, -entwicklung und -dokumentation</title>
+	<h2>
+		<title>Bedarfserhebung und Auswahl von Weiterbildungsmaßnahmen</title>
+		<text>Bitte geben Sie an, wo Sie Ihre Einrichtung auf dem Spektrum zwischen den beiden folgenden Polen bezüglich Bedarfserhebung und Auswahl von Weiterbildungsmaßnahmen (sowohl extern als auch intern) sehen:</text>
+		<h3>
+			<title> </title>
+			<form type="select" id="2008_8_1_1_0_0"><wrt id="3" value="0"/><wrt id="90"/><wrt id="91"/><wrt id="92"/><wrt id="93"/><wrt id="94"/></form>
+		</h3>
+		
+		<h3>
+			<title>Mitarbeiter/innen sagen (gelegentlich), dass und welche Weiterbildung sie machen wollen</title>
+			<form type="select" id="2008_8_1_2_0_0"><wrt id="3" value="0"/><wrt id="90"/><wrt id="91"/><wrt id="92"/><wrt id="93"/><wrt id="94"/></form>
+		</h3>
+		
+		<h3>
+			<title>Die Bedarfserhebung und Auswahl von Weiterbildungsmaßnahmen sehe ich</title>
+			<form type="select" id="2008_8_1_3_0_0"><wrt id="3" value="0"/><wrt id="90"/><wrt id="91"/><wrt id="92"/><wrt id="93"/><wrt id="94"/></form>
+		</h3>	
+	</h2>
+	
+	<h2>
+		<title>Beratung</title>
+		
+		<h3>
+			<title>Die Beratung intern und extern durch Austausch mit Therapeuten, Psychologen etc. ist / findet statt ...</title>
+			<form type="select" id="2008_8_2_1_0_0"><wrt id="3" value="0"/><wrt id="70"/><wrt id="71"/><wrt id="72"/><wrt id="73"/><wrt id="74"/></form>
+		</h3>
+		
+		<h3>
+			<title>Beratung intern und extern durch Supervision / Coaching durch Externe ist / findet statt:</title>
+			<form type="select" id="2008_8_2_2_0_0"><wrt id="3" value="0"/><wrt id="70"/><wrt id="71"/><wrt id="72"/><wrt id="73"/><wrt id="74"/></form>
+		</h3>
+	</h2>
+	
+	<h2>
+		<title>Dokumentation der Arbeit</title>
+		<h3>
+			<title>Dokumentation der Arbeit</title>
+			<text>Welche Instrumente zur Dokumentation Ihrer pädagogischen Arbeit haben Sie im Berichtsjahr genutzt? Kreuzen Sie bitte in der linken Spalte diejenigen Instrumente an, die Sie in der Regel nutzen. Bitte geben Sie in der rechten Spalte auf der Ratingskala auch an, wie hilfreich nach Ihrer Erfahrung und Einschätzung die Instrumente für Ihre pädagogische Arbeit sind.</text>
+			<table>
+				<head><td></td><td>Bewertung</td></head>
+				<tr>
+				<td>Die Steuerung pädagogischer Prozesse, mittels externer Organisationen, wie Kooperation mit der Schule, erfolgt ...</td>
+					<td><form type="select" id="2008_8_3_1_0_0"><wrt id="3" value="0"/><wrt id="100"/><wrt id="101"/><wrt id="102"/><wrt id="103"/><wrt id="104"/><wrt id="105"/></form></td></tr>
+					
+				
+				
+			<tr>
+				<td>Das Instrument Protokolle Teambesprechungen ist für unsere Arbeit ...</td>
+					<td><form type="select" id="2008_8_3_1_0_0"><wrt id="3" value="0"/><wrt id="100"/><wrt id="101"/><wrt id="102"/><wrt id="103"/><wrt id="104"/><wrt id="105"/></form></td></tr>	
+			<tr>
+				<td>Das Instrument Ãœbergabe-/Tage-/Notiz-/Beobachtungsbuch ist für unsere Arbeit ...</td>
+					<td><form type="select" id="2008_8_3_1_1_0"><wrt id="3" value="0"/><wrt id="100"/><wrt id="101"/><wrt id="102"/><wrt id="103"/><wrt id="104"/><wrt id="105"/></form></td></tr>	
+			<tr>
+				<td>Das Instrument Protokolle Kontakte ist für unsere Arbeit ...</td>
+					<td><form type="select" id="2008_8_3_1_2_0"><wrt id="3" value="0"/><wrt id="100"/><wrt id="101"/><wrt id="102"/><wrt id="103"/><wrt id="104"/><wrt id="105"/></form></td></tr>	
+			<tr>
+				<td>Das Instrument Telefonbuch, -listen ist für unsere Arbeit ...</td>
+					<td><form type="select" id="2008_8_3_1_3_0"><wrt id="3" value="0"/><wrt id="100"/><wrt id="101"/><wrt id="102"/><wrt id="103"/><wrt id="104"/><wrt id="105"/></form></td></tr>	
+			<tr>
+				<td>Das Instrument (Entwicklungs-)Berichte ist für unsere Arbeit ...</td>
+					<td><form type="select" id="2008_8_3_1_4_0"><wrt id="3" value="0"/><wrt id="100"/><wrt id="101"/><wrt id="102"/><wrt id="103"/><wrt id="104"/><wrt id="105"/></form></td></tr>	
+			<tr>
+				<td>Das Instrument Diagnostische Berichte ist für unsere Arbeit ...</td>
+					<td><form type="select" id="2008_8_3_1_5_0"><wrt id="3" value="0"/><wrt id="100"/><wrt id="101"/><wrt id="102"/><wrt id="103"/><wrt id="104"/><wrt id="105"/></form></td></tr>	
+			<tr>
+				<td>Das Instrument Dienstpläne ist für unsere Arbeit ...</td>
+					<td><form type="select" id="2008_8_3_1_6_0"><wrt id="3" value="0"/><wrt id="100"/><wrt id="101"/><wrt id="102"/><wrt id="103"/><wrt id="104"/><wrt id="105"/></form></td></tr>	
+			<tr>
+				<td>Das Instrument Förder-, Erziehungspläne (allgemein) ist für unsere Arbeit ...</td>
+					<td><form type="select" id="2008_8_3_1_7_0"><wrt id="3" value="0"/><wrt id="100"/><wrt id="101"/><wrt id="102"/><wrt id="103"/><wrt id="104"/><wrt id="105"/></form></td></tr>	
+			<tr>
+				<td>Das Instrument Förderpläne ist für unsere Arbeit ...</td>
+					<td><form type="select" id="2008_8_3_1_8_0"><wrt id="3" value="0"/><wrt id="100"/><wrt id="101"/><wrt id="102"/><wrt id="103"/><wrt id="104"/><wrt id="105"/></form></td></tr>	
+			<tr>
+				<td>Das Instrument Teamgespräche ist für unsere Arbeit ...</td>
+					<td><form type="select" id="2008_8_3_1_9_0"><wrt id="3" value="0"/><wrt id="100"/><wrt id="101"/><wrt id="102"/><wrt id="103"/><wrt id="104"/><wrt id="105"/></form></td></tr>	
+			<tr>
+				<td>Das Instrument Pädagogische Tagesberichte ist für unsere Arbeit ...	</td>
+					<td><form type="select" id="2008_8_3_1_10_0"><wrt id="3" value="0"/><wrt id="100"/><wrt id="101"/><wrt id="102"/><wrt id="103"/><wrt id="104"/><wrt id="105"/></form></td></tr>
+			<tr>
+				<td>Das Instrument Aktenführung ist für unsere Arbeit ...</td>
+					<td><form type="select" id="2008_8_3_1_11_0"><wrt id="3" value="0"/><wrt id="100"/><wrt id="101"/><wrt id="102"/><wrt id="103"/><wrt id="104"/><wrt id="105"/></form></td></tr>	
+			<tr>
+				<td>Das Instrument Schule (Protokolle, Lehrergespräche) ist für unsere Arbeit ...</td>
+					<td><form type="select" id="2008_8_3_1_12_0"><wrt id="3" value="0"/><wrt id="100"/><wrt id="101"/><wrt id="102"/><wrt id="103"/><wrt id="104"/><wrt id="105"/></form></td></tr>	
+			<tr>
+				<td>Das Instrument Taschengeldlisten ist für unsere Arbeit ...</td>
+					<td><form type="select" id="2008_8_3_1_13_0"><wrt id="3" value="0"/><wrt id="100"/><wrt id="101"/><wrt id="102"/><wrt id="103"/><wrt id="104"/><wrt id="105"/></form></td></tr>	
+			<tr>
+				<td>Das Instrument Telefonlisten ist für unsere Arbeit ...</td>
+					<td><form type="select" id="2008_8_3_1_14_0"><wrt id="3" value="0"/><wrt id="100"/><wrt id="101"/><wrt id="102"/><wrt id="103"/><wrt id="104"/><wrt id="105"/></form></td></tr>	
+			<tr>
+				<td>Das Instrument Bekleidungslisten ist für unsere Arbeit ...</td>
+					<td><form type="select" id="2008_8_3_1_15_0"><wrt id="3" value="0"/><wrt id="100"/><wrt id="101"/><wrt id="102"/><wrt id="103"/><wrt id="104"/><wrt id="105"/></form></td></tr>
+			</table>
+		</h3>
+	</h2>
+	
+	<h2>
+		<title>Kooperation</title>
+		<text>Wie sichern und entwickeln Sie Ihre fachgerechte pädagogische Arbeit mittels Kooperation oder Einbindung in Kooperationsstrukturen? Bitte geben Sie an, mit welchen Partnern und in welchem Maße Sie kooperieren (ausgenommen: Kooperationsstruktur IKH):</text>
+		<h3>
+			<title>Die Kooperation mit berufsfördernden Maßnahmen ist / findet statt ...</title>
+			<form type="select" id="2008_8_4_1_0_0"><wrt id="3" value="0"/><wrt id="70"/><wrt id="71"/><wrt id="72"/><wrt id="73"/><wrt id="74"/></form>
+		</h3>
+		
+		<h3>
+			<title>Die Kooperation mit anderen ist / findet statt ...</title>
+			<form type="select" id="2008_8_4_2_0_0"><wrt id="3" value="0"/><wrt id="70"/><wrt id="71"/><wrt id="72"/><wrt id="73"/><wrt id="74"/></form>
+		</h3>
+		
+		<h3>
+			<title>Die Kooperation mit Kindergärten ist / findet statt ...</title>
+			<form type="select" id="2008_8_4_3_0_0"><wrt id="3" value="0"/><wrt id="70"/><wrt id="71"/><wrt id="72"/><wrt id="73"/><wrt id="74"/></form>
+		</h3>
+		
+		<h3>
+			<title>Die Kooperation mit Schulen (auch Projekte) ist / findet statt ...</title>
+			<form type="select" id="2008_8_4_4_0_0"><wrt id="3" value="0"/><wrt id="70"/><wrt id="71"/><wrt id="72"/><wrt id="73"/><wrt id="74"/></form>
+		</h3>
+	</h2>
+	
+	<h2>
+		<title>Leitbilder</title>
+		<h3>
+			<title>Was schätzen Sie: Die Bekanntheit des IKH-Leitbildes in Ihrer Einrichtung ist ....</title>
+			<form type="select" id="2008_8_5_1_0_0"><wrt id="3" value="0"/><wrt id="80"/><wrt id="81"/><wrt id="82"/><wrt id="83"/><wrt id="84"/></form>
+		</h3>
+		
+		<h3>
+			<title>Was schätzen Sie: Wie wird das IKH-Leitbild in Ihrer Einrichtung gelebt?</title>
+			<form type="select" id="2008_8_5_2_0_0"><wrt id="3" value="0"/><wrt id="80"/><wrt id="81"/><wrt id="82"/><wrt id="83"/><wrt id="84"/></form>
+		</h3>
+		
+		<h3>
+			<title>Was schätzen Sie: Die Bekanntheit Ihres Leitbildes in Ihrer Einrichtung ist ...</title>
+			<form type="select" id="2008_8_5_3_0_0"><wrt id="3" value="0"/><wrt id="80"/><wrt id="81"/><wrt id="82"/><wrt id="83"/><wrt id="84"/></form>
+		</h3>
+		
+		<h3>
+			<title>Was schätzen Sie: Wie intensiv wird Ihr Leitbild in Ihrer Einrichtung gelebt?</title>
+			<form type="select" id="2008_8_5_4_0_0"><wrt id="3" value="0"/><wrt id="80"/><wrt id="81"/><wrt id="82"/><wrt id="83"/><wrt id="84"/></form>
+		</h3>
+	</h2>
+	
+	
+	<h2>
+		<title>Maßnahmen zur Qualifizierung</title>
+		<text>Welche Maßnahmen zur Qualifizierung Ihrer pädagogischen Mitarbeiter/innen haben Sie im Berichtsjahr wie häufig durchgeführt? Bitte machen Sie bei jeder Maßnahme eine Angabe, die den Häufigkeiten in Ihrer Einrichtung im Berichtsjahr tatsächlich am nächsten kommt. Als Häufigkeiten geben Sie Durchschnittswerte pro Mitarbeiter/in an.</text>
+		<h3>
+			<title>Beratung durch externe Weiterbildung wurden durchgeführt ...</title>
+			<form type="select" id="2008_8_6_1_0_0"><wrt id="3" value="0"/><wrt id="80"/><wrt id="81"/><wrt id="82"/><wrt id="83"/><wrt id="84"/></form>
+		</h3>
+		
+		<h3>
+			<title>Beratung durch interne Weiterbildung wurden durchgeführt ...</title>
+			<form type="select" id="2008_8_6_2_0_0"><wrt id="3" value="0"/><wrt id="80"/><wrt id="81"/><wrt id="82"/><wrt id="83"/><wrt id="84"/></form>
+		</h3>		
+		
+	</h2>
+	
+	
+	<h2>
+		<title>Maßnahmen zur Reflexion</title>
+		<text>Welche Maßnahmen zur Reflexion Ihrer Arbeit haben Sie im Berichtsjahr wie häufig durchgeführt? Bitte machen Sie bei jeder Maßnahme eine Angabe, die den Häufigkeiten in Ihrer Einrichtung am nächsten kommt.</text>
+		<h3>
+			<title>Maßnahmen zur Reflexion durch Fallbesprechungen finden statt ...</title>
+			<form type="select" id="2008_8_7_1_0_0"><wrt id="3" value="0"/><wrt id="110"/><wrt id="111"/><wrt id="112"/><wrt id="113"/><wrt id="114"/><wrt id="115"/><wrt id="116"/><wrt id="117"/></form>
+		</h3>
+		
+		<h3>
+			<title>Maßnahmen zur Reflexion durch Teambesprechungen finden statt ...</title>
+			<form type="select" id="2008_8_7_2_0_0"><wrt id="3" value="0"/><wrt id="110"/><wrt id="111"/><wrt id="112"/><wrt id="113"/><wrt id="114"/><wrt id="115"/><wrt id="116"/><wrt id="117"/></form>
+		</h3>		
+		
+	</h2>
+	
+	
+	<h2>
+		<title>Speziell: Kooperation mit den Entsendestellen</title>
+		<text>Wie sichern und entwickeln Sie Ihre Kooperation mit den Entsendestellen? Bitte geben Sie an, wie und in welchem Maße Sie mit Ihren Entsendestellen kommunizieren:</text>
+		<h3>
+			<title>Sonstige Formen der Kommunikation mit Entsendestellen sind/finden statt ...</title>
+			<form type="select" id="2008_8_8_1_0_0"><wrt id="3" value="0"/><wrt id="70"/><wrt id="71"/><wrt id="72"/><wrt id="73"/><wrt id="74"/></form>
+		</h3>
+		
+		<h3>
+			<title>Welche sonstigen Formen der Kommunikation mit Entsendestellen finden statt ?</title>
+			<form type="textarea" id="2008_8_8_4_0_0"/>
+		</h3>	
+		
+		<h3>
+			<title>Kommunikation mit Entsendestellen durch (Entwicklungs-)Berichte ist/findet statt ...</title>
+			<form type="select" id="2008_8_8_2_0_0"><wrt id="3" value="0"/><wrt id="70"/><wrt id="71"/><wrt id="72"/><wrt id="73"/><wrt id="74"/></form>
+		</h3>
+		
+		<h3>
+			<title>Kommunikation mit Entsendestellen durch Hilfekonferenzen ist/findet statt ...</title>
+			<form type="select" id="2008_8_8_3_0_0"><wrt id="3" value="0"/><wrt id="70"/><wrt id="71"/><wrt id="72"/><wrt id="73"/><wrt id="74"/></form>
+		</h3>
+		
+	</h2>
+	
+	
+	<h2>
+		<title>Standards</title>
+		<h3>
+			<title>Was schätzen Sie: Die Bekanntheit der IKH-Standards in Ihrer Einrichtung ist ...</title>
+			<form type="select" id="2008_8_9_1_0_0"><wrt id="3" value="0"/><wrt id="3" value="0"/><wrt id="80"/><wrt id="81"/><wrt id="82"/><wrt id="83"/><wrt id="84"/></form>
+		</h3>
+		
+		<h3>
+			<title>Was schätzen Sie? Wie werden die IKH-Standards in Ihrer Einrichtung gelebt?</title>
+			<form type="select" id="2008_8_9_2_0_0"><wrt id="3" value="0"/><wrt id="80"/><wrt id="81"/><wrt id="82"/><wrt id="83"/><wrt id="84"/></form>
+		</h3>	
+				
+	</h2>
+	
+	
+</h1>
+
+
+<werte>
+<itm ><name>Ja</name><id>1</id></itm>
+<itm ><name>Nein</name><id>2</id></itm>
+<itm ><name>--- Bitte auswählen ---</name><id>3</id></itm>
+
+<itm ><name>eher häufig</name><id>10</id></itm>
+<itm ><name>eher selten oder nicht</name><id>11</id></itm>
+
+<itm ><name>Gleich</name><id>21</id></itm>
+<itm ><name>Höher</name><id>22</id></itm>
+<itm ><name>Niedriger</name><id>23</id></itm>
+
+<itm ><name>männlich</name><id>30</id></itm>
+<itm ><name>weiblich</name><id>31</id></itm>
+
+<itm ><name>ledig</name><id>40</id></itm>
+<itm ><name>verheiratet</name><id>41</id></itm>
+
+<itm ><name>manchmal</name><id>50</id></itm>
+<itm ><name>oft</name><id>51</id></itm>
+<itm ><name>sehr häufig</name><id>52</id></itm>
+<itm ><name>sehr selten</name><id>53</id></itm>
+<itm ><name>selten</name><id>54</id></itm>
+
+<itm ><name>erfolgreich</name><id>60</id></itm>
+<itm ><name>kaum erfolgreich</name><id>61</id></itm>
+<itm ><name>mittelmäsig</name><id>62</id></itm>
+<itm ><name>nicht von Bedeutung</name><id>63</id></itm>
+<itm ><name>sehr erfolgreich</name><id>64</id></itm>
+<itm ><name>wenig erfolgreich</name><id>65</id></itm>
+
+<itm ><name>eher hoch</name><id>70</id></itm>
+<itm ><name>gar nicht</name><id>71</id></itm>
+<itm ><name>gering</name><id>72</id></itm>
+<itm ><name>intensiv</name><id>73</id></itm>
+<itm ><name>mittelmässig</name><id>74</id></itm>
+
+<itm ><name>eher hoch</name><id>80</id></itm>
+<itm ><name>eher niedrig</name><id>81</id></itm>
+<itm ><name>hoch</name><id>82</id></itm>
+<itm ><name>mittelmässig</name><id>83</id></itm>
+<itm ><name>niedrig</name><id>84</id></itm>
+
+<itm ><name>mittelmäßig proaktiv</name><id>90</id></itm>
+<itm ><name>mittelmäßig reaktiv</name><id>91</id></itm>
+<itm ><name>neutral</name><id>92</id></itm>
+<itm ><name>proaktiv</name><id>93</id></itm>
+<itm ><name>reaktiv</name><id>94</id></itm>
+
+<itm ><name>hilfreich</name><id>100</id></itm>
+<itm ><name>kaum hilfreich</name><id>101</id></itm>
+<itm ><name>manchmal hilreich</name><id>102</id></itm>
+<itm ><name>nicht genutzt</name><id>103</id></itm>
+<itm ><name>oft hilreich</name><id>104</id></itm>
+<itm ><name>sehr hilfreich</name><id>105</id></itm>
+
+
+<itm ><name>14-tägig</name><id>110</id></itm>
+<itm ><name>2-4 Mal jährlich</name><id>111</id></itm>
+<itm ><name>alle 1-2 Monate</name><id>112</id></itm>
+<itm ><name>ca. jährlich</name><id>113</id></itm>
+<itm ><name>gar nicht</name><id>114</id></itm>
+<itm ><name>mehrmals wöchentlich</name><id>115</id></itm>
+<itm ><name>monatlich</name><id>116</id></itm>
+<itm ><name>täglich</name><id>117</id></itm>
+
+
+</werte>
+
+</formular>
+
+
+
