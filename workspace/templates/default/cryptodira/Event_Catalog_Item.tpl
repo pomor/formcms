@@ -119,7 +119,7 @@
 	<!-- Screenshots ende --> <!-- Komentare Anfang -->
 	<div class="pan">
 	<div class="titelblau1 borderblau2px">{$item.NAME}</div>
-	pane 3 content
+	da commt commentare
 	</div>
 	<!-- komentare ende -->
 	</div>
