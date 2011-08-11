@@ -66,6 +66,9 @@ class Event_Cryptodira_Catalog extends Event_Base
 
 		if($id)
 		{
+			
+			$this->loader->js(FgVars::JS_LINK,FG_STYLESPACE_DEF.'/js/jquery.lightbox-0.5.min.js',2000);
+			
 			$item=$this->DB->getAssoc("select * from ".FgVars::getTablePerType(FgVars::FG_TYPE_CRYPTODIRA_SOFT)." where ID=".$id);
 
 			if(!isset($item['ID']))

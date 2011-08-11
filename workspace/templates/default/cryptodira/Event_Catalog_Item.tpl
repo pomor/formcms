@@ -141,6 +141,8 @@ $(function() {
 		return false;
 		}
 	);
+
+	$('.galery').lightBox();
 	
 });
 
