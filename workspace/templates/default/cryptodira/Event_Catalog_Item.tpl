@@ -105,7 +105,7 @@
 	<div class="pan" align="center">
 	<div class="titelblau1 borderblau2px" align="left">{$item.NAME}</div>
 	<br>
-	<div id="dropbox" style="min-height: 100px;">
+	<div id="dropbox" style="min-height: 100px;" align="left">
 		<div id="imagelist">
 		{foreach $images as $image}
 		<a href="/content/images/galery/{$item.ID}/{$image.PATH}" class="galery_images">
