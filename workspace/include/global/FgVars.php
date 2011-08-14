@@ -164,6 +164,8 @@ class FgVars{
 	const FG_TYPE_CRYPTODIRA_GALERY=12610;
 	const FG_TYPE_CRYPTODIRA_GALERY_LANG=12611;
 	
+	const FG_TYPE_CRYPTODIRA_COMMENT=12710;
+	
 
 	const FG_TYPE_KONTAKT = 13000; // fg_kontakt
 	const FG_TYPE_PERSON = 14000;  // fg_person
@@ -210,6 +212,7 @@ class FgVars{
 		self::FG_TYPE_CRYPTODIRA_GALERY=>'fg_crypto_galery',
 		self::FG_TYPE_CRYPTODIRA_GALERY_LANG=>'fg_crypto_galery_lang',
 		
+		self::FG_TYPE_CRYPTODIRA_COMMENT=>'fg_crypto_comments',		
 		
 		self::FG_TYPE_CRYPTODIRA_VERSION=>'fg_crypto_version',
 		self::FG_TYPE_CRYPTODIRA_MYSOFT=>'fg_crypto_mysoft',

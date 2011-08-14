@@ -105,6 +105,9 @@ class Event_Cryptodira_Catalog extends Event_Base
 			
 			$images=$this->DB->getAllAssoc("select * from ".FgVars::getTablePerType(FgVars::FG_TYPE_CRYPTODIRA_GALERY).
 				" where FG_CRYPTO_CATALOG_ID=".$id);
+			
+			$comments = $this->DB->getAllAssoc("select * from ".FgVars::getTablePerType(FgVars::FG_TYPE_CRYPTODIRA_COMMENT).
+				" where FG_CRYPTO_CATALOG_ID=".$id." and OK=1 order by CDATE desc limit 5");
 	
 		
 		
@@ -115,6 +118,7 @@ class Event_Cryptodira_Catalog extends Event_Base
 
 			$smarty = FgSmarty::getInstance();
 			$smarty->assign('images',$images);
+			$smarty->assign('comments',$comments);
 			$smarty->assign('infavorite',$in_favorite?true:false);
 			$smarty->assign('item',$item);
 			$smarty->assign('mysoft',$mysoft);

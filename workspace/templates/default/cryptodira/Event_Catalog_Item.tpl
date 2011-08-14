@@ -105,10 +105,10 @@
 	<div class="pan" align="center">
 	<div class="titelblau1 borderblau2px" align="left">{$item.NAME}</div>
 	<br>
-	<div id="dropbox" style="min-height: 100px;" align="left">
-		<div id="imagelist">
+	<div id="dropbox" style="min-height: 100px;">
+		<div id="imagelist" align="left">
 		{foreach $images as $image}
-		<a href="/content/images/galery/{$item.ID}/{$image.PATH}" class="galery_images">
+		<a href="/content/images/galery/{$item.ID}/{$image.PATH}" class="galery">
 		<img  src="/content/images/galery/{$item.ID}/thumbs/{$image.PATH}"/>
 		</a>
 		{/foreach}
@@ -119,7 +119,14 @@
 	<!-- Screenshots ende --> <!-- Komentare Anfang -->
 	<div class="pan">
 	<div class="titelblau1 borderblau2px">{$item.NAME}</div>
-	da commt commentare
+	<div>
+	{foreach $comments as $comment}
+	<table width="100%">
+	<tr><td>{$comment.CDATE}</td></tr>
+	<tr><td>{$comment.INFO}</td></tr>
+	</table>	
+	{/foreach}
+	</div>
 	</div>
 	<!-- komentare ende -->
 	</div>
@@ -142,7 +149,7 @@ $(function() {
 		}
 	);
 
-	$('.galery_images').lightBox();
+	$('.galery').lightBox();
 	
 });
 
