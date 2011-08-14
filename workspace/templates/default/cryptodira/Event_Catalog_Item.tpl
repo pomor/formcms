@@ -108,7 +108,7 @@
 	<div id="dropbox" style="min-height: 100px;">
 		<div id="imagelist">
 		{foreach $images as $image}
-		<a href="/content/images/galery/{$item.ID}/{$image.PATH}" class="galery">
+		<a href="/content/images/galery/{$item.ID}/{$image.PATH}" class="galery_images">
 		<img  src="/content/images/galery/{$item.ID}/thumbs/{$image.PATH}"/>
 		</a>
 		{/foreach}
@@ -142,7 +142,7 @@ $(function() {
 		}
 	);
 
-	$('.galery').lightBox();
+	$('.galery_images').lightBox();
 	
 });
 
