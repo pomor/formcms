@@ -126,12 +126,24 @@
 	<tr><td>{$comment.CDATE}</td></tr>
 	<tr><td>{$comment.INFO}</td></tr>
 	</table>	
+	<hr>
 	{/foreach}
 	</div>
 	<br>
 	{if $actUser->isLogin()}
 	<form action="/crypt_catalog/add_comment">
-	<textarea style="width:100%; height:100px" maxlength=255></textarea>
+	<input type="hidden" name="softid" value="{$item.ID}">
+	Add comment:<br>
+	<textarea style="width:100%; height:100px" maxlength=255 name="comment"></textarea>
+	<br>
+	Raiting: <select name="raiting">
+	<option>0</option>
+	<option>1</option>
+	<option>2</option>
+	<option>3</option>
+	<option>4</option>
+	<option>5</option>
+	</select>
 	</form>
 	{/if}
 	</div>

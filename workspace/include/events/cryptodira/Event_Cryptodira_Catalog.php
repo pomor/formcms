@@ -46,6 +46,9 @@ class Event_Cryptodira_Catalog extends Event_Base
 			case 'favorite':
 				return $this->actionFavoriteList();
 				break;
+			case 'add_comment':
+				return $this->actionAddComment();
+				break;
 			default:
 				return $this->actionCatalogList();
 		}
@@ -56,6 +59,62 @@ class Event_Cryptodira_Catalog extends Event_Base
 
 
 
+	private function actionAddComment()
+	{
+		
+		if($this->actUser->isLogin())
+		{
+			$text = strip_tags(FgUtill::getVal('comment', $_REQUEST));
+			$raiting = FgUtill::checkVar(MSK_INT, FgUtill::getVal('raiting', $_REQUEST));
+			$soft = FgUtill::checkVar(MSK_INT, FgUtill::getVal('softid', $_REQUEST));
+			
+			if($text && $soft>0)
+			{
+				$save_commet = array(
+					'INFO'=>$text,
+					'FG_CRYPTO_CATALOG_ID'=>$soft,
+					'FG_USER_ID'=>$this->actUser->getUserID(),
+					'OK'=>1
+					
+				);
+				if($raiting>0 && $raiting<6)
+				{
+					$save_commet['RATING_NORMAL']=$raiting;
+				}
+				
+				$id=$this->DB->insert(FgVars::getTablePerType(FgVars::FG_TYPE_CRYPTODIRA_COMMENT),$save_commet,false,2,1);
+				
+				if($id)
+				{
+					print json_encode(array(
+						'STATUS'=>'OK',				
+					));
+				}
+				else 
+				{
+					print json_encode(array(
+						'STATUS'=>'Permission denied',				
+					));
+				}
+				
+				
+			}
+			else 
+			{
+				print json_encode(array(
+				'STATUS'=>'Content error',				
+				));
+			}
+		}
+		else 
+		{
+			print json_encode(array(
+				'STATUS'=>'Login please',				
+			));
+		}
+		
+		return false;
+	}
 
 	private function actionCatalogItemShow($nid=null)
 	{
