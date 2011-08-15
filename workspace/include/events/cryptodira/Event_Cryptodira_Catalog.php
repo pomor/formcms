@@ -117,6 +117,7 @@ class Event_Cryptodira_Catalog extends Event_Base
 			$item['lines']=$lines;
 
 			$smarty = FgSmarty::getInstance();
+			$smarty->assign('actUser',$this->actUser);
 			$smarty->assign('images',$images);
 			$smarty->assign('comments',$comments);
 			$smarty->assign('infavorite',$in_favorite?true:false);

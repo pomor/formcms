@@ -119,14 +119,21 @@
 	<!-- Screenshots ende --> <!-- Komentare Anfang -->
 	<div class="pan">
 	<div class="titelblau1 borderblau2px">{$item.NAME}</div>
-	<div>
+	<div id="comments">
 	{foreach $comments as $comment}
+	<br>
 	<table width="100%">
 	<tr><td>{$comment.CDATE}</td></tr>
 	<tr><td>{$comment.INFO}</td></tr>
 	</table>	
 	{/foreach}
 	</div>
+	<br>
+	{if $actUser->isLogin()}
+	<form action="/crypt_catalog/add_comment">
+	<textarea style="width:100%; height:100px" maxlength=255></textarea>
+	</form>
+	{/if}
 	</div>
 	<!-- komentare ende -->
 	</div>
