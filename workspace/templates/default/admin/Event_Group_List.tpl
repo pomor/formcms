@@ -24,7 +24,7 @@
 <td>{$Gruppe.Info}</td>
 <td width=150 align=center>{$Gruppe.Created}</td>
 <td align=center>{$Gruppe.Active}</td>
-<td width=65 nowrap><a href="/user_list/gid/{$Gruppe.ID}" ><img src="/stylespace/{$FG_SPACE}/images/businessman_view.png" align=left >zeigen</a></td>
+<td width=65 nowrap><a href="/user_list/list/gid/{$Gruppe.ID}" ><img src="/stylespace/{$FG_SPACE}/images/businessman_view.png" align=left >zeigen</a></td>
 <td width=20><a href="#" onclick="editGruppe({$Gruppe.ID});return false;" ><img src="/stylespace/{$FG_SPACE}/images/edit.png" ></a></td>
 <td width=20><a href="#" onclick="deleteGruppe({$Gruppe.ID});return false;" ><img src="/stylespace/{$FG_SPACE}/images/delete.png" ></a></td>
 </tr>
