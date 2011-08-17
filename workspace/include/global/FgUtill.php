@@ -96,7 +96,7 @@ class FgUtill
 			case MSK_DATE:
 				if(preg_match("/^([0-9]{1,4})[^0-9]+([0-9]{1,2})[^0-9]+([0-9]{1,4})$/",$vname,$found))
 				{
-					if(length($found[1])==4)
+					if(strlen($found[1])==4)
 					{
 						$vname = sprintf("%02d.%02d.%04d",$found[3],$found[2],$found[1]);
 					}

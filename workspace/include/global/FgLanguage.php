@@ -73,8 +73,8 @@ class FgLanguage implements iStorable,iSingleton
 	 */
 	public function __get($key)
 	{
-		if(array_key_exists($key, $arLang) )
-			return $arLang[$key];
+		if(array_key_exists($key, $this->arLang) )
+			return $this->arLang[$key];
 
 		return null;
 	}
@@ -87,7 +87,7 @@ class FgLanguage implements iStorable,iSingleton
 	 */
 	public function __isset($key)
 	{
-		if(array_key_exists($key, $arLang) )
+		if(array_key_exists($key, $this->arLang) )
 			return true;
 
 		return false;
@@ -95,8 +95,8 @@ class FgLanguage implements iStorable,iSingleton
 
 	public function __unset($key)
 	{
-		if(array_key_exists($key, $arLang) )
-			unset($arLang[$key]);
+		if(array_key_exists($key, $this->arLang) )
+			unset($this->arLang[$key]);
 	}
 
 	public function getAct()

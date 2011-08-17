@@ -95,7 +95,7 @@ class Event_Cryptodira_Galerie_Admin extends Event_Base
 	
 	      $file_name=basename($_FILES['Filedata']['name']);	    
 	
-	      $file_name=preg_replace("/[^a-zA-Z0-9_\-.]/","",$file_name);
+	      $file_name=preg_replace("/[^a-zA-Z0-9_-.]/","",$file_name);
 	
 	      $thumbs_path=$_SERVER['DOCUMENT_ROOT'].$this->screen_path.'thumbs/'.$file_name;
 	      $image_path=$_SERVER['DOCUMENT_ROOT'].$this->screen_path.$file_name;

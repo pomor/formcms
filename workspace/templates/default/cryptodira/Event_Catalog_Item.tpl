@@ -123,18 +123,21 @@
 	{foreach $comments as $comment}
 	<br>
 	<table width="100%">
-	<tr><td>{$comment.CDATE}</td></tr>
-	<tr><td>{$comment.INFO}</td></tr>
+	<tr><td>Create: {$comment.CDATE}</td>
+	<td>User: {$comment.FG_USER_ID}</td>
+	<td>Raiting: {$comment.RATING_NORMAL}</td></tr>
+	<tr><td colspan=3>{$comment.INFO}</td></tr>
 	</table>	
 	<hr>
 	{/foreach}
 	</div>
 	<br>
 	{if $actUser->isLogin()}
-	<form action="/crypt_catalog/add_comment">
+	<div>
+	<form action="/crypt_catalog/add_comment" onsubmit="return Event_Catalog_Item_Add_Comment(this,this);">
 	<input type="hidden" name="softid" value="{$item.ID}">
 	Add comment:<br>
-	<textarea style="width:100%; height:100px" maxlength=255 name="comment"></textarea>
+	<textarea style="width:100%; height:100px" name="comment"></textarea>
 	<br>
 	Raiting: <select name="raiting">
 	<option>0</option>
@@ -143,19 +146,36 @@
 	<option>3</option>
 	<option>4</option>
 	<option>5</option>
-	</select>
+	</select>&nbsp;&nbsp;&nbsp;
+	<input type="submit" value="Add Comment"/>
 	</form>
+	</div>
 	{/if}
 	</div>
 	<!-- komentare ende -->
 	</div>
 	<!-- tab "panes" ende -->
 </div>
+
+<div rel="templates" style="display:none">
+<div id="template_comment">
+<br>
+	<table width="100%">
+	<tr><td>Create: #CDATE#</td><td>User: #FG_USER_ID#</td><td>Raiting: #RATING_NORMAL#</td></tr>
+	<tr><td colspan=3>#INFO#</td></tr>
+	</table>	
+	<hr>
+</div>
+</div>
+
 <script>
 
 document.title="{$item.NAME}";
 
 //{literal}
+
+var temp_data;
+var mysql;
 
 // perform JavaScript after the document is scriptable.
 $(function() {
@@ -171,6 +191,26 @@ $(function() {
 	$('.galery').lightBox();
 	
 });
+
+function Event_Catalog_Item_Add_Comment(formobj,showobject)
+{
+	sendAjaxFormJson(formobj,showobject,function(data){
+		if(data.STATUS=='OK')
+		{			
+			$("#comments").prepend($(fg_Template('#template_comment',data.DATA)));	
+			formobj.reset();	
+			
+		}
+		else
+		{
+			alert(data.STATUS);
+		}
+
+	});
+
+	return false;
+}
+
 
 
 //{/literal}

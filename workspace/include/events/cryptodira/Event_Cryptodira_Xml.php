@@ -332,7 +332,7 @@ class Event_Cryptodira_Xml extends Event_Base
 		}
 
 		//check Device SN
-		if(!FgUtill::checkVar(MSK_CUSTOM, $sn,null,"/^[a-zA-z0-9_\/]+/"))
+		if(!FgUtill::checkVar(MSK_CUSTOM, $sn,null,"/^[a-zA-z0-9_/]+/"))
 		{
 			$this->printMessage(-2,'error',"SN error! Serial number format error.");
 			return;

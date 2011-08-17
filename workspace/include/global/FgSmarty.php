@@ -57,7 +57,7 @@ class FgSmarty extends Smarty implements iSingleton, iStorable
 		$method=FgUtill::getVal('method', $params);
 		
 		$args=array();
-		if(($argn=FgUtill::getVal('args', $params)))
+		if(($argn=FgUtill::getVal('args', $params))!==false)
 			$args = explode('::', FgUtill::getVal('args', $params));
 
 		if($event && method_exists($event, $method) )

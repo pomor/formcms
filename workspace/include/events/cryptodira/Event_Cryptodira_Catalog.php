@@ -61,12 +61,27 @@ class Event_Cryptodira_Catalog extends Event_Base
 
 	private function actionAddComment()
 	{
+		$table=FgVars::getTablePerType(FgVars::FG_TYPE_CRYPTODIRA_COMMENT);
 		
 		if($this->actUser->isLogin())
 		{
 			$text = strip_tags(FgUtill::getVal('comment', $_REQUEST));
 			$raiting = FgUtill::checkVar(MSK_INT, FgUtill::getVal('raiting', $_REQUEST));
 			$soft = FgUtill::checkVar(MSK_INT, FgUtill::getVal('softid', $_REQUEST));
+			
+			if($this->DB->getOne("select 1 from ".$table.
+			" where FG_USER_ID=".$this->actUser->getUserID().
+			" and CDATE > now() - interval 5 minute"))
+			{
+				print json_encode(array(
+						'STATUS'=>'Error: Comments delay.'	
+							
+					));
+				return false;
+			}
+			
+			
+			
 			
 			if($text && $soft>0)
 			{
@@ -82,12 +97,14 @@ class Event_Cryptodira_Catalog extends Event_Base
 					$save_commet['RATING_NORMAL']=$raiting;
 				}
 				
-				$id=$this->DB->insert(FgVars::getTablePerType(FgVars::FG_TYPE_CRYPTODIRA_COMMENT),$save_commet,false,2,1);
+				$id=$this->DB->insert($table,$save_commet,false,2,1);
 				
 				if($id)
-				{
+				{				
+					
 					print json_encode(array(
-						'STATUS'=>'OK',				
+						'STATUS'=>'OK',	
+						'DATA'=>$this->DB->getAssoc("select * from ".$table." where ID=".$id)							
 					));
 				}
 				else 

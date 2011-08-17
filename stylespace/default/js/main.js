@@ -102,9 +102,12 @@ function setWaitStatus(obj)
 	var h = $(obj).parent().height();	
 	
 	var nelm=getWaiteDiv(false);
-	nelm.css({top: p.top, left: p.left, width: w, height: h});
+	nelm.css({top: p.top, left: p.left, width: w, height: h, 
+		position: "absolute", "z-index":300, "background-color": "#cccccc"});
 		
 	$(obj).parent().prepend(nelm);	
+	
+	return nelm;
 	
 }
 
@@ -150,6 +153,31 @@ function fg_AjaxLoad(obj,urls,formcontent)
 			
 	});
 	
+}
+
+
+function sendAjaxFormJson(formobj,showobject,callbackfunc)
+{
+
+	var waitobj = null;
+	var content = $(formobj).serialize();	
+	var act=$(formobj).attr('action');
+	
+	$.ajax({
+		url: act,
+		type: 'POST',
+		data: content,
+		dataType: "json",
+		success: function(data){
+			callbackfunc(data);	
+			waitobj.remove();
+		},		
+		beforeSend: function(){			
+			waitobj=setWaitStatus(showobject);					
+		}	
+
+	});
+
 }
 
 
@@ -333,6 +361,20 @@ function fg_CheckVals($vname,$check_type)
 	}
 
 	return ($check_status?$vname:null);
+}
+
+
+function fg_Template(templateObj,content)
+{
+	var text = $('<textarea/>').html($(templateObj).html()).val();
+	
+	for(var k in content)
+	{
+		text=text.replace(new RegExp("#"+k+"#","g"),content[k]);
+	}
+	
+	return text;
+
 }
 
 /* formatierte output */
