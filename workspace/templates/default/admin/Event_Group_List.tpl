@@ -9,7 +9,7 @@
 
 <table border=1 cellpadding=4 cellspacing=0 width=800>
 <tr>
-<th width=10>ID</th>
+<th width=20>ID</th>
 <th width=200>Name</th>
 <th>Beschreibung</th>
 <th>Erstellt</th>
@@ -19,7 +19,7 @@
 </tr>
 {foreach $itemlist as $Gruppe}
 <tr id="prt{$Gruppe.ID}" class="active{$Gruppe.Active}">
-<td>{$Gruppe.ID}</td>
+<td width=20>{$Gruppe.ID}</td>
 <td>{$Gruppe.Name}</td>
 <td>{$Gruppe.Info}</td>
 <td width=150 align=center>{$Gruppe.Created}</td>

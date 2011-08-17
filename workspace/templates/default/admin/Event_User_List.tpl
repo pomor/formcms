@@ -18,7 +18,7 @@
 </tr>
 {foreach $itemlist as $User}
 <tr id="prt{$User.UserID}" class="active{$User.Active}">
-<td>{$User.UserID}</td>
+<td width=10>{$User.UserID}</td>
 <td>{$User.Login}</td>
 <td width=150 align=center>{$User.Created}</td>
 <td align=center>{$User.Active}</td>
