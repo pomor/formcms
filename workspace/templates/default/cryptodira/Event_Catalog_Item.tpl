@@ -174,8 +174,6 @@ document.title="{$item.NAME}";
 
 //{literal}
 
-var temp_data;
-var mysql;
 
 // perform JavaScript after the document is scriptable.
 $(function() {

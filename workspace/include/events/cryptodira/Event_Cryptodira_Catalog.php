@@ -69,7 +69,7 @@ class Event_Cryptodira_Catalog extends Event_Base
 			$raiting = FgUtill::checkVar(MSK_INT, FgUtill::getVal('raiting', $_REQUEST));
 			$soft = FgUtill::checkVar(MSK_INT, FgUtill::getVal('softid', $_REQUEST));
 			
-			if($this->DB->getOne("select 1 from ".$table.
+			if(!$this->actUser->checkPermission("PERM_RECHTE",PERM_ADMIN) && $this->DB->getOne("select 1 from ".$table.
 			" where FG_USER_ID=".$this->actUser->getUserID().
 			" and CDATE > now() - interval 5 minute"))
 			{
